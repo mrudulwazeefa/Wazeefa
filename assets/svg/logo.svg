@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 28.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="rotatingIcon" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" viewBox="0 0 113 124.4" style="enable-background:new 0 0 113 124.4;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#SVGID_1_);}
+</style>
+<g>
+	<g>
+		
+			<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="7.3995" y1="-98.1913" x2="-17.2687" y2="-13.8103" gradientTransform="matrix(0.9989 4.750000e-02 4.750000e-02 -0.9989 62.7112 2.2092)">
+			<stop  offset="0" style="stop-color:#B85518"/>
+			<stop  offset="0.4562" style="stop-color:#E99511"/>
+			<stop  offset="1" style="stop-color:#E99511"/>
+		</linearGradient>
+		<path class="st0" d="M23.9,37.9c2.2-5.7,6.4-11.5,12.5-14.4c20.2-9.6,40.3,5.2,40.3,5.2l4.9-3.5C77.3,21.3,59.8,8.2,38,10
+			C16.3,11.8,7.9,26.6,4.7,40.8c-6.2,35.5,25.2,61.9,25.2,61.9s7-11.1,10.2-16.1C20.6,65,20.8,49.5,23.9,37.9z M90,33.1l-3.7,3.3
+			c0,0,3.7,4.3,7.7,8.5c14.5,20.4,6.2,37.5,2.6,42.7c-14,16.8-34.4,8.6-37,7.5l3.2-67.5l-13.3-0.6c-3.4,7.3-9,13-16.6,17l-0.8,17.1
+			c1.9-0.3,4.1-1.1,6.7-2.3l6.3-3.4l-2.2,45.9l0.1,0c-0.1,2.9-0.2,6-0.2,8.1c5.8,7.7,27.4,10.4,36,8.6c9.6-2.2,15.5-6.6,19.4-11
+			c5.3-5.8,8.7-13.1,10-20.9C113.8,55.3,90,33.1,90,33.1z"/>
+	</g>
+</g>
+</svg>
