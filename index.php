@@ -496,36 +496,63 @@
                         </div>
                     </div>
 
-                    <div class="grid grid-cols-2 md:grid-cols-5 lg:grid-cols-5 text-black border border-gray-200 bg-gray-200 gap-[1px] rounded-lg overflow-hidden">
+                    <div class="grid grid-cols-2 md:grid-cols-5 lg:grid-cols-6 text-black border border-gray-200 bg-gray-200 gap-[1px] rounded-lg overflow-hidden">
                         <div class="client-mark flex items-center justify-center bg-white min-h-[120px] p-6">
-                            <img src="assets/images/clients/images/client- (1).png" alt="Client 1" class="w-[80%] max-w-[140px] object-contain opacity-90 transition-opacity duration-300 hover:opacity-100" />
+                            <img src="assets/images/clients/aaa.jpg" alt="Client 1" class="w-[80%] max-w-[140px] object-contain opacity-90 transition-opacity duration-300 hover:opacity-100" />
                         </div>
                         <div class="client-mark flex items-center justify-center bg-white min-h-[120px] p-6">
-                            <img src="assets/images/clients/images/client- (2).png" alt="Client 2" class="w-[80%] max-w-[140px] object-contain opacity-90 transition-opacity duration-300 hover:opacity-100" />
+                            <img src="assets/images/clients/loanitol.jpg" alt="Client 2" class="w-[80%] max-w-[140px] object-contain opacity-90 transition-opacity duration-300 hover:opacity-100" />
                         </div>
                         <div class="client-mark flex items-center justify-center bg-white min-h-[120px] p-6">
-                            <img src="assets/images/clients/images/client- (3).png" alt="Client 3" class="w-[80%] max-w-[140px] object-contain opacity-90 transition-opacity duration-300 hover:opacity-100" />
+                            <img src="assets/images/clients/advance.jpg" alt="Client 3" class="w-[80%] max-w-[140px] object-contain opacity-90 transition-opacity duration-300 hover:opacity-100" />
                         </div>
                         <div class="client-mark flex items-center justify-center bg-white min-h-[120px] p-6">
-                            <img src="assets/images/clients/images/client- (4).png" alt="Client 4" class="w-[80%] max-w-[140px] object-contain opacity-90 transition-opacity duration-300 hover:opacity-100" />
+                            <img src="assets/images/clients/poweron.jpg" alt="Client 4" class="w-[80%] max-w-[140px] object-contain opacity-90 transition-opacity duration-300 hover:opacity-100" />
                         </div>
                         <div class="client-mark flex items-center justify-center bg-white min-h-[120px] p-6">
-                            <img src="assets/images/clients/images/client- (5).png" alt="Client 5" class="w-[80%] max-w-[140px] object-contain opacity-90 transition-opacity duration-300 hover:opacity-100" />
+                            <img src="assets/images/clients/rasi.jpg" alt="Client 5" class="w-[80%] max-w-[140px] object-contain opacity-90 transition-opacity duration-300 hover:opacity-100" />
                         </div>
                         <div class="client-mark flex items-center justify-center bg-white min-h-[120px] p-6">
-                            <img src="assets/images/clients/images/client- (6).png" alt="Client 6" class="w-[80%] max-w-[140px] object-contain opacity-90 transition-opacity duration-300 hover:opacity-100" />
+                            <img src="assets/images/clients/policysouq.jpg" alt="Client 6" class="w-[80%] max-w-[140px] object-contain opacity-90 transition-opacity duration-300 hover:opacity-100" />
                         </div>
                         <div class="client-mark flex items-center justify-center bg-white min-h-[120px] p-6">
-                            <img src="assets/images/clients/images/client- (7).png" alt="Client 7" class="w-[80%] max-w-[140px] object-contain opacity-90 transition-opacity duration-300 hover:opacity-100" />
+                            <img src="assets/images/clients/u-storage.jpg" alt="Client 7" class="w-[80%] max-w-[140px] object-contain opacity-90 transition-opacity duration-300 hover:opacity-100" />
                         </div>
                         <div class="client-mark flex items-center justify-center bg-white min-h-[120px] p-6">
-                            <img src="assets/images/clients/images/client- (8).png" alt="Client 8" class="w-[80%] max-w-[140px] object-contain opacity-90 transition-opacity duration-300 hover:opacity-100" />
+                            <img src="assets/images/clients/warid.jpg" alt="Client 8" class="w-[80%] max-w-[140px] object-contain opacity-90 transition-opacity duration-300 hover:opacity-100" />
                         </div>
                         <div class="client-mark flex items-center justify-center bg-white min-h-[120px] p-6">
-                            <img src="assets/images/clients/images/client- (9).png" alt="Client 9" class="w-[80%] max-w-[140px] object-contain opacity-90 transition-opacity duration-300 hover:opacity-100" />
+                            <img src="assets/images/clients/lakewood.jpg" alt="" class="w-[80%] max-w-[140px] object-contain opacity-90 transition-opacity duration-300 hover:opacity-100" />
                         </div>
                         <div class="client-mark flex items-center justify-center bg-white min-h-[120px] p-6">
-                            <img src="assets/images/clients/images/client- (10).png" alt="Client 10" class="w-[80%] max-w-[140px] object-contain opacity-90 transition-opacity duration-300 hover:opacity-100" />
+                            <img src="assets/images/clients/royal.jpg" alt="" class="w-[80%] max-w-[140px] object-contain opacity-90 transition-opacity duration-300 hover:opacity-100" />
+                        </div>
+                        <!--  -->
+                        <div class="client-mark flex items-center justify-center bg-white min-h-[120px] p-6">
+                            <img src="assets/images/clients/osoul.jpg" alt="" class="w-[80%] max-w-[140px] object-contain opacity-90 transition-opacity duration-300 hover:opacity-100" />
+                        </div>
+                        <div class="client-mark flex items-center justify-center bg-white min-h-[120px] p-6">
+                            <img src="assets/images/clients/usfood.jpg" alt="" class="w-[80%] max-w-[140px] object-contain opacity-90 transition-opacity duration-300 hover:opacity-100" />
+                        </div>
+                        <div class="client-mark flex items-center justify-center bg-white min-h-[120px] p-6">
+                            <img src="assets/images/clients/beefrus.jpg" alt="" class="w-[80%] max-w-[140px] object-contain opacity-90 transition-opacity duration-300 hover:opacity-100" />
+                        </div>
+                        <div class="client-mark flex items-center justify-center bg-white min-h-[120px] p-6">
+                            <img src="assets/images/clients/tekhive.jpg" alt="" class="w-[80%] max-w-[140px] object-contain opacity-90 transition-opacity duration-300 hover:opacity-100" />
+                        </div>
+
+                        <!--  -->
+                        <div class="client-mark flex items-center justify-center bg-white min-h-[120px] p-6">
+                            <img src="assets/images/clients/rosehouse.jpg" alt="" class="w-[80%] max-w-[140px] object-contain opacity-90 transition-opacity duration-300 hover:opacity-100" />
+                        </div>
+                        <div class="client-mark flex items-center justify-center bg-white min-h-[120px] p-6">
+                            <img src="assets/images/clients/apco.jpg" alt="" class="w-[80%] max-w-[140px] object-contain opacity-90 transition-opacity duration-300 hover:opacity-100" />
+                        </div>
+                        <div class="client-mark flex items-center justify-center bg-white min-h-[120px] p-6">
+                            <img src="assets/images/clients/ezviz.jpg" alt="" class="w-[80%] max-w-[140px] object-contain opacity-90 transition-opacity duration-300 hover:opacity-100" />
+                        </div>
+                        <div class="client-mark flex items-center justify-center bg-white min-h-[120px] p-6">
+                            <img src="assets/images/clients/liyana.jpg" alt="" class="w-[80%] max-w-[140px] object-contain opacity-90 transition-opacity duration-300 hover:opacity-100" />
                         </div>
                     </div>
                 </div>

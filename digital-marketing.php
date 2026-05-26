@@ -19,7 +19,7 @@
         <!-- HERO -->
 
     <section id="webDevHeroParallax" class="relative h-[30vh] overflow-hidden">
-      <img id="webDevHeroParallaxImage" src="assets/images/pexels-bosichong-27453102.jpg" alt="Web Development"
+      <img id="webDevHeroParallaxImage" src="assets/images/digital-marketing.jpg" alt="Web Development"
         class="h-[45vh] w-full object-cover object-center will-change-transform" />
     </section>
     <section
