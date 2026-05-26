@@ -35,8 +35,8 @@
                   Discover Pages
                 </p>
                 <div
-                  class="menu-panel-grid grid gap-x-6 gap-y-3 sm:grid-cols-2 sm:gap-x-8 sm:gap-y-4 md:gap-x-10 lg:gap-x-12 xl:gap-x-14">
-                  <nav class="menu-panel-links flex flex-col gap-4 sm:gap-3 md:gap-5">
+                  class="menu-panel-grid grid gap-x-6 gap-y-4 sm:grid-cols-2 sm:gap-x-8 sm:gap-y-4 md:gap-x-10 lg:gap-x-12 xl:gap-x-14">
+                  <nav class="menu-panel-links flex flex-col gap-5 sm:gap-5 md:gap-5">
                     <a href="index.php"
                       class="menu-link inline-flex w-fit border-b border-transparent text-[1.06rem] font-light leading-tight text-[#edf2ee] transition duration-300 hover:translate-x-[5px] hover:border-white/35 hover:text-white sm:text-[1.12rem] md:text-[1.18rem] lg:text-lg">Home</a>
                     <a href="about.php"
@@ -51,7 +51,7 @@
                       class="menu-link inline-flex w-fit border-b border-transparent text-[1.06rem] font-light leading-tight text-[#edf2ee] transition duration-300 hover:translate-x-[5px] hover:border-white/35 hover:text-white sm:text-[1.12rem] md:text-[1.18rem] lg:text-lg">Mobile
                       App Development</a>
                   </nav>
-                  <nav class="menu-panel-links flex flex-col gap-4 sm:gap-3 md:gap-5">
+                  <nav class="menu-panel-links flex flex-col gap-5 sm:gap-5 md:gap-5">
                     <a href="cms-development.php"
                       class="menu-link inline-flex w-fit border-b border-transparent text-[1.06rem] font-light leading-tight text-[#edf2ee] transition duration-300 hover:translate-x-[5px] hover:border-white/35 hover:text-white sm:text-[1.12rem] md:text-[1.18rem] lg:text-lg">CMS
                       Development</a>

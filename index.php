@@ -496,7 +496,7 @@
                         </div>
                     </div>
 
-                    <div class="grid grid-cols-2 md:grid-cols-5 lg:grid-cols-6 text-black border border-gray-200 bg-gray-200 gap-[1px] rounded-lg overflow-hidden">
+                    <div class="grid grid-cols-2 md:grid-cols-6 lg:grid-cols-6 text-black border border-gray-200 bg-gray-200 gap-[1px] rounded-lg overflow-hidden">
                         <div class="client-mark flex items-center justify-center bg-white min-h-[120px] p-6">
                             <img src="assets/images/clients/aaa.jpg" alt="Client 1" class="w-[80%] max-w-[140px] object-contain opacity-90 transition-opacity duration-300 hover:opacity-100" />
                         </div>
