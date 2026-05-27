@@ -22,7 +22,7 @@
                     </div>
                 </div>
                 <div class="relative z-10 max-w-6xl mx-auto w-full">
-                    <div class="grid items-end gap-12 lg:grid-cols-[minmax(0,1.2fr)_minmax(280px,0.2fr)]">
+                    <div class="grid items-end gap-12 lg:grid-cols-[minmax(0,1.2fr)_minmax(280px,0.2fr)] mb-[8vh] sm:mb-[auto]">
                         <div class="max-w-[700px]">
                             <div class="overflow-hidden">
                                 <p class="mb-4 text-xs font-light uppercase tracking-[0.2em] text-white/45">Stay ahead of trend</p>
@@ -99,7 +99,7 @@
             <div class="max-w-6xl mx-auto w-full relative z-20 text-center">
                 <div id="aboutContent">
                     <p id="aboutLabel" class="text-xs text-white/40 mb-4 sm:mb-6 uppercase tracking-[0.3em]">About Us</p>
-                    <h2 id="aboutHeading" class="text-3xl sm:text-3xl md:text-4xl lg:text-[3.2rem] font-light lg:leading-[1.1em] tracking-[-0.0em] max-w-2xl lg:max-w-[48rem] mx-auto text-white/90">
+                    <h2 id="aboutHeading" class="text-3xl sm:text-3xl md:text-4xl lg:text-[3.2rem] font-light leading-[1.1] lg:leading-[1.1em] tracking-[-0.0em] max-w-2xl lg:max-w-[48rem] mx-auto text-white/90">
                         We build sharp digital products with strategy, motion, and clean execution.
                     </h2>
                     <div id="aboutParagraph" class="mt-4 sm:mt-6 md:mt-8 text-white/60 text-sm sm:text-base md:text-lg font-light max-w-2xl md:max-w-3xl hidden md:block mx-auto">
@@ -129,7 +129,7 @@
                         <h1 id="bgWazeefa" class="pointer-events-none select-none text-[24vw] sm:text-[8rem] md:text-[10rem] lg:text-[15rem] font-medium uppercase tracking-[-0.06em] text-[#ffffff]/[0.05] leading-[0.95]">WAZEEFA</h1>
                     </div>
                     <div id="circleAnimWrapper" class="absolute inset-0 flex items-center justify-center mt-[1rem] sm:mt-[0rem] md:mt-[0rem]">
-                        <div class="relative w-[220px] h-[220px] sm:w-[220px] sm:h-[220px] md:w-[300px] md:h-[300px] lg:w-[420px] lg:h-[400px] flex items-center justify-center">
+                        <div class="relative w-[280px] h-[280px] sm:w-[220px] sm:h-[220px] md:w-[300px] md:h-[300px] lg:w-[420px] lg:h-[400px] flex items-center justify-center">
                             <svg id="circleMain" viewBox="0 0 594.6 594.5" class="w-full h-full">
                                 <defs>
                                     <style>
@@ -143,7 +143,7 @@
                                 <path class="circle" d="m594.6,297.6h-5.9v-.8h5.9v.8Zm-.4-16.1l-5.9.3v-.7l5.9-.3c-.1.2-.1.5,0,.7Zm-1.3-16l-5.8.6c0-.2,0-.5-.1-.7l5.8-.6c0,.2.1.4.1.7Zm-2.2-16l-5.8.9-.1-.3c0-.1,0-.3-.1-.4l5.8-.9c.2.2.2.5.2.7Zm-2.9-15.8l-5.7,1.2c-.1-.2-.1-.5-.2-.7l5.7-1.3c0,.3.1.5.2.8Zm-3.9-15.7l-5.7,1.6c-.1-.2-.1-.5-.2-.7l5.6-1.6c.2.3.2.5.3.7Zm-4.7-15.4l-5.6,1.9c-.1-.2-.1-.4-.2-.7l5.6-1.9c0,.3.1.5.2.7Zm-5.5-15.1l-5.5,2.2c-.1-.2-.2-.4-.3-.7l5.4-2.2c.2.3.3.5.4.7Zm-6.4-14.8l-5.3,2.5c-.1-.2-.2-.4-.3-.6l5.3-2.5c.1.2.2.4.3.6Zm-7.1-14.4l-5.2,2.7c-.1-.2-.2-.4-.3-.6l5.2-2.8c0,.3.1.5.3.7Zm-8-14l-5,3c-.1-.2-.2-.4-.4-.6l5-3c.2.2.3.4.4.6Zm-8.6-13.6l-4.9,3.3c-.1-.2-.3-.4-.4-.6l4.8-3.3c.2.2.3.4.5.6Zm-9.4-13.1l-4.7,3.5c-.1-.2-.3-.4-.4-.6l4.7-3.6c.1.3.2.5.4.7Zm-10.1-12.5l-4.5,3.8c-.1-.1-.1-.2-.2-.2-.1-.1-.2-.2-.3-.3l4.5-3.8c.2.1.3.3.5.5Zm-10.7-12c-.2-.2-.3-.3-.5-.5l-4.3,4c.2.2.3.3.5.5l4.3-4Zm-11.4-11.4l-4,4.3c-.1-.1-.2-.2-.3-.3l-.2-.2,4-4.3c.1.1.3.3.5.5Zm-12-10.8l-3.8,4.5-.3-.2c-.1-.1-.2-.2-.3-.2l3.8-4.5c.2.1.4.3.6.4Zm-12.5-10.1l-3.6,4.7c-.2-.1-.4-.3-.6-.4l3.5-4.7c.3.1.5.3.7.4Zm-13.1-9.4l-3.3,4.8c-.2-.1-.4-.3-.6-.4l3.3-4.9c.2.2.4.3.6.5Zm-13.5-8.7l-3,5c-.2-.1-.4-.2-.6-.4l3-5c.2.1.4.2.6.4Zm-14-8l-2.8,5.2c-.1-.1-.2-.1-.3-.2-.1,0-.2-.1-.3-.1l2.7-5.2c.3.1.5.2.7.3Zm-14.4-7.2l-2.5,5.3c-.2-.1-.4-.2-.6-.3l2.5-5.3c.1.1.3.2.6.3Zm-14.8-6.3l-2.2,5.4c-.2-.1-.4-.2-.7-.3l2.2-5.5c.2.2.5.3.7.4Zm-15.1-5.6l-1.9,5.6c-.2-.1-.4-.2-.7-.2l1.9-5.6c.2,0,.5.1.7.2Zm-15.4-4.8l-1.6,5.6c-.2-.1-.5-.1-.7-.2l1.6-5.7c.2.2.5.3.7.3Zm-15.6-3.9l-1.3,5.7c-.2-.1-.5-.1-.7-.2l1.2-5.7c.3.1.5.2.8.2Zm-15.8-3l-.9,5.8c-.2,0-.5-.1-.7-.1l.9-5.8c.2,0,.4.1.7.1Zm-16-2.2l-.6,5.8c-.2,0-.5-.1-.7-.1l.6-5.8c.2.1.5.1.7.1Zm-16.1-1.3l-.3,5.9h-.7l.3-5.9c.3,0,.5,0,.7,0Zm-16.1-.4v5.9h-.8V0h.4c.2,0,.3,0,.4,0Zm-16.1.4l.3,5.9h-.7l-.3-5.9c.3,0,.5,0,.7,0Zm-16,1.3l.6,5.8c-.2,0-.5.1-.7.1l-.6-5.8c.2-.1.4-.1.7-.1Zm-16,2.1l.9,5.8c-.2,0-.5.1-.7.1l-.9-5.8c.2,0,.5-.1.7-.1Zm-15.8,3l1.2,5.7c-.2.1-.5.1-.7.2l-1.3-5.7c.3-.1.6-.2.8-.2Zm-15.6,3.8l1.6,5.7c-.2.1-.5.1-.7.2l-1.6-5.6c.2-.1.4-.2.7-.3Zm-15.4,4.7l1.9,5.6c-.2.1-.4.2-.7.2l-1.9-5.6c.2,0,.4-.1.7-.2Zm-15.2,5.6l2.2,5.5c-.2.1-.4.2-.7.3l-2.2-5.4c.3-.2.5-.3.7-.4Zm-14.7,6.3l2.5,5.3c-.2.1-.4.2-.6.3l-2.5-5.3c.1-.1.3-.2.6-.3Zm-14.5,7.2l2.7,5.2c-.2.1-.4.2-.6.3l-2.8-5.2c.3-.1.5-.2.7-.3Zm-14,7.9l3,5c-.1.1-.2.1-.3.2-.1.1-.2.1-.3.2l-3-5c.2-.2.4-.3.6-.4Zm-13.6,8.7l3.3,4.9c-.2.1-.4.3-.6.4l-3.3-4.8c.2-.3.4-.4.6-.5Zm-13,9.4l3.5,4.7c-.2.1-.4.3-.6.4l-3.6-4.7c.3-.1.5-.3.7-.4Zm-12.6,10l3.8,4.5c-.2.2-.4.3-.5.5l-3.8-4.5c.1-.1.3-.3.5-.5Zm-12,10.8l4,4.3-.5.5-4-4.3c.2-.2.3-.4.5-.5Zm-11.4,11.4l4.3,4-.5.5-4.3-4c.2-.2.3-.4.5-.5Zm-10.8,11.9l4.5,3.8-.3.3c-.1.1-.1.2-.2.2l-4.5-3.8c.2-.1.4-.3.5-.5Zm-10.1,12.6l4.7,3.6c-.1.1-.2.2-.2.3-.1.1-.1.2-.2.2l-4.7-3.5c.1-.3.3-.5.4-.6Zm-9.4,13l4.8,3.3c-.1.2-.3.4-.4.6l-4.8-3.3c.1-.2.3-.4.4-.6Zm-8.7,13.6c-.1.2-.2.4-.4.6l5,3c.1-.2.2-.4.4-.6l-5-3Zm-8,14l5.2,2.8c-.1.2-.2.4-.3.6l-5.2-2.7c.1-.3.2-.5.3-.7Zm-7.1,14.4l5.3,2.5c-.1.2-.2.4-.3.6l-5.3-2.5c.1-.2.2-.4.3-.6Zm-6.4,14.8l5.4,2.2c0,.1-.1.2-.1.3s-.1.2-.1.3l-5.5-2.2c.1-.2.2-.4.3-.6Zm-5.6,15.1l5.6,1.9c-.1.2-.2.4-.2.7l-5.6-1.9c0-.3.1-.5.2-.7Zm-4.7,15.3l5.6,1.6c-.1.2-.1.5-.2.7l-5.7-1.6c.1-.2.2-.4.3-.7Zm-3.9,15.7l5.7,1.3c-.1.2-.1.5-.2.7l5.7,1.2c-.1.4-.2.6-.2.8Zm-3.1,15.8l5.8.9c0,.2-.1.5-.1.7l-5.8-.9c.1-.2.1-.5.1-.7Zm-2.1,15.9c0,.2-.1.5-.1.7l5.8.6c0-.2.1-.5.1-.7l-5.8-.6Zm-1.4,16.1l5.9.3v.7l-5.9-.3c0-.2,0-.5,0-.7Zm-.4,16.1v.8h5.9v-.8H0Zm.4,16.1l5.9-.3v.7l-5.9.3v-.7Zm1.3,16.1l5.8-.6c0,.2.1.5.1.7l-5.8.6c-.1-.3-.1-.5-.1-.7Zm2.1,15.9c0,.2.1.5.1.7l5.8-.9c0-.2-.1-.5-.1-.7l-5.8.9Zm3,15.8l5.7-1.2c.1.2.1.5.2.7l-5.7,1.2c-.1-.2-.1-.4-.2-.7Zm3.9,15.7l5.7-1.6c.1.2.1.5.2.7l-5.6,1.6c-.2-.3-.3-.5-.3-.7Zm4.7,15.4l5.6-1.9c.1.2.2.4.2.7l-5.6,1.9c-.1-.3-.2-.5-.2-.7Zm5.5,15.1l5.5-2.2c.1.2.2.4.3.7l-5.4,2.2c-.2-.3-.3-.5-.4-.7Zm6.4,14.8l5.3-2.5c.1.2.2.4.3.6l-5.3,2.5c-.1-.2-.2-.4-.3-.6Zm7.1,14.4l5.2-2.7c.1.2.2.4.3.6l-5.2,2.8c-.1-.3-.2-.5-.3-.7Zm7.9,14c.1.2.2.4.4.6l5-3c-.1-.2-.2-.4-.4-.6l-5,3Zm8.7,13.6c.1.2.3.4.4.6l4.8-3.3c-.1-.2-.3-.4-.4-.6l-4.8,3.3Zm9.4,13.1l4.7-3.5c.1.2.3.4.4.6l-4.7,3.6c-.1-.3-.3-.5-.4-.7Zm10.1,12.5l4.5-3.8c.1.1.2.2.2.3.1.1.1.2.2.2l-4.5,3.8c-.1-.1-.3-.3-.4-.5Zm10.7,12l4.3-4c.2.2.3.3.5.5l-4.3,4c-.2-.1-.3-.3-.5-.5Zm11.4,11.4l4-4.3c.1.1.2.2.3.3l.2.2-4,4.3c-.2-.1-.3-.3-.5-.5Zm11.9,10.8l3.8-4.5c.1.1.2.2.3.3l.2.2-3.8,4.5c-.1-.2-.3-.3-.5-.5Zm12.6,10.1l3.6-4.7c.1.1.2.2.3.3l.2.2-3.5,4.7c-.2-.2-.4-.3-.6-.5Zm13,9.4l3.3-4.8c.1.1.3.2.4.3l.2.1-3.3,4.9c-.2-.2-.4-.3-.6-.5Zm13.6,8.7l3-5c.1.1.2.1.3.2.1.1.2.1.3.2l-3,5c-.2-.1-.4-.2-.6-.4Zm14,8l2.8-5.2c.1.1.3.1.4.2l.2.1-2.7,5.2c-.3-.1-.5-.2-.7-.3Zm14.4,7.2l2.5-5.3c.2.1.4.2.6.3l-2.5,5.3c-.2-.1-.4-.2-.6-.3Zm14.8,6.4l2.2-5.4c.1,0,.2.1.4.1l.3.1-2.2,5.5c-.3-.2-.5-.3-.7-.3Zm15.1,5.5l1.9-5.6c.2.1.4.2.7.2l-1.9,5.6c-.3,0-.5-.1-.7-.2Zm15.4,4.8l1.6-5.6c.2.1.5.1.7.2l-1.6,5.7c-.3-.2-.5-.3-.7-.3Zm15.6,3.9l1.3-5.7c.2.1.5.1.7.2l-1.2,5.7c-.3-.1-.6-.2-.8-.2Zm15.8,3c.2,0,.5.1.7.1l.9-5.8c-.2,0-.5-.1-.7-.1l-.9,5.8Zm16,2.2l.6-5.8c.2,0,.5.1.7.1l-.6,5.8c-.3-.1-.5-.1-.7-.1Zm16,1.3l.3-5.9h.7l-.3,5.9h-.7Zm16.1.4v-5.9h.8v5.9h-.8Zm16.1-.4l-.3-5.9h.7l.3,5.9h-.7Zm16.1-1.2l-.6-5.8c.2,0,.5-.1.7-.1l.6,5.8c-.2,0-.5,0-.7.1Zm15.9-2.2l-.9-5.8.3-.1.4-.1.9,5.8c-.2.1-.4.2-.7.2Zm15.9-3l-1.2-5.7c.2,0,.5-.1.7-.2l1.3,5.7c-.4.1-.6.2-.8.2Zm15.6-3.8l-1.6-5.7c.2-.1.5-.1.7-.2l1.6,5.6c-.2.1-.5.2-.7.3Zm15.4-4.7l-1.9-5.6c.2-.1.4-.1.7-.2l1.9,5.6c-.2,0-.5.1-.7.2Zm15.1-5.6l-2.2-5.5c.1,0,.2-.1.4-.1l.3-.1,2.2,5.4c-.2.1-.5.2-.7.3Zm14.8-6.3l-2.5-5.3c.2-.1.4-.2.6-.3l2.5,5.3c-.2.1-.4.2-.6.3Zm14.4-7.2l-2.7-5.2c.2-.1.4-.2.6-.3l2.8,5.2c-.2.1-.4.2-.7.3Zm14.1-7.9l-3-5c.1-.1.2-.1.3-.2l.3-.2,3,5c-.2.2-.4.3-.6.4Zm13.5-8.7l-3.3-4.9c.2-.1.4-.3.6-.4l3.3,4.8c-.2.3-.4.4-.6.5Zm13.1-9.3l-3.5-4.7c.2-.1.4-.3.6-.4l3.6,4.7c-.3.1-.5.2-.7.4Zm12.6-10.1l-3.8-4.5c.2-.2.4-.3.5-.5l3.8,4.5c-.2.2-.4.3-.5.5Zm12-10.8l-4-4.3.5-.5,4,4.3c-.2.2-.4.4-.5.5Zm11.4-11.3l-4.3-4,.3-.3.2-.2,4.3,4c-.2.1-.4.3-.5.5Zm10.7-12c.2-.2.3-.4.5-.5l-4.5-3.8c-.2.2-.3.4-.5.5l4.5,3.8Zm10.1-12.5l-4.7-3.6c.1-.2.3-.4.4-.6l4.7,3.5c-.1.3-.2.5-.4.7Zm9.5-13.1l-4.8-3.3c.1-.2.3-.4.4-.6l4.9,3.3c-.3.2-.4.4-.5.6Zm8.7-13.6l-5-3c.1-.1.1-.2.2-.3.1-.1.1-.2.2-.3l5,3c-.2.2-.3.4-.4.6Zm7.9-14l-5.2-2.8c.1-.2.2-.4.3-.6l5.2,2.7c-.1.3-.2.5-.3.7Zm7.2-14.4l-5.3-2.5.1-.2c.1-.1.1-.3.2-.4l5.3,2.5c-.1.2-.2.4-.3.6Zm6.4-14.7l-5.4-2.2c.1-.2.2-.4.3-.7l5.5,2.2c-.2.2-.3.4-.4.7Zm5.6-15.1l-5.6-1.9c.1-.2.1-.3.2-.5l.1-.2,5.6,1.9c-.2.2-.3.4-.3.7Zm4.7-15.4l-5.6-1.6.1-.3c0-.1.1-.2.1-.4l5.7,1.6c-.2.2-.2.4-.3.7Zm3.9-15.7l-5.7-1.3c.1-.2.1-.5.2-.7l5.7,1.2c-.1.4-.2.6-.2.8Zm3-15.8l-5.8-.9c0-.2.1-.5.1-.7l5.8.9c0,.3,0,.5-.1.7Zm2.2-15.9l-5.8-.6c0-.2.1-.5.1-.7l5.8.6c0,.2-.1.4-.1.7Zm1.3-16.1v-.7l-5.9-.3v.7l5.9.3Z"/>
                             </svg>
                             <div class="absolute inset-0 flex flex-col items-center justify-center">
-                                <svg id="iconTop" viewBox="0 0 113 33.7" class="brand-logo-icon max-w-[70%] sm:max-w-[67%] md:max-w-[68%]">
+                                <svg id="iconTop" viewBox="0 0 113 33.7" class="brand-logo-icon max-w-[75%] sm:max-w-[67%] md:max-w-[68%]">
                                     <defs>
                                         <style>
                                             .top-1 { fill: url(#linear-gradient-top); }
@@ -164,7 +164,7 @@
                                     <path class="top-3" d="m89.99,24.97l-3.68,3.35s2.09,2.4,4.82,5.38h6.14c-3.91-5.58-7.29-8.73-7.29-8.73Z"/>
                                 </svg>
                                 
-                                <svg id="iconCenter" viewBox="0 0 113 41.47" class="brand-logo-icon max-w-[70%] sm:max-w-[67%] md:max-w-[68%]">
+                                <svg id="iconCenter" viewBox="0 0 113 41.47" class="brand-logo-icon max-w-[75%] sm:max-w-[67%] md:max-w-[68%]">
                                     <defs>
                                         <style>
                                             .center-1 { fill: url(#linear-gradient-center); }
@@ -185,7 +185,7 @@
                                     <path class="center-3" d="m23.05,0H4.54c-2.51,16.4,2.89,30.8,9.35,41.47h23.4C22.57,23.89,21.11,10.49,23.05,0Z"/>
                                 </svg>
                                 
-                                <svg id="iconBottom" viewBox="0 0 113 35.33" class="brand-logo-icon max-w-[70%] sm:max-w-[67%] md:max-w-[68%]">
+                                <svg id="iconBottom" viewBox="0 0 113 35.33" class="brand-logo-icon max-w-[75%] sm:max-w-[67%] md:max-w-[68%]">
                                     <defs>
                                         <style>
                                             .bottom-1 { fill: url(#linear-gradient-bottom); }
@@ -218,12 +218,12 @@
                                 </p>
                             </div>
                             <div class="left-reveal-wrap mb-0">
-                                <h2 class="left-reveal-line lg:whitespace-nowrap text-[1.8rem] sm:text-3xl md:text-[2.2rem] lg:text-[3.2rem] font-light leading-[1.18] sm:leading-[1.1em] tracking-[0em]">
+                                <h2 class="left-reveal-line lg:whitespace-nowrap text-[2.15rem] sm:text-3xl md:text-[2.2rem] lg:text-[3.2rem] font-light leading-[1.1] sm:leading-[1.1em] tracking-[0em]">
                                     Business Through
                                 </h2>
                             </div>
                             <div class="left-reveal-wrap">
-                                <h2 class="left-reveal-line lg:whitespace-nowrap text-[1.8rem] sm:text-3xl md:text-[2.2rem] lg:text-[3.2rem] font-light leading-[1.18] sm:leading-[1.1em] tracking-[0em] mb-0">
+                                <h2 class="left-reveal-line lg:whitespace-nowrap text-[2.15rem] sm:text-3xl md:text-[2.2rem] lg:text-[3.2rem] font-light leading-[1.1] sm:leading-[1.1em] tracking-[0em] mb-0">
                                     with us
                                 </h2>
                             </div>
@@ -235,7 +235,7 @@
                                     Since 2015
                                 </p>
                             </div>
-                            <p class="flex flex-col items-center left-reveal-line text-xs text-white/40 uppercase tracking-[0.1em] font-light mb-0 leading-4 sm:mb-2 fixed bottom-[124px] md:relative z-10 md:hidden">
+                            <p class="flex flex-col items-center left-reveal-line text-xs text-white/40 uppercase tracking-[0.1em] font-light mb-0 leading-10 sm:mb-2 fixed bottom-[150px] md:relative z-10 md:hidden">
                                 Since 2015
                             </p>
                             <div id="verticalText">
@@ -597,179 +597,7 @@
                     </div>
 
                     <div class="testimonial-stage relative">
-                        <div class="testimonial-carousel">
-                            <article class="testimonial-slide is-active" data-testimonial-index="0">
-                                <div class="testimonial-stars flex gap-1 my-3" aria-label="5 star rating">
-                                    <span>
-                                        <svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="15" height="15" x="0" y="0" viewBox="0 0 511.987 511" style="enable-background:new 0 0 512 512" xml:space="preserve">
-                                            <g><path fill="#ffc107" d="M510.652 185.902a27.158 27.158 0 0 0-23.425-18.71l-147.774-13.419-58.433-136.77C276.71 6.98 266.898.494 255.996.494s-20.715 6.487-25.023 16.534l-58.434 136.746-147.797 13.418A27.208 27.208 0 0 0 1.34 185.902c-3.371 10.368-.258 21.739 7.957 28.907l111.7 97.96-32.938 145.09c-2.41 10.668 1.73 21.696 10.582 28.094 4.757 3.438 10.324 5.188 15.937 5.188 4.84 0 9.64-1.305 13.95-3.883l127.468-76.184 127.422 76.184c9.324 5.61 21.078 5.097 29.91-1.305a27.223 27.223 0 0 0 10.582-28.094l-32.937-145.09 111.699-97.94a27.224 27.224 0 0 0 7.98-28.927zm0 0"></path></g>
-                                        </svg>
-                                    </span>
-                                    <span>
-                                        <svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="15" height="15" x="0" y="0" viewBox="0 0 511.987 511" style="enable-background:new 0 0 512 512" xml:space="preserve">
-                                            <g><path fill="#ffc107" d="M510.652 185.902a27.158 27.158 0 0 0-23.425-18.71l-147.774-13.419-58.433-136.77C276.71 6.98 266.898.494 255.996.494s-20.715 6.487-25.023 16.534l-58.434 136.746-147.797 13.418A27.208 27.208 0 0 0 1.34 185.902c-3.371 10.368-.258 21.739 7.957 28.907l111.7 97.96-32.938 145.09c-2.41 10.668 1.73 21.696 10.582 28.094 4.757 3.438 10.324 5.188 15.937 5.188 4.84 0 9.64-1.305 13.95-3.883l127.468-76.184 127.422 76.184c9.324 5.61 21.078 5.097 29.91-1.305a27.223 27.223 0 0 0 10.582-28.094l-32.937-145.09 111.699-97.94a27.224 27.224 0 0 0 7.98-28.927zm0 0"></path></g>
-                                        </svg>
-                                    </span>
-                                    <span>
-                                        <svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="15" height="15" x="0" y="0" viewBox="0 0 511.987 511" style="enable-background:new 0 0 512 512" xml:space="preserve">
-                                            <g><path fill="#ffc107" d="M510.652 185.902a27.158 27.158 0 0 0-23.425-18.71l-147.774-13.419-58.433-136.77C276.71 6.98 266.898.494 255.996.494s-20.715 6.487-25.023 16.534l-58.434 136.746-147.797 13.418A27.208 27.208 0 0 0 1.34 185.902c-3.371 10.368-.258 21.739 7.957 28.907l111.7 97.96-32.938 145.09c-2.41 10.668 1.73 21.696 10.582 28.094 4.757 3.438 10.324 5.188 15.937 5.188 4.84 0 9.64-1.305 13.95-3.883l127.468-76.184 127.422 76.184c9.324 5.61 21.078 5.097 29.91-1.305a27.223 27.223 0 0 0 10.582-28.094l-32.937-145.09 111.699-97.94a27.224 27.224 0 0 0 7.98-28.927zm0 0"></path></g>
-                                        </svg>
-                                    </span>
-                                    <span>
-                                        <svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="15" height="15" x="0" y="0" viewBox="0 0 511.987 511" style="enable-background:new 0 0 512 512" xml:space="preserve">
-                                            <g><path fill="#ffc107" d="M510.652 185.902a27.158 27.158 0 0 0-23.425-18.71l-147.774-13.419-58.433-136.77C276.71 6.98 266.898.494 255.996.494s-20.715 6.487-25.023 16.534l-58.434 136.746-147.797 13.418A27.208 27.208 0 0 0 1.34 185.902c-3.371 10.368-.258 21.739 7.957 28.907l111.7 97.96-32.938 145.09c-2.41 10.668 1.73 21.696 10.582 28.094 4.757 3.438 10.324 5.188 15.937 5.188 4.84 0 9.64-1.305 13.95-3.883l127.468-76.184 127.422 76.184c9.324 5.61 21.078 5.097 29.91-1.305a27.223 27.223 0 0 0 10.582-28.094l-32.937-145.09 111.699-97.94a27.224 27.224 0 0 0 7.98-28.927zm0 0"></path></g>
-                                        </svg>
-                                    </span>
-                                    <span>
-                                        <svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="15" height="15" x="0" y="0" viewBox="0 0 511.987 511" style="enable-background:new 0 0 512 512" xml:space="preserve">
-                                            <g><path fill="#ffc107" d="M510.652 185.902a27.158 27.158 0 0 0-23.425-18.71l-147.774-13.419-58.433-136.77C276.71 6.98 266.898.494 255.996.494s-20.715 6.487-25.023 16.534l-58.434 136.746-147.797 13.418A27.208 27.208 0 0 0 1.34 185.902c-3.371 10.368-.258 21.739 7.957 28.907l111.7 97.96-32.938 145.09c-2.41 10.668 1.73 21.696 10.582 28.094 4.757 3.438 10.324 5.188 15.937 5.188 4.84 0 9.64-1.305 13.95-3.883l127.468-76.184 127.422 76.184c9.324 5.61 21.078 5.097 29.91-1.305a27.223 27.223 0 0 0 10.582-28.094l-32.937-145.09 111.699-97.94a27.224 27.224 0 0 0 7.98-28.927zm0 0"></path></g>
-                                        </svg>
-                                    </span>
-                                </div>
-                                <p class="max-w-2xl text-[1.25rem] leading-[1.15] tracking-[-0.02em] text-black text-lg md:text-[1.1rem] font-light leading-[1.5] mt-5">
-                                    "They took the time to listen about our requirement and also brought their own ideas, experience and creativity so that the end design was more rounded."
-                                </p>
-                                <div class="mt-12 border-t border-black/10 pt-6 flex justify-between items-center">
-                                    <div class="flex items-center gap-4">
-                                        <div class="h-12 w-12 flex-shrink-0 overflow-hidden rounded-full bg-accent flex items-center justify-center">
-                                            <span class="text-white font-bold text-lg">IB</span>
-                                        </div>
-                                        <div class="flex flex-col">
-                                            <p class="text-base font-semibold text-black leading-tight">Wahid</p>
-                                            <p class="mt-1 text-sm text-black/50 leading-tight">Wahid Logistics - UK</p>
-                                        </div>
-                                    </div>
-                                    <div class="testimonial-quote-mark flex-shrink-0" aria-hidden="true">
-                                        <svg class="w-5 h-5" viewBox="0 0 445.78 344.19">
-                                            <defs>
-                                                <style>
-                                                    .quote-1 { opacity: .69; }
-                                                    .quote-1, .quote-2 { fill: #067675; isolation: isolate; stroke-width: 0px; }
-                                                    .quote-2 { opacity: .29; }
-                                                </style>
-                                            </defs>
-                                            <path class="quote-1" d="m127.98,171.49s0,79-102.7,138.8l20.3,33.9s160.3-62.1,147.8-228S-10.82-18.11.48,98.09c11.3,116.2,127.5,73.4,127.5,73.4Z"/>
-                                            <path class="quote-2" d="m379.68,170.19s0,79-102.7,138.8l20.3,33.9s160.3-62.1,147.8-228S240.88-19.41,252.08,96.89c11.3,116.2,127.6,73.3,127.6,73.3Z"/>
-                                        </svg>
-                                    </div>
-                                </div>
-                            </article>
-
-                            <article class="testimonial-slide" data-testimonial-index="1">
-                                <div class="testimonial-stars flex gap-1 my-3" aria-label="5 star rating">
-                                    <span>
-                                        <svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="15" height="15" x="0" y="0" viewBox="0 0 511.987 511" style="enable-background:new 0 0 512 512" xml:space="preserve">
-                                            <g><path fill="#ffc107" d="M510.652 185.902a27.158 27.158 0 0 0-23.425-18.71l-147.774-13.419-58.433-136.77C276.71 6.98 266.898.494 255.996.494s-20.715 6.487-25.023 16.534l-58.434 136.746-147.797 13.418A27.208 27.208 0 0 0 1.34 185.902c-3.371 10.368-.258 21.739 7.957 28.907l111.7 97.96-32.938 145.09c-2.41 10.668 1.73 21.696 10.582 28.094 4.757 3.438 10.324 5.188 15.937 5.188 4.84 0 9.64-1.305 13.95-3.883l127.468-76.184 127.422 76.184c9.324 5.61 21.078 5.097 29.91-1.305a27.223 27.223 0 0 0 10.582-28.094l-32.937-145.09 111.699-97.94a27.224 27.224 0 0 0 7.98-28.927zm0 0"></path></g>
-                                        </svg>
-                                    </span>
-                                    <span>
-                                        <svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="15" height="15" x="0" y="0" viewBox="0 0 511.987 511" style="enable-background:new 0 0 512 512" xml:space="preserve">
-                                            <g><path fill="#ffc107" d="M510.652 185.902a27.158 27.158 0 0 0-23.425-18.71l-147.774-13.419-58.433-136.77C276.71 6.98 266.898.494 255.996.494s-20.715 6.487-25.023 16.534l-58.434 136.746-147.797 13.418A27.208 27.208 0 0 0 1.34 185.902c-3.371 10.368-.258 21.739 7.957 28.907l111.7 97.96-32.938 145.09c-2.41 10.668 1.73 21.696 10.582 28.094 4.757 3.438 10.324 5.188 15.937 5.188 4.84 0 9.64-1.305 13.95-3.883l127.468-76.184 127.422 76.184c9.324 5.61 21.078 5.097 29.91-1.305a27.223 27.223 0 0 0 10.582-28.094l-32.937-145.09 111.699-97.94a27.224 27.224 0 0 0 7.98-28.927zm0 0"></path></g>
-                                        </svg>
-                                    </span>
-                                    <span>
-                                        <svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="15" height="15" x="0" y="0" viewBox="0 0 511.987 511" style="enable-background:new 0 0 512 512" xml:space="preserve">
-                                            <g><path fill="#ffc107" d="M510.652 185.902a27.158 27.158 0 0 0-23.425-18.71l-147.774-13.419-58.433-136.77C276.71 6.98 266.898.494 255.996.494s-20.715 6.487-25.023 16.534l-58.434 136.746-147.797 13.418A27.208 27.208 0 0 0 1.34 185.902c-3.371 10.368-.258 21.739 7.957 28.907l111.7 97.96-32.938 145.09c-2.41 10.668 1.73 21.696 10.582 28.094 4.757 3.438 10.324 5.188 15.937 5.188 4.84 0 9.64-1.305 13.95-3.883l127.468-76.184 127.422 76.184c9.324 5.61 21.078 5.097 29.91-1.305a27.223 27.223 0 0 0 10.582-28.094l-32.937-145.09 111.699-97.94a27.224 27.224 0 0 0 7.98-28.927zm0 0"></path></g>
-                                        </svg>
-                                    </span>
-                                    <span>
-                                        <svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="15" height="15" x="0" y="0" viewBox="0 0 511.987 511" style="enable-background:new 0 0 512 512" xml:space="preserve">
-                                            <g><path fill="#ffc107" d="M510.652 185.902a27.158 27.158 0 0 0-23.425-18.71l-147.774-13.419-58.433-136.77C276.71 6.98 266.898.494 255.996.494s-20.715 6.487-25.023 16.534l-58.434 136.746-147.797 13.418A27.208 27.208 0 0 0 1.34 185.902c-3.371 10.368-.258 21.739 7.957 28.907l111.7 97.96-32.938 145.09c-2.41 10.668 1.73 21.696 10.582 28.094 4.757 3.438 10.324 5.188 15.937 5.188 4.84 0 9.64-1.305 13.95-3.883l127.468-76.184 127.422 76.184c9.324 5.61 21.078 5.097 29.91-1.305a27.223 27.223 0 0 0 10.582-28.094l-32.937-145.09 111.699-97.94a27.224 27.224 0 0 0 7.98-28.927zm0 0"></path></g>
-                                        </svg>
-                                    </span>
-                                    <span>
-                                        <svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="15" height="15" x="0" y="0" viewBox="0 0 511.987 511" style="enable-background:new 0 0 512 512" xml:space="preserve">
-                                            <g><path fill="#ffc107" d="M510.652 185.902a27.158 27.158 0 0 0-23.425-18.71l-147.774-13.419-58.433-136.77C276.71 6.98 266.898.494 255.996.494s-20.715 6.487-25.023 16.534l-58.434 136.746-147.797 13.418A27.208 27.208 0 0 0 1.34 185.902c-3.371 10.368-.258 21.739 7.957 28.907l111.7 97.96-32.938 145.09c-2.41 10.668 1.73 21.696 10.582 28.094 4.757 3.438 10.324 5.188 15.937 5.188 4.84 0 9.64-1.305 13.95-3.883l127.468-76.184 127.422 76.184c9.324 5.61 21.078 5.097 29.91-1.305a27.223 27.223 0 0 0 10.582-28.094l-32.937-145.09 111.699-97.94a27.224 27.224 0 0 0 7.98-28.927zm0 0"></path></g>
-                                        </svg>
-                                    </span>
-                                </div>
-                                <p class="max-w-2xl text-[1.25rem] leading-[1.15] tracking-[-0.02em] text-black text-lg md:text-[1.1rem] font-light leading-[1.5] mt-5">
-                                    "We were directed to Wazeefa1 by a friend and were very impressed with their service, communication, and the user-friendly way everything was explained throughout the project."
-                                </p>
-                                <div class="mt-12 border-t border-black/10 pt-6 flex justify-between items-center">
-                                    <div class="flex items-center gap-4">
-                                        <div class="h-12 w-12 flex-shrink-0 overflow-hidden rounded-full bg-accent flex items-center justify-center">
-                                            <span class="text-white font-bold text-lg">IB</span>
-                                        </div>
-                                        <div class="flex flex-col">
-                                            <p class="text-base font-semibold text-black leading-tight">Wahid</p>
-                                            <p class="mt-1 text-sm text-black/50 leading-tight">Wahid Logistics - UK</p>
-                                        </div>
-                                    </div>
-                                    <div class="testimonial-quote-mark flex-shrink-0" aria-hidden="true">
-                                        <svg class="w-5 h-5" viewBox="0 0 445.78 344.19">
-                                            <defs>
-                                                <style>
-                                                    .quote-1 { opacity: .69; }
-                                                    .quote-1, .quote-2 { fill: #067675; isolation: isolate; stroke-width: 0px; }
-                                                    .quote-2 { opacity: .29; }
-                                                </style>
-                                            </defs>
-                                            <path class="quote-1" d="m127.98,171.49s0,79-102.7,138.8l20.3,33.9s160.3-62.1,147.8-228S-10.82-18.11.48,98.09c11.3,116.2,127.5,73.4,127.5,73.4Z"/>
-                                            <path class="quote-2" d="m379.68,170.19s0,79-102.7,138.8l20.3,33.9s160.3-62.1,147.8-228S240.88-19.41,252.08,96.89c11.3,116.2,127.6,73.3,127.6,73.3Z"/>
-                                        </svg>
-                                    </div>
-                                </div>
-                            </article>
-
-                            <article class="testimonial-slide" data-testimonial-index="2">
-                                <div class="testimonial-stars flex gap-1 my-3" aria-label="5 star rating">
-                                    <span>
-                                        <svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="15" height="15" x="0" y="0" viewBox="0 0 511.987 511" style="enable-background:new 0 0 512 512" xml:space="preserve">
-                                            <g><path fill="#ffc107" d="M510.652 185.902a27.158 27.158 0 0 0-23.425-18.71l-147.774-13.419-58.433-136.77C276.71 6.98 266.898.494 255.996.494s-20.715 6.487-25.023 16.534l-58.434 136.746-147.797 13.418A27.208 27.208 0 0 0 1.34 185.902c-3.371 10.368-.258 21.739 7.957 28.907l111.7 97.96-32.938 145.09c-2.41 10.668 1.73 21.696 10.582 28.094 4.757 3.438 10.324 5.188 15.937 5.188 4.84 0 9.64-1.305 13.95-3.883l127.468-76.184 127.422 76.184c9.324 5.61 21.078 5.097 29.91-1.305a27.223 27.223 0 0 0 10.582-28.094l-32.937-145.09 111.699-97.94a27.224 27.224 0 0 0 7.98-28.927zm0 0"></path></g>
-                                        </svg>
-                                    </span>
-                                    <span>
-                                        <svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="15" height="15" x="0" y="0" viewBox="0 0 511.987 511" style="enable-background:new 0 0 512 512" xml:space="preserve">
-                                            <g><path fill="#ffc107" d="M510.652 185.902a27.158 27.158 0 0 0-23.425-18.71l-147.774-13.419-58.433-136.77C276.71 6.98 266.898.494 255.996.494s-20.715 6.487-25.023 16.534l-58.434 136.746-147.797 13.418A27.208 27.208 0 0 0 1.34 185.902c-3.371 10.368-.258 21.739 7.957 28.907l111.7 97.96-32.938 145.09c-2.41 10.668 1.73 21.696 10.582 28.094 4.757 3.438 10.324 5.188 15.937 5.188 4.84 0 9.64-1.305 13.95-3.883l127.468-76.184 127.422 76.184c9.324 5.61 21.078 5.097 29.91-1.305a27.223 27.223 0 0 0 10.582-28.094l-32.937-145.09 111.699-97.94a27.224 27.224 0 0 0 7.98-28.927zm0 0"></path></g>
-                                        </svg>
-                                    </span>
-                                    <span>
-                                        <svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="15" height="15" x="0" y="0" viewBox="0 0 511.987 511" style="enable-background:new 0 0 512 512" xml:space="preserve">
-                                            <g><path fill="#ffc107" d="M510.652 185.902a27.158 27.158 0 0 0-23.425-18.71l-147.774-13.419-58.433-136.77C276.71 6.98 266.898.494 255.996.494s-20.715 6.487-25.023 16.534l-58.434 136.746-147.797 13.418A27.208 27.208 0 0 0 1.34 185.902c-3.371 10.368-.258 21.739 7.957 28.907l111.7 97.96-32.938 145.09c-2.41 10.668 1.73 21.696 10.582 28.094 4.757 3.438 10.324 5.188 15.937 5.188 4.84 0 9.64-1.305 13.95-3.883l127.468-76.184 127.422 76.184c9.324 5.61 21.078 5.097 29.91-1.305a27.223 27.223 0 0 0 10.582-28.094l-32.937-145.09 111.699-97.94a27.224 27.224 0 0 0 7.98-28.927zm0 0"></path></g>
-                                        </svg>
-                                    </span>
-                                    <span>
-                                        <svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="15" height="15" x="0" y="0" viewBox="0 0 511.987 511" style="enable-background:new 0 0 512 512" xml:space="preserve">
-                                            <g><path fill="#ffc107" d="M510.652 185.902a27.158 27.158 0 0 0-23.425-18.71l-147.774-13.419-58.433-136.77C276.71 6.98 266.898.494 255.996.494s-20.715 6.487-25.023 16.534l-58.434 136.746-147.797 13.418A27.208 27.208 0 0 0 1.34 185.902c-3.371 10.368-.258 21.739 7.957 28.907l111.7 97.96-32.938 145.09c-2.41 10.668 1.73 21.696 10.582 28.094 4.757 3.438 10.324 5.188 15.937 5.188 4.84 0 9.64-1.305 13.95-3.883l127.468-76.184 127.422 76.184c9.324 5.61 21.078 5.097 29.91-1.305a27.223 27.223 0 0 0 10.582-28.094l-32.937-145.09 111.699-97.94a27.224 27.224 0 0 0 7.98-28.927zm0 0"></path></g>
-                                        </svg>
-                                    </span>
-                                    <span>
-                                        <svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="15" height="15" x="0" y="0" viewBox="0 0 511.987 511" style="enable-background:new 0 0 512 512" xml:space="preserve">
-                                            <g><path fill="#ffc107" d="M510.652 185.902a27.158 27.158 0 0 0-23.425-18.71l-147.774-13.419-58.433-136.77C276.71 6.98 266.898.494 255.996.494s-20.715 6.487-25.023 16.534l-58.434 136.746-147.797 13.418A27.208 27.208 0 0 0 1.34 185.902c-3.371 10.368-.258 21.739 7.957 28.907l111.7 97.96-32.938 145.09c-2.41 10.668 1.73 21.696 10.582 28.094 4.757 3.438 10.324 5.188 15.937 5.188 4.84 0 9.64-1.305 13.95-3.883l127.468-76.184 127.422 76.184c9.324 5.61 21.078 5.097 29.91-1.305a27.223 27.223 0 0 0 10.582-28.094l-32.937-145.09 111.699-97.94a27.224 27.224 0 0 0 7.98-28.927zm0 0"></path></g>
-                                        </svg>
-                                    </span>
-                                </div>
-                                <p class="max-w-2xl text-[1.25rem] leading-[1.15] tracking-[-0.02em] text-black text-lg md:text-[1.1rem] font-light leading-[1.5] mt-5">
-                                    "We partnered with Wazeefa1 Technologies to develop our website. They communicated well, delivered what was asked for, and built a well-designed website with an easy-to-use content management system."
-                                </p>
-                                <div class="mt-12 border-t border-black/10 pt-6 flex justify-between items-center">
-                                    <div class="flex items-center gap-4">
-                                        <div class="h-12 w-12 flex-shrink-0 overflow-hidden rounded-full bg-accent flex items-center justify-center">
-                                            <span class="text-white font-bold text-lg">IB</span>
-                                        </div>
-                                        <div class="flex flex-col">
-                                            <p class="text-base font-semibold text-black leading-tight">Wahid</p>
-                                            <p class="mt-1 text-sm text-black/50 leading-tight">Wahid Logistics - UK</p>
-                                        </div>
-                                    </div>
-                                    <div class="testimonial-quote-mark flex-shrink-0" aria-hidden="true">
-                                        <svg class="w-5 h-5" viewBox="0 0 445.78 344.19">
-                                            <defs>
-                                                <style>
-                                                    .quote-1 { opacity: .69; }
-                                                    .quote-1, .quote-2 { fill: #067675; isolation: isolate; stroke-width: 0px; }
-                                                    .quote-2 { opacity: .29; }
-                                                </style>
-                                            </defs>
-                                            <path class="quote-1" d="m127.98,171.49s0,79-102.7,138.8l20.3,33.9s160.3-62.1,147.8-228S-10.82-18.11.48,98.09c11.3,116.2,127.5,73.4,127.5,73.4Z"/>
-                                            <path class="quote-2" d="m379.68,170.19s0,79-102.7,138.8l20.3,33.9s160.3-62.1,147.8-228S240.88-19.41,252.08,96.89c11.3,116.2,127.6,73.3,127.6,73.3Z"/>
-                                        </svg>
-                                    </div>
-                                </div>
-                            </article>
-                        </div>
-
+                        <?php include 'includes/testimonial-items.php'; ?>
                         <div class="mt-8 flex items-center gap-4 sm:hidden">
                             <div class="mt-0 flex items-center justify-end gap-3">
                                 <button id="testimonialPrevMobile" type="button" class="testimonial-arrow inline-flex items-center justify-center text-black transform rotate-180" aria-label="Previous testimonial">

@@ -16,9 +16,9 @@
             </div>
           </div>
           <div
-            class="menu-panel-content relative z-10 mx-auto grid h-screen max-h-screen min-h-0 w-full max-w-[1300px] grid-rows-[1fr_auto] overflow-y-auto gap-8 px-4 pb-5 pt-20 sm:gap-10 sm:px-6 sm:pb-6 md:gap-10 md:px-10 md:pb-8 md:pt-24 lg:overflow-y-hidden lg:gap-8 lg:px-14 lg:pb-8 lg:pt-24 xl:gap-10 xl:px-20 2xl:gap-12 2xl:px-24">
+            class="menu-panel-content relative z-10 mx-auto grid h-screen max-h-screen min-h-0 w-full max-w-[1300px] grid-rows-[1fr_auto] overflow-y-auto gap-8 px-4 pb-15 pt-20 sm:gap-10 sm:px-6 sm:pb-6 md:gap-10 md:px-10 md:pb-8 md:pt-24 lg:overflow-y-hidden lg:gap-8 lg:px-14 lg:pb-8 lg:pt-24 xl:gap-10 xl:px-20 2xl:gap-12 2xl:px-24">
             <div
-              class="menu-panel-layout grid items-start gap-8 sm:gap-10 md:gap-12 lg:grid-cols-[minmax(200px,0.58fr)_minmax(0,0.72fr)] lg:gap-10 xl:gap-12 2xl:gap-16">
+              class="menu-panel-layout grid items-start gap-8 sm:gap-10 md:gap-12 lg:grid-cols-[minmax(200px,0.58fr)_minmax(0,0.72fr)] lg:gap-10 xl:gap-12 2xl:gap-16 ">
               <div class="menu-panel-lead">
                 <h2
                   class="max-w-[95%] text-3xl font-light leading-[1.1em] tracking-[0em] text-[#f1f4f2] sm:max-w-[84%] md:max-w-[75%] lg:max-w-[100%] sm:text-4xl md:text-[2.18rem] lg:text-[2.1rem] xl:text-[2.45rem] 2xl:text-[2.85rem]">

@@ -62,7 +62,7 @@
           <a href="contact.php" class="header-link header-link-muted transition hover:text-current hover:font-[450]">Contact</a>
         </nav>
         <div class="hidden items-center gap-5 sm:gap-4 lg:flex">
-          <a href="https://wa.me/919188339903?text=Hello" aria-label="Call us" class="header-icon-glass inline-flex items-center justify-center" target="_blank">
+          <a href="tel:919188339903" aria-label="Call us" class="header-icon-glass inline-flex items-center justify-center" target="_blank">
             <svg class="" style="display:inline-block;vertical-align:middle" width="18" height="18" fill="currentColor"
               viewBox="0 0 1004 1024" xmlns="http://www.w3.org/2000/svg">
               <path
@@ -76,7 +76,7 @@
               </path>
             </svg>
           </a>
-          <a href="tel:919188339903" aria-label="WhatsApp"
+          <a href="https://wa.me/919188339903?text=Hello" aria-label="WhatsApp"
             class="header-icon-glass inline-flex items-center justify-center transition">
             <svg viewBox="0 0 24 24" fill="currentColor" class="h-5 w-5"
               aria-hidden="true">
@@ -94,7 +94,7 @@
           </button>
         </div>
         <div class="flex items-center gap-6 lg:hidden">
-          <a href="https://wa.me/919188339903?text=Hello" aria-label="Call us" class="header-icon-glass inline-flex items-center justify-center" target="_blank">
+          <a href="tel:919188339903" aria-label="Call us" class="header-icon-glass inline-flex items-center justify-center" target="_blank">
             <svg class="" style="display:inline-block;vertical-align:middle" width="18" height="18" fill="currentColor"
               viewBox="0 0 1004 1024" xmlns="http://www.w3.org/2000/svg">
               <path
@@ -108,7 +108,7 @@
               </path>
             </svg>
           </a>
-          <a href="tel:919188339903" aria-label="WhatsApp"
+          <a href="https://wa.me/919188339903?text=Hello" aria-label="WhatsApp"
             class="header-icon-glass inline-flex items-center justify-center transition">
             <svg viewBox="0 0 24 24" fill="currentColor" class="h-5 w-5"
               aria-hidden="true">

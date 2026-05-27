@@ -889,7 +889,7 @@ input:-internal-autofill-selected {
             } */
 
   .mobile-visual-frame {
-    height: clamp(250px, 58vw, 360px);
+    height: clamp(90dvw, 58vw, 360px);
   }
 
   .site-header {

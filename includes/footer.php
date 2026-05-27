@@ -30,19 +30,19 @@
             <div
               class="mt-5 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-x-10 gap-y-3 text-[15px] text-white/75">
               <div class="space-y-3">
-                <a href="#" class="block transition font-light text-white/80 hover:text-white">Web
+                <a href="web-development.php" class="block transition font-light text-white/80 hover:text-white">Web
                   Development</a>
-                <a href="#" class="block transition font-light text-white/80 hover:text-white">Ecommerce
+                <a href="ecommerce-website-development.php" class="block transition font-light text-white/80 hover:text-white">Ecommerce
                   Development</a>
-                <a href="#" class="block transition font-light text-white/80 hover:text-white">Mobile App
+                <a href="mobile-application-development.php" class="block transition font-light text-white/80 hover:text-white">Mobile App
                   Development</a>
               </div>
               <div class="space-y-3">
-                <a href="#" class="block transition font-light text-white/80 hover:text-white">CMS
+                <a href="cms-development.php" class="block transition font-light text-white/80 hover:text-white">CMS
                   Development</a>
-                <a href="#" class="block transition font-light text-white/80 hover:text-white">Digital
+                <a href="digital-marketing.php" class="block transition font-light text-white/80 hover:text-white">Digital
                   Marketing</a>
-                <a href="#" class="block transition font-light text-white/80 hover:text-white">Software
+                <a href="software-development.php" class="block transition font-light text-white/80 hover:text-white">Software
                   Development</a>
               </div>
             </div>
@@ -53,9 +53,9 @@
               Company
             </p>
             <div class="mt-5 space-y-3 text-[15px] text-white/75">
-              <a href="#" class="block transition font-light text-white/80 hover:text-white">About</a>
-              <a href="#" class="block transition font-light text-white/80 hover:text-white">Careers</a>
-              <a href="#" class="block transition font-light text-white/80 hover:text-white">Contact</a>
+              <a href="about.php" class="block transition font-light text-white/80 hover:text-white">About</a>
+              <a href="career.php" class="block transition font-light text-white/80 hover:text-white">Careers</a>
+              <a href="contact.php" class="block transition font-light text-white/80 hover:text-white">Contact</a>
             </div>
           </div>
 

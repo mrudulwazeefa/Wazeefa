@@ -210,6 +210,7 @@ function initHomePage() {
     const aboutCta = document.getElementById("aboutCta");
     const aboutSubtext = document.getElementById("aboutSubtext");
     const disableAboutTextAnimations = window.matchMedia("(max-width: 520px)").matches;
+    const isMobileAboutLayout = window.matchMedia("(max-width: 767px)").matches;
     let aboutSubtextTextDelayTween = null;
 
     function buildStaticLetters(target) {
@@ -397,9 +398,14 @@ function initHomePage() {
             gsap.set("#aboutSection", { y: sectionY, scale: sectionScale, opacity: sectionOpacity });
             
             let newState = -1;
-            if (p < 0.3) newState = 0; 
-            else if (p < 0.6) newState = 1; 
-            else newState = 2; 
+            if (isMobileAboutLayout) {
+                // Mobile: show first about text, then jump straight to final stage.
+                newState = p < 0.38 ? 0 : 2;
+            } else {
+                if (p < 0.3) newState = 0;
+                else if (p < 0.6) newState = 1;
+                else newState = 2;
+            }
 
             if (newState !== aboutCurrentState) {
                 if (newState === 0) { swapAboutContent(0, true); if (aboutCurrentState === 2) toggleFinal(false); }
@@ -572,7 +578,7 @@ function initHomePage() {
         gsap.to(track, {
             x: () => -(track.scrollWidth - container.clientWidth) + "px",
             ease: "none",
-            scrollTrigger: { trigger: container, start: "top 15%", end: () => `+=${Math.max(0, track.scrollWidth - container.clientWidth)}`, pin: true, scrub: 1, invalidateOnRefresh: true },
+            scrollTrigger: { trigger: container, start: "top 18%", end: () => `+=${Math.max(0, track.scrollWidth - container.clientWidth)}`, pin: true, scrub: 1, invalidateOnRefresh: true },
         });
     }
 
