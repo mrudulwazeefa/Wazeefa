@@ -36,8 +36,8 @@
             <div class="pt-6">
               <p class="max-w-xl text-base leading-6 text-black md:text-md py-4">
                 <span class="text-sm">Say Hello at </span>
-                <a href="mailto:careers@wazeefa.in" class="text-black-500 hover:underline block text-[1.25rem]">
-                  careers@wazeefa.in
+                <a href="mailto:cvs@wazeefa.in" class="text-black-500 hover:underline block text-[1.25rem]">
+                  cvs@wazeefa.in
                 </a>
               </p>
             </div>
