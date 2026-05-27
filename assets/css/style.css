@@ -1226,6 +1226,20 @@ gradient-bg::before {
           width: 100% !important;
         }
 
+        #servicesHorizontalTrack .card-svg {
+          display: block !important;
+          position: static !important;
+          transform: none !important;
+          animation: none !important;
+          transition: none !important;
+          will-change: auto !important;
+        }
+
+        #servicesHorizontalTrack .card-svg * {
+          animation: none !important;
+          transition: none !important;
+        }
+
         .services-horizontal-card .bottom-line {
           display: none !important;
         }

@@ -1268,6 +1268,7 @@ function initWebDevPage() {
             mm.add("(max-width: 600px)", () => {
                 cards.forEach(card => card.classList.remove("is-active"));
                 const allSvgs = document.querySelectorAll(".card-svg g path");
+                gsap.killTweensOf(allSvgs);
                 gsap.set(allSvgs, { opacity: 1, scale: 1, clearProps: "all" });
             });
         }
