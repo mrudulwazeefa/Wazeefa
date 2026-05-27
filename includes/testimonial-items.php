@@ -48,7 +48,7 @@
                     </svg></span>
                 </div>
                 <p
-                  class="max-w-2xl text-[1.25rem] leading-[1.15] tracking-[-0.02em] text-black text-md md:text-[1.02rem] font-light leading-[1.5] mt-5">
+                  class="max-w-2xl text-[1.1rem] leading-[1.15] tracking-[-0.02em] text-black text-md md:text-[1.02rem] font-light leading-[1.5] mt-5">
                   "We partnered with Wazeefa1 Technologies to develop our website. They communicated well during the project, and provided a well-designed website with an easy to use content management system. They are quick to respond, informative and deliver what is asked for. Would highly recommend. Thanks guys!"
                 </p>
                 <div class="mt-12 border-t border-black/10 pt-6 flex justify-between items-center">
@@ -127,7 +127,7 @@
                     </svg></span>
                 </div>
                 <p
-                  class="max-w-2xl text-[1.25rem] leading-[1.15] tracking-[-0.02em] text-black text-md md:text-[1.02rem] font-light leading-[1.5] mt-5">
+                  class="max-w-2xl text-[1.1rem] leading-[1.15] tracking-[-0.02em] text-black text-md md:text-[1.02rem] font-light leading-[1.5] mt-5">
                   "Wazeefa1 did a fantastic job creating a new website for us. They were very friendly and after-sale support was excellent as they were available any time without hesitation or delay. A fantastic service, we would highly recommend and we will continue to work with them."
                 </p>
                 <div class="mt-12 border-t border-black/10 pt-6 flex justify-between items-center">
@@ -206,7 +206,7 @@
                     </svg></span>
                 </div>
                 <p
-                  class="max-w-2xl text-[1.25rem] leading-[1.15] tracking-[-0.02em] text-black text-md md:text-[1.02rem] font-light leading-[1.5] mt-5">
+                  class="max-w-2xl text-[1.1rem] leading-[1.15] tracking-[-0.02em] text-black text-md md:text-[1.02rem] font-light leading-[1.5] mt-5">
                   "They took the time to listen about our requirement and also brought their own ideas, experience and creativity so that the end design was more rounded. They made the whole process so easy it was a pleasure to work with them. Thank you for a great customer experience and fantastic website!"
                 </p>
                 <div class="mt-12 border-t border-black/10 pt-6 flex justify-between items-center">
@@ -286,7 +286,7 @@
                     </svg></span>
                 </div>
                 <p
-                  class="max-w-2xl text-[1.25rem] leading-[1.15] tracking-[-0.02em] text-black text-md md:text-[1.02rem] font-light leading-[1.5] mt-5">
+                  class="max-w-2xl text-[1.1rem] leading-[1.15] tracking-[-0.02em] text-black text-md md:text-[1.02rem] font-light leading-[1.5] mt-5">
                   "We were directed to Wazeefa1 by a friend who had received a great service during the design for his company website. I was very impressed with their service and passage of information that was always explained in the most user friendly manner. We are happy with the service they provide and have no hesitation in recommending them."
                 </p>
                 <div class="mt-12 border-t border-black/10 pt-6 flex justify-between items-center">
