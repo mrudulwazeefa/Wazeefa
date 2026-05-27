@@ -111,14 +111,14 @@
                     the latest mobile technologies and frameworks, we develop apps that enhance user engagement, improve
                     operational efficiency, and support future business growth.
                   </p>
-                  <button
+                  <a href="contact.php"
                     class="job-view-link inline-flex items-center md:justify-center gap-2 border border-black/20 bg-transparent hover:bg-black md:px-4 md:py-3 text-sm font-medium text-black hover:text-white transition w-fit px-4 py-3">
                     <span>Let’s Build Together</span>
                     <svg viewBox="0 0 24.02 15.27" class="h-4 w-4" fill="none" stroke="currentColor" stroke-width="1.8">
                       <path d="M0,12H21.75" transform="translate(0 -4.36)" />
                       <path d="M15.75,5l7,7-7,7" transform="translate(0 -4.36)" />
                     </svg>
-                  </button>
+                  </a>
                 </div>
               </div>
             </div>
@@ -134,7 +134,7 @@
             class="text-[2rem] leading-[1.05] tracking-[-0.0em] text-white sm:text-[2.2rem] md:text-[2.5rem] font-light max-w-lg sm:max-w-lg md:max-w-xl lg:max-w-3xl mx-auto">
             Next-Gen Mobile Solutions
           </h2>
-          <p class="pt-4 text-[15px] leading-6 text-white/75 mx-auto max-w-lg sm:max-w-xl">
+          <p class="pt-4 text-[15px] leading-6 text-white/75 mx-auto max-w-md sm:max-w-xl">
             We build high-performance mobile applications that enhance user engagement, streamline digital experiences,
             and support business growth across Android and iOS platforms.
           </p>
@@ -234,10 +234,9 @@
           <p class="mb-4 text-xs font-semibold uppercase tracking-[0.2em] text-black/45 text-center">Our Process</p>
           <h2
             class="text-[2.2rem] leading-[1.05] tracking-[-0.0em] text-black sm:text-[2.2rem] md:text-[2.5rem] text-center mb-4">
-            From Concept to Code</h2>
+            Creating Engaging Mobile Experiences</h2>
           <p class="text-md text-black/70 text-center max-w-3xl mx-auto">
-            We turn innovative ideas into scalable, high-performance digital solutions through smart design and modern
-            development.
+            We build high-performance mobile applications with intuitive interfaces, seamless functionality, and scalable architecture for modern users.
           </p>
         </div>
         <div class="accordion-item border-b border-black/10">
