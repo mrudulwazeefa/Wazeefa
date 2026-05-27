@@ -7,7 +7,7 @@
           </p>
           <div class="flex flex-col gap-6 md:flex-row md:items-end md:justify-between">
             <h2
-              class="max-w-2xl text-[2rem] font-light leading-[1.1] tracking-[-0.0em] md:text-[2.25rem] lg:text-[2.65rem]">
+              class="max-w-2xl text-[1.7rem] sm:text-[2rem] font-light leading-[1.1] tracking-[-0.0em] md:text-[2.25rem] lg:text-[2.65rem]">
               Let's Discuss Your Vision. With Us
             </h2>
             <a href="contact.php"

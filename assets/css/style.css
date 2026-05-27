@@ -289,21 +289,6 @@ input:-internal-autofill-selected {
     transform 0.34s ease;
 }
 
-#mobileMenuButton.menu-open {
-  border-color: rgba(255, 255, 255, 0.26);
-  background: rgba(255, 255, 255, 0.06);
-  border-radius: 9999px;
-}
-
-#mobileMenuButton.menu-open .menu-line-top {
-  transform: translateY(4px) rotate(45deg);
-}
-
-#mobileMenuButton.menu-open .menu-line-middle {
-  transform: translateY(-4px) rotate(-45deg);
-  opacity: 1;
-}
-
 .menu-open .menu-line-bottom {
   transform: translateY(-8px) rotate(-45deg);
 }

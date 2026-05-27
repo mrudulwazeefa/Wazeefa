@@ -94,7 +94,7 @@
       <div class="mx-auto max-w-5xl flex items-center justify-between gap-3">
 
         <div class="flex-1 min-w-0">
-          <h3 class="text-[1.3rem] sm:text-[1.5rem] md:text-[1.5rem] font-medium truncate">Ready to Join Our Team?</h3>
+          <h3 class="text-[1.3rem] sm:text-[1.5rem] md:text-[1.5rem] font-medium truncate">Ready to Join <span class="hidden sm:flex">Our Team</span>?</h3>
           <p class="text-[0.7rem] sm:text-[0.8rem] md:text-sm text-white/70 mt-0.5 truncate">
             Apply for UI/UX Designer
           </p>

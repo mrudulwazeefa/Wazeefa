@@ -21,7 +21,7 @@
                     <div class="md:max-w-3xl">
                         <p class="mb-4 text-xs font-semibold uppercase tracking-[0.2em] text-black/45">About Us</p>
                         <h2
-                            class="text-[2.2rem] font-normal leading-[0.92] tracking-[-0.01em] sm:text-[3.3rem] md:text-[48px] lg:text-[53px] md:leading-[1.10] text-black">
+                            class="text-[2.2rem] font-normal leading-[1.05] tracking-[-0.01em] sm:text-[3.3rem] md:text-[48px] lg:text-[53px] md:leading-[1.10] text-black">
                             Everything you need to get the attention of your audience
                         </h2>
                     </div>
@@ -66,7 +66,7 @@
                 class="absolute top-[12vh] w-full flex flex-col items-center justify-start z-20 pointer-events-none px-5 will-change-transform">
                 <p class="mb-4 text-xs font-semibold uppercase tracking-[0.2em] text-white/40">Why Choose Us</p>
                 <h2 id="storyHeading"
-                    class="max-w-[38rem] text-[33px] font-light leading-[1.02] tracking-[-0.01em] md:text-[2.5rem] text-white text-center">
+                    class="max-w-[38rem] text-[32px] font-light leading-[1.02] tracking-[-0.01em] md:text-[2.5rem] text-white text-center">
                     Seamlessly Connecting Technology for Growth
                 </h2>
             </div>
@@ -87,9 +87,9 @@
                 <article
                     class="story-rotate-card absolute flex flex-col items-center justify-center text-center w-full max-w-5xl h-auto mx-auto will-change-transform">
                     <h3
-                        class="max-w-2xl text-2xl sm:text-4xl md:text-5xl lg:text-[3rem] leading-[1.15] tracking-[-0.01em] text-white/95 font-light">
+                        class="max-w-2xl text-4xl sm:text-4xl md:text-5xl lg:text-[3rem] leading-[1.15] tracking-[-0.01em] text-white/95 font-light">
                         Managed Website</h3>
-                    <p class=" max-w-xssm:max-w-lg md:max-w-3xl text-md mt-5 font-light">
+                    <p class="max-w-[21rem] sm:max-w-lg md:max-w-3xl text-md mt-5 font-light">
                         A well-managed website gives you an edge in the business space. Get the website designed and
                         conceived in tune with today’s emerging business demands.
                     </p>
@@ -98,9 +98,9 @@
                 <article
                     class="story-rotate-card absolute flex flex-col items-center justify-center text-center w-full max-w-5xl h-auto mx-auto will-change-transform">
                     <h3
-                        class="max-w-2xl text-2xl sm:text-4xl md:text-5xl lg:text-[3rem] leading-[1.15] tracking-[-0.01em] text-white/95 font-light">
+                        class="max-w-2xl text-4xl sm:text-4xl md:text-5xl lg:text-[3rem] leading-[1.15] tracking-[-0.01em] text-white/95 font-light">
                         Expert Solutions</h3>
-                    <p class=" max-w-xs sm:max-w-lg md:max-w-3xl text-md mt-5 font-light">
+                    <p class="max-w-[21rem] sm:max-w-lg md:max-w-3xl text-md mt-5 font-light">
                         We express things in a different way. After finalizing the preferences with you, we set the
                         stage for the development phase with our team who understands the needs perfectly.
                     </p>
@@ -109,9 +109,9 @@
                 <article
                     class="story-rotate-card absolute flex flex-col items-center justify-center text-center w-full max-w-5xl h-auto mx-auto will-change-transform">
                     <h3
-                        class="max-w-2xl text-2xl sm:text-4xl md:text-5xl lg:text-[3rem] leading-[1.15] tracking-[-0.01em] text-white/95 font-light">
+                        class="max-w-2xl text-4xl sm:text-4xl md:text-5xl lg:text-[3rem] leading-[1.15] tracking-[-0.01em] text-white/95 font-light">
                         Grow Online</h3>
-                    <p class=" max-w-xs sm:max-w-lg md:max-w-3xl text-md mt-5 font-light">
+                    <p class="max-w-[21rem] sm:max-w-lg md:max-w-3xl text-md mt-5 font-light">
                         Once your website is launched, we have a set of digital marketing strategies to help you grow
                         your business with more traffic and leads and with a larger user base.
                     </p>
@@ -131,7 +131,7 @@
                             <p class="mb-4 text-xs font-semibold uppercase tracking-[0.2em] text-black/45">What Changes
                                 With Us</p>
                             <h3
-                                class="mt-5 max-w-full text-[35px] font-normal leading-[1.02] tracking-[-0.01em] text-black md:text-[2.8rem]">
+                                class="mt-5 max-w-full text-[35px] font-normal leading-[1.05] tracking-[-0.01em] text-black md:text-[2.8rem]">
                                 A service flow designed to keep clarity, speed, and traction in sync.
                             </h3>
                         </div>
@@ -198,8 +198,8 @@
                         <div class="service-story-mobile md:hidden w-full mb-8 md:mt-8">
                             <div class="flex flex-col gap-6">
                                 <article class="w-full py-8 md:p-8 flex flex-col justify-center">
-                                    <h3 class="mt-4 text-3xl font-normal leading-[1.02] tracking-[-0.01em] text-black">
-                                        <span class="text-4xl">13+</span> Years of Experience
+                                    <h3 class="mt-4 text-[1.7rem] sm:text-3xl font-normal leading-[1.02] tracking-[-0.01em] text-black">
+                                        <span class="text-[1.7rem] sm:text-3xl">13+</span> Years of Experience
                                     </h3>
                                     <p class="mt-5 text-base leading-7 text-black/62">Years of delivery across web,
                                         commerce, apps, and growth strategy give each project a steadier foundation from
@@ -207,24 +207,24 @@
                                 </article>
                                 <article
                                     class="w-full border-black/10 py-8 md:p-8 flex flex-col justify-center border-t border-b">
-                                    <h3 class="mt-4 text-3xl font-normal leading-[1.02] tracking-[-0.01em] text-black">
-                                        <span class="text-4xl">850+</span> Success Stories
+                                    <h3 class="mt-4 text-[1.6rem] sm:text-3xl font-normal leading-[1.02] tracking-[-0.01em] text-black">
+                                        <span class="text-[1.6rem] sm:text-3xl">850+</span> Success Stories
                                     </h3>
                                     <p class="mt-5 text-base leading-7 text-black/62">We build systems that launch with
                                         confidence and stay practical for real teams managing growth, content, and
                                         performance.</p>
                                 </article>
                                 <article class="w-full py-8 md:p-8 flex flex-col justify-center">
-                                    <h3 class="mt-4 text-3xl font-normal leading-[1.02] tracking-[-0.01em] text-black">
-                                        <span class="text-4xl">600+</span> International Clients
+                                    <h3 class="mt-4 text-[1.6rem] sm:text-3xl font-normal leading-[1.02] tracking-[-0.01em] text-black">
+                                        <span class="text-[1.6rem] sm:text-3xl">600+</span> International Clients
                                     </h3>
                                     <p class="mt-5 text-base leading-7 text-black/62">Strategy, build, optimization, and
                                         marketing work together so growth does not stall after launch or handoff.</p>
                                 </article>
                                 <article
                                     class="w-full border-t border-black/10 py-8 md:p-8 flex flex-col justify-center">
-                                    <h3 class="mt-4 text-3xl font-normal leading-[1.02] tracking-[-0.01em] text-black">
-                                        <span class="text-4xl">35+</span> Countries
+                                    <h3 class="mt-4 text-[1.6rem] sm:text-3xl font-normal leading-[1.02] tracking-[-0.01em] text-black">
+                                        <span class="text-[1.6rem] sm:text-3xl">35+</span> Countries
                                     </h3>
                                     <p class="mt-5 text-base leading-7 text-black/62">We stay close to performance,
                                         iteration, and next-step planning so the service relationship keeps creating
