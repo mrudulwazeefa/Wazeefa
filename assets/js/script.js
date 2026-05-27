@@ -14,6 +14,31 @@ const menuLinks = gsap.utils.toArray(".menu-link");
 
 let menuOpen = false;
 
+function normalizePath(path) {
+    const cleanPath = (path || "").split("?")[0].split("#")[0];
+    const fileName = cleanPath.split("/").pop() || "";
+    return fileName.toLowerCase() || "index.php";
+}
+
+function syncActiveMenuLink() {
+    if (!menuLinks.length) return;
+
+    const currentPath = normalizePath(window.location.pathname);
+
+    menuLinks.forEach((link) => {
+        const href = link.getAttribute("href") || "";
+        const hrefPath = normalizePath(href);
+        const isActive = hrefPath === currentPath;
+
+        link.classList.toggle("is-active", isActive);
+        if (isActive) {
+            link.setAttribute("aria-current", "page");
+        } else {
+            link.removeAttribute("aria-current");
+        }
+    });
+}
+
 // Header Scroll & Hover States
 function syncHeaderState(isScrolled) {
     if (siteHeader) siteHeader.classList.toggle("is-scrolled", isScrolled);
@@ -75,13 +100,18 @@ function syncMenuCloseAnchor() {
 }
 
 if (menuPanel) {
+    const leadHeadingYOffset = window.matchMedia("(max-width: 767px)").matches ? 18 : 24;
+    const leadParagraphYOffset = window.matchMedia("(max-width: 767px)").matches ? 14 : 18;
+
     gsap.set(menuPanel, { autoAlpha: 0, pointerEvents: "none" });
     syncMenuCloseAnchor();
     menuTimeline
         .to(menuPanel, { autoAlpha: 1, pointerEvents: "auto", duration: 0.62, ease: "power2.out" })
         .fromTo(menuCloseButton, { scale: 0.92, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.42, ease: "power2.out" }, 0.05)
         .fromTo(".menu-panel-visual", { opacity: 0, scale: 1.02 }, { opacity: 1, scale: 1, duration: 0.95, ease: "power2.out" }, 0)
-        .fromTo(".menu-panel-label, .menu-panel-lead h2, .menu-panel-lead p", { opacity: 0 }, { opacity: 1, stagger: 0.06, duration: 0.48, ease: "sine.out" }, 0.14)
+        .fromTo(".menu-panel-label", { opacity: 0, y: 10 }, { opacity: 1, y: 0, stagger: 0.05, duration: 0.42, ease: "sine.out" }, 0.14)
+        .fromTo(".menu-panel-lead h2", { opacity: 0, y: leadHeadingYOffset }, { opacity: 1, y: 0, duration: 0.62, ease: "power3.out" }, 0.18)
+        .fromTo(".menu-panel-lead p", { opacity: 0, y: leadParagraphYOffset }, { opacity: 1, y: 0, duration: 0.54, ease: "power2.out" }, 0.23)
         .fromTo(menuLinks, { opacity: 0 }, { opacity: 1, stagger: 0.042, duration: 0.44, ease: "sine.out" }, 0.19)
         .fromTo(".menu-panel-meta-row a, .menu-socials a", { opacity: 0 }, { opacity: 1, stagger: 0.028, duration: 0.42, ease: "sine.out" }, 0.24);
 }
@@ -106,6 +136,7 @@ if (mobileMenuButton) mobileMenuButton.addEventListener("click", () => setMenuSt
 if (desktopMenuButton) desktopMenuButton.addEventListener("click", () => setMenuState(!menuOpen));
 if (menuCloseButton) menuCloseButton.addEventListener("click", () => setMenuState(false));
 menuLinks.forEach((link) => link.addEventListener("click", () => setMenuState(false)));
+syncActiveMenuLink();
 
 window.addEventListener("keydown", (event) => {
     if (event.key === "Escape" && menuOpen) setMenuState(false);

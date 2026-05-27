@@ -357,6 +357,20 @@ input:-internal-autofill-selected {
   will-change: opacity, transform;
 }
 
+.menu-link.is-active {
+  border-bottom-color: rgba(255, 255, 255, 0.95);
+  border-bottom-width: 0.5px;
+  color: #ffffff;
+  padding-bottom: 1px;
+}
+
+.menu-link.is-active:hover,
+.menu-link.is-active:focus-visible {
+  transform: none !important;
+  border-bottom-color: rgba(255, 255, 255, 0.95) !important;
+  color: #ffffff !important;
+}
+
 /* HERO STYLES */
 .hero-shell {
   position: relative;
