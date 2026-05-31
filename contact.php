@@ -69,23 +69,10 @@
                   class="h-12 w-full border border-black/10 bg-transparent pl-11 pr-4 text-sm text-black outline-none transition placeholder:text-black/30 focus:border-black/30" />
               </div>
 
-              <div class="grid grid-cols-[6rem_minmax(0,1fr)] gap-4">
-                <div class="relative">
-                  <select name="country_code" required
-                    class="h-12 w-full appearance-none border border-black/10 bg-transparent pl-4 pr-10 text-sm text-black outline-none transition focus:border-black/30">
-                    <option>+91</option>
-                  </select>
-                  <span class="pointer-events-none absolute inset-y-0 right-3 flex items-center text-black/45">
-                    <svg viewBox="0 0 20 20" fill="currentColor" class="h-4 w-4"
-                      aria-hidden="true">
-                      <path fill-rule="evenodd"
-                        d="M5.23 7.21a.75.75 0 0 1 1.06.02L10 11.168l3.71-3.938a.75.75 0 1 1 1.08 1.04l-4.25 4.5a.75.75 0 0 1-1.08 0l-4.25-4.5a.75.75 0 0 1 .02-1.06Z"
-                        clip-rule="evenodd" />
-                    </svg>
-                  </span>
-                </div>
-                <input type="tel" name="phone" placeholder="Phone number" required
-                  class="h-12 border border-black/10 bg-transparent px-4 text-sm text-black outline-none transition placeholder:text-black/30 focus:border-black/30" />
+              <div class="relative">
+                <input type="tel" name="phone_national" data-intl-tel-input="all" placeholder="Phone number" required inputmode="tel" autocomplete="tel"
+                  class="h-12 w-full border border-black/10 bg-transparent px-4 text-sm text-black outline-none transition placeholder:text-black/30 focus:border-black/30" />
+                <p id="phoneError" class="mt-2 hidden text-sm text-red-500" role="alert"></p>
               </div>
 
               <div class="relative">
@@ -148,7 +135,8 @@
     <?php include 'includes/footer.php'; ?>
   </div>
 
-  <Script src="assets/js/script.js"></Script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/18.2.1/js/intlTelInput.min.js"></script>
+  <script src="assets/js/script.js"></script>
 </body>
 
 </html>

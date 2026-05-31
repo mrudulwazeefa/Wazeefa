@@ -1155,34 +1155,38 @@ gradient-bg::before {
 
 /* career-details */
 
-/* This ensures the flag container takes full width of your Tailwind input */
 .iti {
   width: 100%;
 }
-/* Hides the country name inside the dropdown */
-.iti__country-name {
+
+/* Career application uses intl-tel-input only for India, so scope overrides here */
+#applicationForm .iti {
+  width: 100%;
+}
+/* Hides the country name inside the dropdown for the India-only career form */
+#applicationForm .iti__country-name {
   display: none !important;
 }
 
-/* Hides the country dial code inside the dropdown */
-.iti__dial-code {
+/* Hides the country dial code inside the dropdown for the India-only career form */
+#applicationForm .iti__dial-code {
   display: none !important;
 }
-/* Hides the dropdown arrow since only India is available */
-.iti__arrow {
+/* Hides the dropdown arrow since only India is available for career form */
+#applicationForm .iti__arrow {
   display: none !important;
 }
 
-/* Prevents the dropdown from opening when clicked */
-.iti__selected-flag {
+/* Prevents the dropdown from opening when clicked in the India-only career form */
+#applicationForm .iti__selected-flag {
   pointer-events: none !important;
 }
-.iti--allow-dropdown input,
-.iti--allow-dropdown input[type="text"],
-.iti--allow-dropdown input[type="tel"],
-.iti--separate-dial-code input,
-.iti--separate-dial-code input[type="text"],
-.iti--separate-dial-code input[type="tel"] {
+#applicationForm .iti--allow-dropdown input,
+#applicationForm .iti--allow-dropdown input[type="text"],
+#applicationForm .iti--allow-dropdown input[type="tel"],
+#applicationForm .iti--separate-dial-code input,
+#applicationForm .iti--separate-dial-code input[type="text"],
+#applicationForm .iti--separate-dial-code input[type="tel"] {
   padding-right: 0px;
   padding-left: 40px !important;
   margin-left: 0;

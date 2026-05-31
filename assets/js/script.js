@@ -1189,17 +1189,139 @@ function initCareerDetailsPage() {
         }
     }
 
-    // 5.5. Phone Input Formatting (intl-tel-input)
-    const phoneInputField = document.querySelector('input[name="phone"]');
-    if (phoneInputField && window.intlTelInput) {
-        window.intlTelInput(phoneInputField, {
+}
+
+function initPhoneInput() {
+    const phoneInputField = document.querySelector('input[data-intl-tel-input], input[name="phone"]');
+    if (!phoneInputField || !window.intlTelInput) return;
+
+    const isGlobalContactInput = phoneInputField.dataset.intlTelInput === 'all';
+    const config = isGlobalContactInput
+        ? {
+            initialCountry: "in",
+            separateDialCode: true,
+            nationalMode: true,
+            formatOnDisplay: true,
+            allowDropdown: true,
+            autoHideDialCode: false,
+            hiddenInput: "phone",
+            preferredCountries: ["in", "us", "gb"],
+            utilsScript: "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/18.2.1/js/utils.js",
+        }
+        : {
             initialCountry: "in",
             onlyCountries: ["in"],
             separateDialCode: false,
             showFlags: true,
             utilsScript: "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/18.2.1/js/utils.js",
+        };
+
+    const iti = window.intlTelInput(phoneInputField, config);
+    const phoneError = document.getElementById("phoneError");
+
+    const getValidationMessage = () => {
+        if (!window.intlTelInputUtils) {
+            return "Please enter a valid phone number.";
+        }
+
+        switch (iti.getValidationError()) {
+            case window.intlTelInputUtils.validationError.INVALID_COUNTRY_CODE:
+                return "The selected country code is not valid.";
+            case window.intlTelInputUtils.validationError.TOO_SHORT:
+                return "The phone number is too short for the selected country.";
+            case window.intlTelInputUtils.validationError.TOO_LONG:
+                return "The phone number is too long for the selected country.";
+            case window.intlTelInputUtils.validationError.NOT_A_NUMBER:
+            default:
+                return "Please enter a valid phone number.";
+        }
+    };
+
+    const showPhoneError = (message) => {
+        if (!phoneError) return;
+        phoneError.textContent = message;
+        phoneError.classList.remove("hidden");
+        phoneInputField.classList.add("border-red-500");
+        phoneInputField.setCustomValidity(message);
+    };
+
+    const clearPhoneError = () => {
+        if (!phoneError) return;
+        phoneError.textContent = "";
+        phoneError.classList.add("hidden");
+        phoneInputField.classList.remove("border-red-500");
+        phoneInputField.setCustomValidity("");
+    };
+
+    const updatePhoneLengthRestrictions = () => {
+        if (!window.intlTelInputUtils || !isGlobalContactInput) return;
+
+        const countryData = iti.getSelectedCountryData();
+        if (!countryData || !countryData.iso2) {
+            phoneInputField.removeAttribute("maxlength");
+            return;
+        }
+
+        try {
+            const exampleNumber = window.intlTelInputUtils.getExampleNumber(countryData.iso2, window.intlTelInputUtils.numberFormat.NATIONAL);
+            if (exampleNumber) {
+                const digits = exampleNumber.replace(/\D/g, "");
+                if (digits.length) {
+                    phoneInputField.setAttribute("maxlength", digits.length + 1);
+                    return;
+                }
+            }
+        } catch (error) {
+            // ignore and keep no explicit maximum if utils cannot derive an example
+        }
+
+        phoneInputField.removeAttribute("maxlength");
+    };
+
+    const validateContactPhone = () => {
+        if (!isGlobalContactInput) return true;
+
+        if (!phoneInputField.value.trim()) {
+            showPhoneError("Please enter your phone number.");
+            return false;
+        }
+
+        if (!iti.isValidNumber()) {
+            showPhoneError(getValidationMessage());
+            return false;
+        }
+
+        clearPhoneError();
+        return true;
+    };
+
+    if (isGlobalContactInput) {
+        phoneInputField.addEventListener("blur", validateContactPhone);
+        phoneInputField.addEventListener("countrychange", () => {
+            validateContactPhone();
+            updatePhoneLengthRestrictions();
+        });
+        phoneInputField.addEventListener("input", () => {
+            phoneInputField.value = phoneInputField.value.replace(/[^0-9]/g, '');
+            clearPhoneError();
+            updatePhoneLengthRestrictions();
         });
 
+        updatePhoneLengthRestrictions();
+
+        const contactForm = phoneInputField.closest("form");
+        if (contactForm) {
+            contactForm.addEventListener("submit", function (event) {
+                if (!validateContactPhone()) {
+                    event.preventDefault();
+                    phoneInputField.focus();
+                    return;
+                }
+
+                phoneInputField.value = iti.getNumber();
+            });
+        }
+    } else {
         phoneInputField.addEventListener('input', function () {
             this.value = this.value.replace(/[^0-9]/g, '').slice(0, 10);
         });
@@ -1457,6 +1579,7 @@ function initAll() {
     initHomePage();
     initAboutPage();
     initCareerPage();
+    initPhoneInput();
     initCareerDetailsPage();
     initWebDevPage();
     initBottomStickySection();
