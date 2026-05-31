@@ -132,7 +132,7 @@
                                 With Us</p>
                             <h3
                                 class="mt-5 max-w-full text-[35px] font-normal leading-[1.05] tracking-[-0.01em] text-black md:text-[2.8rem]">
-                                A service flow designed to keep clarity, speed, and traction in sync.
+                                A seamless workflow that transforms ideas into measurable results.
                             </h3>
                         </div>
                         <p class="max-w-lg text-base leading-7 text-black/60 md:text-lg">

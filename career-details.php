@@ -37,7 +37,7 @@
                   class="apply-now-btn inline-flex items-center justify-center bg-black px-5 py-2.5 text-sm font-medium text-white transition hover:bg-green-800">
                   Apply Now
                 </a>
-                <a href="#"
+                <a href="https://wa.me/919188339903?text=Hello"
                   class="inline-flex items-center justify-center text-sm font-normal text-black hover:text-green-800">
                   <svg viewBox="0 0 24 24" fill="green" class="h-4 w-4 mr-1"
                     aria-hidden="true">
@@ -94,21 +94,22 @@
       <div class="mx-auto max-w-5xl flex items-center justify-between gap-3">
 
         <div class="flex-1 min-w-0">
-          <h3 class="text-[1.3rem] sm:text-[1.5rem] md:text-[1.5rem] font-medium truncate">Ready to Join <span class="hidden sm:flex">Our Team</span>?</h3>
+          <h3 class="text-[1.3rem] sm:text-[1.5rem] md:text-[1.5rem] font-medium truncate">Ready to Join <span class="hidden sm:inline">Our Team</span>?</h3>
           <p class="text-[0.7rem] sm:text-[0.8rem] md:text-sm text-white/70 mt-0.5 truncate">
             Apply for UI/UX Designer
           </p>
         </div>
 
         <div class="flex items-center gap-3 sm:gap-4 shrink-0">
-          <a href="#"
-            class="hidden sm:inline-flex items-center justify-center text-xs md:text-sm font-normal text-white/70 hover:text-accent whitespace-nowrap">
-            <svg viewBox="0 0 24 24" fill="green" class="h-4 w-4 mr-1"
+          <a href="https://wa.me/919188339903?text=Hello" class="group flex items-center cursor-pointer hidden sm:inline-flex items-center justify-center text-xs md:text-sm font-normal text-white/70 hover:text-white whitespace-nowrap">
+          <svg
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              class="h-4 w-4 mr-1 text-white/70 group-hover:text-white transition-colors duration-300"
               aria-hidden="true">
-              <path
-                d="M19.05 4.91A9.82 9.82 0 0 0 12.03 2C6.6 2 2.18 6.42 2.18 11.85c0 1.74.46 3.45 1.32 4.95L2 22l5.36-1.41a9.84 9.84 0 0 0 4.67 1.19h.01c5.43 0 9.85-4.42 9.85-9.85a9.8 9.8 0 0 0-2.84-7.02Zm-7.02 15.2h-.01a8.14 8.14 0 0 1-4.14-1.13l-.3-.18-3.18.84.85-3.1-.2-.32a8.16 8.16 0 0 1-1.25-4.37c0-4.52 3.68-8.2 8.21-8.2 2.19 0 4.25.85 5.8 2.41a8.15 8.15 0 0 1 2.39 5.8c0 4.52-3.68 8.2-8.17 8.2Zm4.5-6.15c-.25-.13-1.47-.72-1.7-.8-.23-.09-.39-.13-.56.12-.17.25-.64.8-.79.97-.15.17-.29.19-.54.06-.25-.13-1.05-.39-2.01-1.24-.74-.66-1.24-1.48-1.38-1.73-.14-.25-.02-.38.11-.5.11-.11.25-.29.38-.43.13-.15.17-.25.25-.42.08-.17.04-.31-.02-.44-.06-.13-.56-1.35-.76-1.84-.2-.48-.41-.42-.56-.43h-.48c-.17 0-.44.06-.66.31-.23.25-.87.85-.87 2.06 0 1.21.89 2.38 1.01 2.55.13.17 1.75 2.67 4.24 3.74.59.25 1.06.4 1.42.51.6.19 1.15.16 1.58.1.48-.07 1.47-.6 1.68-1.18.21-.58.21-1.08.15-1.18-.06-.1-.23-.16-.48-.29Z">
-              </path>
-            </svg> Connect with Us
+              <path d="M19.05 4.91A9.82 9.82 0 0 0 12.03 2C6.6 2 2.18 6.42 2.18 11.85c0 1.74.46 3.45 1.32 4.95L2 22l5.36-1.41a9.84 9.84 0 0 0 4.67 1.19h.01c5.43 0 9.85-4.42 9.85-9.85a9.8 9.8 0 0 0-2.84-7.02Zm-7.02 15.2h-.01a8.14 8.14 0 0 1-4.14-1.13l-.3-.18-3.18.84.85-3.1-.2-.32a8.16 8.16 0 0 1-1.25-4.37c0-4.52 3.68-8.2 8.21-8.2 2.19 0 4.25.85 5.8 2.41a8.15 8.15 0 0 1 2.39 5.8c0 4.52-3.68 8.2-8.17 8.2Zm4.5-6.15c-.25-.13-1.47-.72-1.7-.8-.23-.09-.39-.13-.56.12-.17.25-.64.8-.79.97-.15.17-.29.19-.54.06-.25-.13-1.05-.39-2.01-1.24-.74-.66-1.24-1.48-1.38-1.73-.14-.25-.02-.38.11-.5.11-.11.25-.29.38-.43.13-.15.17-.25.25-.42.08-.17.04-.31-.02-.44-.06-.13-.56-1.35-.76-1.84-.2-.48-.41-.42-.56-.43h-.48c-.17 0-.44.06-.66.31-.23.25-.87.85-.87 2.06 0 1.21.89 2.38 1.01 2.55.13.17 1.75 2.67 4.24 3.74.59.25 1.06.4 1.42.51.6.19 1.15.16 1.58.1.48-.07 1.47-.6 1.68-1.18.21-.58.21-1.08.15-1.18-.06-.1-.23-.16-.48-.29Z"></path>
+          </svg>
+          <span class="text-white/70 group-hover:text-white transition-colors duration-300"> Connect with Us</span>
           </a>
           <a href="#"
             class="apply-now-btn inline-flex items-center justify-center px-4 py-2 md:px-5 md:py-2.5 text-xs md:text-sm font-medium text-white bg-white/10 backdrop-blur-md border border-white/20 hover:bg-white/20 transition whitespace-nowrap">
