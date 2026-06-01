@@ -32,7 +32,7 @@
           </nav>
           <div class="py-4">
             <h2
-              class="text-[2.2rem] leading-[1.05] tracking-[-0.0em] text-black sm:text-[3rem] md:text-[3.1rem] max-w-4xl">
+              class="service-hero-h2 text-[2.2rem] leading-[1.05] tracking-[-0.0em] text-black sm:text-[3rem] md:text-[3.1rem] max-w-4xl">
               Powerful Software Solutions Built for Business Growth.
             </h2>
             <p class="pt-4 space-y-5 text-[15px] leading-7 text-black/75">

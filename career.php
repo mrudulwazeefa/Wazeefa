@@ -26,7 +26,7 @@
                 Careers
               </p>
               <h2
-                class="text-[2.2rem] leading-[0.92] tracking-[-0.0em] sm:text-[3.3rem] md:text-[48px] md:leading-[1.02] lg:text-[60px] text-black">
+                class="service-hero-h2 text-[2.2rem] leading-[0.92] tracking-[-0.0em] sm:text-[3.3rem] md:text-[48px] md:leading-[1.02] lg:text-[60px] text-black">
                 Start Your Journey With Us <span class="text-[#dc8413]">Together</span>
               </h2>
               <p class="mt-4 text-black/65 md:text-[17px]lg:text-md">Become part of a high-performing & collaborative

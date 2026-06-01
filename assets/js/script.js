@@ -1608,6 +1608,87 @@ function initBottomStickySection() {
 // ==========================================
 // 7. MASTER INITIALIZATION
 // ==========================================
+// ==========================================
+// SERVICE HERO H2 LUXURY REVEAL
+// ==========================================
+function initServiceHeroH2Animation() {
+    const heroH2Elements = document.querySelectorAll('.service-hero-h2');
+    if (!heroH2Elements || !heroH2Elements.length) return;
+
+    const disableOnMobile = window.matchMedia('(max-width: 767px)').matches;
+
+    const wrapTextNodesWithWordSpans = (nodes, parent) => {
+        nodes.forEach((node) => {
+            if (node.nodeType === Node.TEXT_NODE) {
+                const words = node.textContent.split(/(\s+)/);
+                words.forEach((word) => {
+                    if (!word.trim()) {
+                        parent.appendChild(document.createTextNode(word));
+                    } else {
+                        const span = document.createElement('span');
+                        span.className = 'word-span';
+                        span.textContent = word;
+                        parent.appendChild(span);
+                    }
+                });
+            } else if (node.nodeType === Node.ELEMENT_NODE) {
+                const clone = node.cloneNode(false);
+                wrapTextNodesWithWordSpans(Array.from(node.childNodes), clone);
+                parent.appendChild(clone);
+            }
+        });
+    };
+
+    heroH2Elements.forEach((h2) => {
+        // Avoid double-processing
+        if (h2.dataset._heroRevealed) return;
+
+        // If on mobile, keep plain text and ensure instant visibility
+        if (disableOnMobile) {
+            // Restore plain text to avoid span wrapping
+            const plain = h2.textContent.trim();
+            h2.textContent = plain;
+            h2.style.opacity = '1';
+            h2.style.transform = 'none';
+            h2.dataset._heroRevealed = '1';
+            return;
+        }
+
+        const originalNodes = Array.from(h2.childNodes);
+        h2.innerHTML = '';
+        wrapTextNodesWithWordSpans(originalNodes, h2);
+
+        const wordSpans = h2.querySelectorAll('.word-span');
+
+        const doAnimate = () => {
+            h2.classList.add('animate-in');
+            wordSpans.forEach((span, i) => {
+                // slightly tighter stagger and smoother delay curve
+                span.style.animationDelay = (i * 0.045) + 's';
+                span.style.willChange = 'opacity, transform';
+            });
+            h2.dataset._heroRevealed = '1';
+        };
+
+        if (typeof ScrollTrigger !== 'undefined') {
+            const trig = ScrollTrigger.create({
+                trigger: h2,
+                start: 'top 86%',
+                onEnter: () => { doAnimate(); trig.kill(); },
+                once: true,
+            });
+
+            // If already in view on load, animate immediately
+            const top = h2.getBoundingClientRect().top;
+            const threshold = window.innerHeight * 0.86;
+            if (top <= threshold) { doAnimate(); trig.kill(); }
+        } else {
+            // Fallback: animate immediately
+            doAnimate();
+        }
+    });
+}
+
 function initAll() {
     initHomePage();
     initAboutPage();
@@ -1615,6 +1696,7 @@ function initAll() {
     initPhoneInput();
     initCareerDetailsPage();
     initWebDevPage();
+    initServiceHeroH2Animation();
     initBottomStickySection();
 }
 

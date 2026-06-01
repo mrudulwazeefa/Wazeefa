@@ -31,7 +31,7 @@
                         <p class="mb-4 text-xs font-semibold uppercase tracking-[0.2em] text-black/45">
                             Contact Us
                         </p>
-                        <h2 class="text-[9vw] leading-[1.05] tracking-[-0.0em] sm:text-[3.3rem] md:text-[4.4vw] lg:text-[3.5rem] text-black">
+                        <h2 class="service-hero-h2 text-[9vw] leading-[1.05] tracking-[-0.0em] sm:text-[3.3rem] md:text-[4.4vw] lg:text-[3.5rem] text-black">
                             Let’s Build Something <br>
                             <span class="text-[#dc8413]">Together</span>
                         </h2>

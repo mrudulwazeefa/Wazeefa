@@ -21,7 +21,7 @@
                     <div class="md:max-w-3xl">
                         <p class="mb-4 text-xs font-semibold uppercase tracking-[0.2em] text-black/45">About Us</p>
                         <h2
-                            class="text-[2.2rem] font-normal leading-[1.05] tracking-[-0.01em] sm:text-[3.3rem] md:text-[48px] lg:text-[53px] md:leading-[1.10] text-black">
+                            class="service-hero-h2 text-[2.2rem] font-normal leading-[1.05] tracking-[-0.01em] sm:text-[3.3rem] md:text-[48px] lg:text-[53px] md:leading-[1.10] text-black">
                             Everything you need to get the attention of your audience
                         </h2>
                     </div>
