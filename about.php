@@ -148,9 +148,9 @@
                                     data-service-story-panel="0">
                                     <div>
                                         <h3
-                                            class="mt-6 max-w-xl text-4xl font-light leading-[0.95] tracking-[-0.01em] text-black">
-                                            <span class="block font-medium text-7xl">13+</span>
-                                            Years of Experience
+                                            class="mt-6 max-w-xl font-light leading-[0.95] tracking-[-0.01em]">
+                                            <span class="block font-medium text-8xl gradient-text">13+</span>
+                                            <span class="text-black text-2xl">Years of Experience</span>
                                         </h3>
                                     </div>
                                 </article>
@@ -158,9 +158,9 @@
                                     data-service-story-panel="1">
                                     <div>
                                         <h3
-                                            class="mt-6 max-w-xl text-4xl font-light leading-[0.95] tracking-[-0.01em] text-black">
-                                            <span class="block font-medium text-7xl">900+</span>
-                                            Success Stories
+                                            class="mt-6 max-w-xl font-light leading-[0.95] tracking-[-0.01em]">
+                                            <span class="block font-medium text-8xl gradient-text">900+</span>
+                                            <span class="text-black text-2xl">Success Stories</span>
                                         </h3>
                                     </div>
                                 </article>
@@ -168,9 +168,9 @@
                                     data-service-story-panel="2">
                                     <div>
                                         <h3
-                                            class="mt-6 max-w-xl text-4xl font-light leading-[0.95] tracking-[-0.01em] text-black">
-                                            <span class="block font-medium text-7xl">600+</span>
-                                            International Clients
+                                            class="mt-6 max-w-xl font-light leading-[0.95] tracking-[-0.01em]">
+                                            <span class="block font-medium text-8xl gradient-text">600+</span>
+                                            <span class="text-black text-2xl">International Clients</span>
                                         </h3>
                                     </div>
                                 </article>
@@ -178,9 +178,9 @@
                                     data-service-story-panel="3">
                                     <div>
                                         <h3
-                                            class="mt-6 max-w-xl text-4xl font-light leading-[0.95] tracking-[-0.01em] text-black">
-                                            <span class="block font-medium text-7xl">35+</span>
-                                            Countries
+                                            class="mt-6 max-w-xl font-light leading-[0.95] tracking-[-0.01em] text-black">
+                                            <span class="block font-medium text-8xl gradient-text">35+</span>
+                                            <span class="text-black text-2xl">Countries</span>
                                         </h3>
                                     </div>
                                 </article>
@@ -241,7 +241,5 @@
         <?php include 'includes/footer.php'; ?>
     </div>
     <Script src="assets/js/script.js"></Script>
-
 </body>
-
 </html>

@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -9,6 +10,11 @@
 
 <body class="min-h-screen text-white">
   <div class="mx-auto min-h-screen max-w-full p-0 md:p-0">
+    <?php if (!empty($_SESSION['flash'])): $flash = $_SESSION['flash']; unset($_SESSION['flash']); ?>
+      <div class="fixed top-4 right-4 z-[20000] rounded-md p-3 text-sm <?php echo ($flash['type']==='success')? 'bg-green-100 text-green-800':'bg-red-100 text-red-800'; ?>">
+        <?php echo htmlspecialchars($flash['message']); ?>
+      </div>
+    <?php endif; ?>
     <!-- Header -->
         <?php include 'includes/header.php'; ?>
         <!-- Menupanel -->
@@ -137,7 +143,7 @@
 
         <!-- Modal Body -->
         <div class="p-6 max-h-[calc(100vh-70px)] overflow-y-auto">
-          <form id="applicationForm" class="space-y-4">
+          <form id="applicationForm" class="space-y-4" action="send-application.php" method="post" enctype="multipart/form-data">
             <div class="grid gap-4 sm:grid-cols-2">
               <div>
                 <!-- <label class="block text-sm font-medium text-black/80 mb-1"
@@ -168,7 +174,7 @@
                 <!-- <label class="block text-sm font-medium text-black/80 mb-1"
                 >Phone Number</label
               > -->
-                <input type="tel" name="phone" required placeholder="Phone number" pattern="[0-9]*" inputmode="numeric"
+                <input type="tel" name="phone_national" data-intl-tel-input="in" required placeholder="Phone number" pattern="[0-9]*" inputmode="numeric"
                   class="h-12 w-full border border-black/8 bg-white px-4 text-sm text-black outline-none transition placeholder:text-black/28 focus:border-black/18" />
               </div>
             </div>
@@ -291,8 +297,8 @@
       </div>
     </div>
   </div>
-  <Script src="assets/js/script.js"></Script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/18.2.1/js/intlTelInput.min.js"></script>
+  <script src="assets/js/script.js"></script>
 </body>
 
 </html>

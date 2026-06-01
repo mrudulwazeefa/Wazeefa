@@ -1,4 +1,4 @@
-    <header id="siteHeader" class="site-header px-5 py-4 sm:px-8 md:px-10 md:py-4 header-theme-light">
+    <header id="siteHeader" class="site-header px-5 py-4 sm:px-8 md:px-10 md:py-[0.98rem] header-theme-light">
       <div class="mx-auto flex w-full max-w-6xl items-center justify-between google">
         <a href="index.php" class="flex items-center gap-2 text-xl font-medium tracking-tight sm:text-2xl">
           <span class="header-logo-text">Wazeefa</span>

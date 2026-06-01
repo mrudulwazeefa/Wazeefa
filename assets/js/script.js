@@ -6,11 +6,12 @@ gsap.registerPlugin(ScrollTrigger);
 
 const siteHeader = document.getElementById("siteHeader");
 const navDropdown = document.querySelector(".nav-dropdown");
+const megaMenuPanel = document.querySelector(".mega-menu-panel");
 const menuPanel = document.getElementById("menuPanel");
 const mobileMenuButton = document.getElementById("mobileMenuButton");
 const desktopMenuButton = document.getElementById("desktopMenuButton");
 const menuCloseButton = document.getElementById("menuCloseButton");
-const menuLinks = gsap.utils.toArray(".menu-link");
+const menuLinks = gsap.utils.toArray(".menu-link, .mega-menu-link");
 
 let menuOpen = false;
 
@@ -59,9 +60,41 @@ function updateHeaderTheme(theme) {
     }
 }
 
+function setMegaMenuOpenClass(open) {
+    if (!navDropdown) return;
+    navDropdown.classList.toggle("mega-menu-open", open);
+}
+
+let megaMenuHoverTimeout = null;
+
+function handleMegaMenuLeave() {
+    if (megaMenuHoverTimeout) clearTimeout(megaMenuHoverTimeout);
+    megaMenuHoverTimeout = setTimeout(() => {
+        const navHovered = navDropdown?.matches(":hover");
+        const panelHovered = megaMenuPanel?.matches(":hover");
+        if (!navHovered && !panelHovered) {
+            setMegaMenuOpenClass(false);
+            syncServiceHoverState(false);
+        }
+    }, 40);
+}
+
 if (navDropdown) {
-    navDropdown.addEventListener("mouseenter", () => syncServiceHoverState(true));
-    navDropdown.addEventListener("mouseleave", () => syncServiceHoverState(false));
+    navDropdown.addEventListener("mouseenter", () => {
+        setMegaMenuOpenClass(true);
+        syncServiceHoverState(true);
+        if (megaMenuHoverTimeout) clearTimeout(megaMenuHoverTimeout);
+    });
+    navDropdown.addEventListener("mouseleave", handleMegaMenuLeave);
+}
+
+if (megaMenuPanel) {
+    megaMenuPanel.addEventListener("mouseenter", () => {
+        setMegaMenuOpenClass(true);
+        syncServiceHoverState(true);
+        if (megaMenuHoverTimeout) clearTimeout(megaMenuHoverTimeout);
+    });
+    megaMenuPanel.addEventListener("mouseleave", handleMegaMenuLeave);
 }
 
 // Menu Animation Timeline
@@ -1213,6 +1246,7 @@ function initPhoneInput() {
             onlyCountries: ["in"],
             separateDialCode: false,
             showFlags: true,
+            hiddenInput: "phone",
             utilsScript: "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/18.2.1/js/utils.js",
         };
 
@@ -1570,7 +1604,6 @@ function initBottomStickySection() {
         return () => window.removeEventListener("scroll", updateVisibility);
     });
 }
-
 
 // ==========================================
 // 7. MASTER INITIALIZATION
