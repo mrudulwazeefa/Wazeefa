@@ -201,7 +201,7 @@
                                     <h3 class="mt-4 text-[1.7rem] sm:text-3xl font-normal leading-[1.02] tracking-[-0.01em] text-black">
                                         <span class="text-[1.7rem] sm:text-3xl">13+</span> Years of Experience
                                     </h3>
-                                    <p class="mt-5 text-base leading-7 text-black/62">Years of delivery across web,
+                                    <p class="mt-5 text-base leading-7 text-black/60">Years of delivery across web,
                                         commerce, apps, and growth strategy give each project a steadier foundation from
                                         day one.</p>
                                 </article>
@@ -210,7 +210,7 @@
                                     <h3 class="mt-4 text-[1.6rem] sm:text-3xl font-normal leading-[1.02] tracking-[-0.01em] text-black">
                                         <span class="text-[1.6rem] sm:text-3xl">850+</span> Success Stories
                                     </h3>
-                                    <p class="mt-5 text-base leading-7 text-black/62">We build systems that launch with
+                                    <p class="mt-5 text-base leading-7 text-black/60">We build systems that launch with
                                         confidence and stay practical for real teams managing growth, content, and
                                         performance.</p>
                                 </article>
@@ -218,7 +218,7 @@
                                     <h3 class="mt-4 text-[1.6rem] sm:text-3xl font-normal leading-[1.02] tracking-[-0.01em] text-black">
                                         <span class="text-[1.6rem] sm:text-3xl">600+</span> International Clients
                                     </h3>
-                                    <p class="mt-5 text-base leading-7 text-black/62">Strategy, build, optimization, and
+                                    <p class="mt-5 text-base leading-7 text-black/60">Strategy, build, optimization, and
                                         marketing work together so growth does not stall after launch or handoff.</p>
                                 </article>
                                 <article
@@ -226,7 +226,7 @@
                                     <h3 class="mt-4 text-[1.6rem] sm:text-3xl font-normal leading-[1.02] tracking-[-0.01em] text-black">
                                         <span class="text-[1.6rem] sm:text-3xl">35+</span> Countries
                                     </h3>
-                                    <p class="mt-5 text-base leading-7 text-black/62">We stay close to performance,
+                                    <p class="mt-5 text-base leading-7 text-black/60">We stay close to performance,
                                         iteration, and next-step planning so the service relationship keeps creating
                                         momentum.</p>
                                 </article>

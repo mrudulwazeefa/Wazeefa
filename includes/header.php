@@ -26,9 +26,9 @@
         <nav class="hidden items-center gap-12 text-[15px] lg:flex">
           <a href="about.php" class="header-link header-link-muted transition hover:text-current hover:font-[450]">About</a>
           <div class="nav-dropdown">
-            <button type="button"
+            <a href="service.php" role="button"
               class="header-link header-link-muted inline-flex items-center gap-2 transition hover:text-current hover:font-[450]"
-              aria-haspopup="true"><span>Service</span></button>
+              aria-haspopup="true"><span>Service</span></a>
             <div class="mega-menu-panel">
               <div class="mega-menu-panel__content mx-auto max-w-6xl py-10">
                 <div class="mb-8 max-w-2xl">
@@ -43,6 +43,7 @@
                     <p class="hidden md:block text-md text-white/50">Development</p>
                     <a href="web-development.php" class="mega-menu-link font-light">Web Development</a>
                     <a href="software-development.php" class="mega-menu-link font-light">Software Development</a>
+                    <a href="mobile-application-development.php" class="mega-menu-link font-light hidden md:block">Mobile App Development</a>
                   </div>
                   <div class="space-y-4">
                     <p class="hidden md:block text-md text-white/50">E-Commerce & CMS</p>
@@ -52,7 +53,7 @@
                   <div class="space-y-4">
                     <p class="hidden md:block text-md text-white/50">Business Growth</p>
                     <a href="digital-marketing.php" class="mega-menu-link font-light">Digital Marketing</a>
-                    <a href="mobile-application-development.php" class="mega-menu-link font-light hidden md:block">Mobile App Development</a>
+                    <a href="branding.php" class="mega-menu-link font-light">Branding</a>
                   </div>
                 </div>
               </div>
@@ -62,7 +63,7 @@
           <a href="contact.php" class="header-link header-link-muted transition hover:text-current hover:font-[450]">Contact</a>
         </nav>
         <div class="hidden items-center gap-5 sm:gap-4 lg:flex">
-          <a href="tel:919188339903" aria-label="Call us" class="header-icon-glass inline-flex items-center justify-center" target="_blank">
+          <a href="tel:919188339903" aria-label="Call us" class="header-icon-glass inline-flex items-center justify-center">
             <svg class="" style="display:inline-block;vertical-align:middle" width="18" height="18" fill="currentColor"
               viewBox="0 0 1004 1024" xmlns="http://www.w3.org/2000/svg">
               <path
@@ -94,7 +95,7 @@
           </button>
         </div>
         <div class="flex items-center gap-6 lg:hidden">
-          <a href="tel:919188339903" aria-label="Call us" class="header-icon-glass inline-flex items-center justify-center" target="_blank">
+          <a href="tel:919188339903" aria-label="Call us" class="header-icon-glass inline-flex items-center justify-center">
             <svg class="" style="display:inline-block;vertical-align:middle" width="18" height="18" fill="currentColor"
               viewBox="0 0 1004 1024" xmlns="http://www.w3.org/2000/svg">
               <path

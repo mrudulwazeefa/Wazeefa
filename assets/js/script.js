@@ -1615,7 +1615,7 @@ function initServiceHeroH2Animation() {
     const heroH2Elements = document.querySelectorAll('.service-hero-h2');
     if (!heroH2Elements || !heroH2Elements.length) return;
 
-    const disableOnMobile = window.matchMedia('(max-width: 767px)').matches;
+    const disableOnSmallScreens = window.matchMedia('(max-width: 1023px)').matches;
 
     const wrapTextNodesWithWordSpans = (nodes, parent) => {
         nodes.forEach((node) => {
@@ -1643,11 +1643,8 @@ function initServiceHeroH2Animation() {
         // Avoid double-processing
         if (h2.dataset._heroRevealed) return;
 
-        // If on mobile, keep plain text and ensure instant visibility
-        if (disableOnMobile) {
-            // Restore plain text to avoid span wrapping
-            const plain = h2.textContent.trim();
-            h2.textContent = plain;
+        // On tablet/phone, keep original markup so colored spans remain visible
+        if (disableOnSmallScreens) {
             h2.style.opacity = '1';
             h2.style.transform = 'none';
             h2.dataset._heroRevealed = '1';
@@ -1746,3 +1743,124 @@ if ("WebSocket" in window) {
         }
     })();
 }
+
+// contact page
+
+document.addEventListener("DOMContentLoaded", function() {
+            const input = document.querySelector("#phone");
+            const hiddenInput = document.querySelector("#fullPhoneE164");
+            const errorMsg = document.querySelector("#phoneError");
+            const form = document.querySelector("#contactForm");
+
+            // libphonenumber error mapping
+            const errorMap = [
+                "Invalid number.",
+                "Invalid country code.",
+                "Phone number is too short.",
+                "Phone number is too long.",
+                "Invalid number format.",
+                "Invalid number length."
+            ];
+
+            // Initialize the plugin
+            const iti = window.intlTelInput(input, {
+                initialCountry: "in",
+                separateDialCode: true,
+                strictMode: true, // Forces physical character limits per country rules
+                formatOnDisplay: true,
+                allowDropdown: true,
+                useFullscreenPopup: false,
+                utilsScript: "https://cdn.jsdelivr.net/npm/intl-tel-input@23.0.4/build/js/utils.js",
+            });
+
+            // Clears styling and error text
+            const reset = () => {
+                input.classList.remove("border-red-500");
+                errorMsg.innerHTML = "";
+                errorMsg.classList.add("hidden");
+            };
+
+            // Main validation routine
+            const validatePhoneNumber = () => {
+                reset();
+                if (input.value.trim()) {
+                    if (iti.isValidNumber()) {
+                        // Success: Dump the global E.164 string into the hidden input for PHP
+                        hiddenInput.value = iti.getNumber();
+                        return true;
+                    } else {
+                        // Failure: Render the exact error reason
+                        input.classList.add("border-red-500");
+                        const errorCode = iti.getValidationError();
+                        const errorMessage = errorMap[errorCode] || "Invalid phone number.";
+                        errorMsg.innerHTML = errorMessage;
+                        errorMsg.classList.remove("hidden");
+                        return false;
+                    }
+                }
+                return false;
+            };
+
+            // Trigger validation checks
+            input.addEventListener('blur', validatePhoneNumber);
+            input.addEventListener('input', reset);
+            
+            // Reset and clear immediately when switching countries
+            input.addEventListener('countrychange', () => {
+                reset();
+                input.value = ""; 
+                hiddenInput.value = "";
+            });
+
+            // Prevent the PHP POST submission if the phone rule fails
+            form.addEventListener('submit', (e) => {
+                if (!validatePhoneNumber()) {
+                    e.preventDefault(); 
+                }
+            });
+});
+        
+// service page
+
+ document.addEventListener('DOMContentLoaded', () => {
+      const hero = document.getElementById('heroSection');
+      if (!hero) return;
+
+      const visualWrapper = hero.querySelector('.hero-visual-wrapper');
+      const contentWrapper = hero.querySelector('.hero-content-wrapper');
+
+      let ticking = false;
+
+      function updateHeroAnimation() {
+        const heroHeight = hero.offsetHeight;
+        const scrolled = window.scrollY;
+
+        if (scrolled <= heroHeight) {
+          // Keep progress clamped firmly between 0 and 1
+          const progress = Math.min(Math.max(scrolled / heroHeight, 0), 1);
+
+          // Animate backdrop: reduce opacity smoothly down to 10%, apply blur up to 16px
+          if (visualWrapper) {
+            visualWrapper.style.opacity = (1 - progress * 0.90).toFixed(3);
+            visualWrapper.style.filter = `blur(${progress * 16}px)`;
+          }
+          
+          // Animate text elements: slide slightly down and fade out earlier than background
+          if (contentWrapper) {
+            contentWrapper.style.opacity = (1 - progress * 1.3).toFixed(3);
+            contentWrapper.style.transform = `translateY(${progress * 40}px)`;
+          }
+        }
+        
+        // Reset ticking so the loop handles the next animation frame event
+        ticking = false;
+      }
+
+      window.addEventListener('scroll', () => {
+        if (!ticking) {
+          // Throttles computation directly to the screen frame refresh rate
+          window.requestAnimationFrame(updateHeroAnimation);
+          ticking = true;
+        }
+      }, { passive: true });
+    });

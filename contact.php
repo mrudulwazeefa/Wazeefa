@@ -6,12 +6,7 @@
     <?php include 'includes/common-assets.php'; ?>
     <?php include 'includes/google-tag-manager.php'; ?>
     <?php include 'includes/meta/contact.php'; ?>
-    
-    <!-- Added: intl-tel-input v23 CSS for strictMode support -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/intl-tel-input@23.0.4/build/css/intlTelInput.css">
-    <style>
-
-    </style>
 </head>
 
 <body class="min-h-screen text-white">
@@ -101,7 +96,7 @@ emailInput.addEventListener("input", function() {
 </script>
 
                             <!-- Updated Dynamic Phone Number Section -->
-                            <div class="relative">
+                            <div id="contactPhoneField" class="relative overflow-visible">
                                 <!-- Visible Input for the User -->
                                 <input type="tel" id="phone" placeholder="Phone number" required inputmode="tel" autocomplete="tel" class="h-12 w-full border border-black/10 bg-transparent px-4 text-sm text-black outline-none transition placeholder:text-black/30 focus:border-black/30" />
                                 
@@ -167,80 +162,8 @@ emailInput.addEventListener("input", function() {
     <!-- Scripts -->
     <script src="assets/js/script.js"></script>
 
-    <!-- Updated: intl-tel-input v23+ JS -->
+    <!-- Updated: intl-tel-input v23 JS -->
     <script src="https://cdn.jsdelivr.net/npm/intl-tel-input@23.0.4/build/js/intlTelInput.min.js"></script>
-    <script>
-        document.addEventListener("DOMContentLoaded", function() {
-            const input = document.querySelector("#phone");
-            const hiddenInput = document.querySelector("#fullPhoneE164");
-            const errorMsg = document.querySelector("#phoneError");
-            const form = document.querySelector("#contactForm");
 
-            // libphonenumber error mapping
-            const errorMap = [
-                "Invalid number.",
-                "Invalid country code.",
-                "Phone number is too short.",
-                "Phone number is too long.",
-                "Invalid number format.",
-                "Invalid number length."
-            ];
-
-            // Initialize the plugin
-            const iti = window.intlTelInput(input, {
-                initialCountry: "in",          
-                separateDialCode: true,        
-                strictMode: true, // Forces physical character limits per country rules
-                formatOnDisplay: true,
-                utilsScript: "https://cdn.jsdelivr.net/npm/intl-tel-input@23.0.4/build/js/utils.js",
-            });
-
-            // Clears styling and error text
-            const reset = () => {
-                input.classList.remove("border-red-500");
-                errorMsg.innerHTML = "";
-                errorMsg.classList.add("hidden");
-            };
-
-            // Main validation routine
-            const validatePhoneNumber = () => {
-                reset();
-                if (input.value.trim()) {
-                    if (iti.isValidNumber()) {
-                        // Success: Dump the global E.164 string into the hidden input for PHP
-                        hiddenInput.value = iti.getNumber();
-                        return true;
-                    } else {
-                        // Failure: Render the exact error reason
-                        input.classList.add("border-red-500");
-                        const errorCode = iti.getValidationError();
-                        const errorMessage = errorMap[errorCode] || "Invalid phone number.";
-                        errorMsg.innerHTML = errorMessage;
-                        errorMsg.classList.remove("hidden");
-                        return false;
-                    }
-                }
-                return false;
-            };
-
-            // Trigger validation checks
-            input.addEventListener('blur', validatePhoneNumber);
-            input.addEventListener('input', reset);
-            
-            // Reset and clear immediately when switching countries
-            input.addEventListener('countrychange', () => {
-                reset();
-                input.value = ""; 
-                hiddenInput.value = "";
-            });
-
-            // Prevent the PHP POST submission if the phone rule fails
-            form.addEventListener('submit', (e) => {
-                if (!validatePhoneNumber()) {
-                    e.preventDefault(); 
-                }
-            });
-        });
-    </script>
 </body>
 </html>

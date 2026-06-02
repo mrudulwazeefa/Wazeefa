@@ -44,12 +44,15 @@
                     <a href="web-development.php"
                       class="menu-link inline-flex w-fit border-b border-transparent text-[1.06rem] font-light leading-tight text-[#edf2ee] transition duration-300 hover:translate-x-[5px] hover:border-white/35 hover:text-white sm:text-[1.12rem] md:text-[1.18rem] lg:text-lg">Web
                       Development</a>
-                    <a href="ecommerce-website-development.php"
-                      class="menu-link inline-flex w-fit border-b border-transparent text-[1.06rem] font-light leading-tight text-[#edf2ee] transition duration-300 hover:translate-x-[5px] hover:border-white/35 hover:text-white sm:text-[1.12rem] md:text-[1.18rem] lg:text-lg">Ecommerce
+                    <a href="software-development.php"
+                      class="menu-link inline-flex w-fit border-b border-transparent text-[1.06rem] font-light leading-tight text-[#edf2ee] transition duration-300 hover:translate-x-[5px] hover:border-white/35 hover:text-white sm:text-[1.12rem] md:text-[1.18rem] lg:text-lg">Software
                       Development</a>
                     <a href="mobile-application-development.php"
                       class="menu-link inline-flex w-fit border-b border-transparent text-[1.06rem] font-light leading-tight text-[#edf2ee] transition duration-300 hover:translate-x-[5px] hover:border-white/35 hover:text-white sm:text-[1.12rem] md:text-[1.18rem] lg:text-lg">Mobile
                       App Development</a>
+                    <a href="ecommerce-website-development.php"
+                      class="menu-link inline-flex w-fit border-b border-transparent text-[1.06rem] font-light leading-tight text-[#edf2ee] transition duration-300 hover:translate-x-[5px] hover:border-white/35 hover:text-white sm:text-[1.12rem] md:text-[1.18rem] lg:text-lg">Ecommerce
+                      Development</a>
                   </nav>
                   <nav class="menu-panel-links flex flex-col gap-5 sm:gap-5 md:gap-5">
                     <a href="cms-development.php"
@@ -58,9 +61,8 @@
                     <a href="digital-marketing.php"
                       class="menu-link inline-flex w-fit border-b border-transparent text-[1.06rem] font-light leading-tight text-[#edf2ee] transition duration-300 hover:translate-x-[5px] hover:border-white/35 hover:text-white sm:text-[1.12rem] md:text-[1.18rem] lg:text-lg">Digital
                       Marketing</a>
-                    <a href="software-development.php"
-                      class="menu-link inline-flex w-fit border-b border-transparent text-[1.06rem] font-light leading-tight text-[#edf2ee] transition duration-300 hover:translate-x-[5px] hover:border-white/35 hover:text-white sm:text-[1.12rem] md:text-[1.18rem] lg:text-lg">Software
-                      Development</a>
+                    <a href="branding.php"
+                      class="menu-link inline-flex w-fit border-b border-transparent text-[1.06rem] font-light leading-tight text-[#edf2ee] transition duration-300 hover:translate-x-[5px] hover:border-white/35 hover:text-white sm:text-[1.12rem] md:text-[1.18rem] lg:text-lg">Branding</a>
                     <a href="career.php"
                       class="menu-link inline-flex w-fit border-b border-transparent text-[1.06rem] font-light leading-tight text-[#edf2ee] transition duration-300 hover:translate-x-[5px] hover:border-white/35 hover:text-white sm:text-[1.12rem] md:text-[1.18rem] lg:text-lg">Careers</a>
                     <a href="contact.php"
