@@ -54,40 +54,40 @@
               <div id="careerCarouselTrack" class="relative h-[300px] sm:h-[340px] md:h-[400px] ">
                 <article class="career-image-slide absolute inset-0 overflow-hidden">
                   <img
-                    src="assets/images/career-1.jpg"
+                    src="assets/images/culture/01.jpg"
                     alt="Team discussing ideas in a modern office" class="h-full w-full object-cover" />
                 </article>
                 <article class="career-image-slide absolute inset-0 overflow-hidden">
                   <img
-                    src="assets/images/career-2.jpg"
+                    src="assets/images/culture/02.jpg"
                     alt="Software engineers collaborating over laptops" class="h-full w-full object-cover" />
                 </article>
                 <article class="career-image-slide absolute inset-0 overflow-hidden">
-                  <img src="assets/images/career-3.jpg"
+                  <img src="assets/images/culture/03.jpg"
                     alt="Marketing team reviewing campaign strategy" class="h-full w-full object-cover" />
                 </article>
                 <article class="career-image-slide absolute inset-0 overflow-hidden">
-                  <img src="assets/images/career-4.jpg"
+                  <img src="assets/images/culture/04.jpg"
                     alt="Marketing team reviewing campaign strategy" class="h-full w-full object-cover" />
                 </article>
                 <article class="career-image-slide absolute inset-0 overflow-hidden">
-                  <img src="assets/images/career-5.jpg"
+                  <img src="assets/images/culture/05.jpg"
                     alt="Marketing team reviewing campaign strategy" class="h-full w-full object-cover" />
                 </article>
                 <article class="career-image-slide absolute inset-0 overflow-hidden">
-                  <img src="assets/images/career-6.jpg"
+                  <img src="assets/images/culture/06.jpg"
                     alt="Marketing team reviewing campaign strategy" class="h-full w-full object-cover" />
                 </article>
                 <article class="career-image-slide absolute inset-0 overflow-hidden">
-                  <img src="assets/images/career-7.jpg"
+                  <img src="assets/images/culture/07.jpg"
                     alt="Marketing team reviewing campaign strategy" class="h-full w-full object-cover" />
                 </article>
                 <article class="career-image-slide absolute inset-0 overflow-hidden">
-                  <img src="assets/images/career-8.jpg"
+                  <img src="assets/images/culture/08.jpg"
                     alt="Marketing team reviewing campaign strategy" class="h-full w-full object-cover" />
                 </article>
                 <article class="career-image-slide absolute inset-0 overflow-hidden">
-                  <img src="assets/images/career-9.jpg"
+                  <img src="assets/images/culture/09.jpg"
                     alt="Marketing team reviewing campaign strategy" class="h-full w-full object-cover" />
                 </article>
               </div>
