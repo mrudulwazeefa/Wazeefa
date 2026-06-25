@@ -49,7 +49,7 @@
             <div class="mt-10 grid gap-x-12 gap-y-4 sm:grid-cols-2">
               <a href="web-development.php" class="service-overview-link border-b border-black/5 pb-3 flex items-center justify-between">
                 <div class="flex items-center">
-                  <img src="assets/images/web.png" class="w-5 h-5 mr-3 brightness-0 hover:brightness-100 transition-all">
+                  <img src="assets/images/icons/web.png" class="w-5 h-5 mr-3 brightness-0 hover:brightness-100 transition-all">
                   <span>Web Development</span>
                 </div>
                 <span class="service-overview-arrow" aria-hidden="true">
@@ -62,7 +62,7 @@
 
               <a href="ecommerce-website-development.php" class="service-overview-link border-b border-black/5 pb-3 flex items-center justify-between">
                 <div class="flex items-center">
-                  <img src="assets/images/ecommerce.png" class="w-5 h-5 mr-3 brightness-0 hover:brightness-100 transition-all">
+                  <img src="assets/images/icons/ecommerce.png" class="w-5 h-5 mr-3 brightness-0 hover:brightness-100 transition-all">
                   <span>Ecommerce Development</span>
                 </div>
                 <span class="service-overview-arrow" aria-hidden="true">
@@ -75,7 +75,7 @@
 
               <a href="mobile-application-development.php" class="service-overview-link border-b border-black/5 pb-3 flex items-center justify-between">
                 <div class="flex items-center">
-                  <img src="assets/images/mobile.png" class="w-5 h-5 mr-3 brightness-0 hover:brightness-100 transition-all">
+                  <img src="assets/images/icons/mobile.png" class="w-5 h-5 mr-3 brightness-0 hover:brightness-100 transition-all">
                   <span>Mobile App Development</span>
                 </div>
                 <span class="service-overview-arrow" aria-hidden="true">
@@ -88,7 +88,7 @@
 
               <a href="software-development.php" class="service-overview-link border-b border-black/5 pb-3 flex items-center justify-between">
                 <div class="flex items-center">
-                  <img src="assets/images/software3.png" class="w-5 h-5 mr-3 brightness-0 hover:brightness-100 transition-all">
+                  <img src="assets/images/icons/software3.png" class="w-5 h-5 mr-3 brightness-0 hover:brightness-100 transition-all">
                   <span>Software Development</span>
                 </div>
                 <span class="service-overview-arrow" aria-hidden="true">
@@ -101,7 +101,7 @@
 
               <a href="cms-development.php" class="service-overview-link border-b border-black/5 pb-3 flex items-center justify-between">
                 <div class="flex items-center">
-                  <img src="assets/images/cms3.png" class="w-5 h-5 mr-3 brightness-0 hover:brightness-100 transition-all">
+                  <img src="assets/images/icons/cms3.png" class="w-5 h-5 mr-3 brightness-0 hover:brightness-100 transition-all">
                   <span>CMS Development</span>
                 </div>
                 <span class="service-overview-arrow" aria-hidden="true">
@@ -114,7 +114,7 @@
 
               <a href="digital-marketing.php" class="service-overview-link border-b border-black/5 pb-3 flex items-center justify-between">
                 <div class="flex items-center">
-                  <img src="assets/images/digital.png" class="w-5 h-5 mr-3 brightness-0 hover:brightness-100 transition-all">
+                  <img src="assets/images/icons/digital.png" class="w-5 h-5 mr-3 brightness-0 hover:brightness-100 transition-all">
                   <span>Digital Marketing</span>
                 </div>
                 <span class="service-overview-arrow" aria-hidden="true">
@@ -127,7 +127,7 @@
 
               <a href="branding.php" class="service-overview-link border-b border-black/5 pb-3 flex items-center justify-between">
                 <div class="flex items-center">
-                  <img src="assets/images/branding2.png" class="w-5 h-5 mr-3 brightness-0 hover:brightness-100 transition-all">
+                  <img src="assets/images/icons/branding2.png" class="w-5 h-5 mr-3 brightness-0 hover:brightness-100 transition-all">
                   <span>Branding</span>
                 </div>
                 <span class="service-overview-arrow" aria-hidden="true">

@@ -49,11 +49,11 @@
 
                 <div>
                   <div class="relative w-[42px] h-[42px] flex items-center justify-center">
-                    <img id="shape-1" src="assets/images/mobile.png" alt="Icon 4" 
+                    <img id="shape-1" src="assets/images/icons/mobile.png" alt="Icon 4" 
                         class="absolute inset-0 w-full h-full object-contain will-change-transform" />  
-                    <img id="shape-2" src="assets/images/mobile2.png" alt="Icon 5" 
+                    <img id="shape-2" src="assets/images/icons/mobile2.png" alt="Icon 5" 
                         class="absolute inset-0 w-full h-full object-contain opacity-0 will-change-transform" />                      
-                    <img id="shape-3" src="assets/images/mobile3.png" alt="Logo" 
+                    <img id="shape-3" src="assets/images/icons/mobile3.png" alt="Logo" 
                         class="absolute inset-0 w-full h-full object-contain opacity-0 will-change-transform" />
                   </div>
                 </div>

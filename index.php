@@ -53,14 +53,14 @@
                                         <div class="w-[35px] h-[35px]">
                                             <svg id="svg-stage" viewBox="0 0 248 248" class="w-full h-full">
                                                 <g class="group2">
-                                                    <image href="assets/images/icon-1.png" mask="url(#g2_mask)" />
+                                                    <image href="assets/images/icons/icon-1.png" mask="url(#g2_mask)" />
                                                 </g>
                                                 <mask id="g2_mask" fill="#fff">
                                                     <circle cx="124" cy="0" r="0" />
                                                     <circle cx="124" cy="248" r="0" />
                                                 </mask>
                                                 <g class="group3">
-                                                    <image href="assets/images/icon-2.png" mask="url(#g3_mask)" />
+                                                    <image href="assets/images/icons/icon-2.png" mask="url(#g3_mask)" />
                                                 </g>
                                                 <mask id="g3_mask" fill="#fff">
                                                     <rect x="0" y="0" width="124" height="124" />
@@ -69,7 +69,7 @@
                                                     <rect x="124" y="124" width="124" height="124" />
                                                 </mask>
                                                 <g class="group5">
-                                                    <image href="assets/images/icon-3.png" mask="url(#g5_mask)" />
+                                                    <image href="assets/images/icons/icon-3.png" mask="url(#g5_mask)" />
                                                 </g>
                                                 <mask id="g5_mask" fill="#fff">
                                                     <path d="M0 248h248L124 0 0 247z" />
@@ -282,7 +282,7 @@
             <div id="aboutSubtext" class="fixed bottom-6 left-0 right-0 mx-auto w-max z-50 flex items-center gap-3 px-4 py-3 rounded-full border border-white/10 bg-[#2c7d4c]/80 backdrop-blur-xl shadow-lg text-md text-white font-light hidden sm:flex">
                 <div class="reveal-content flex items-center gap-2">
                     <span class="grid h-5 w-5 place-items-center">
-                        <img id="rotatingIcon" src="assets/images/logo.png" class="w-full h-full object-contain" alt="">
+                        <img id="rotatingIcon" src="assets/images/icons/logo.png" class="w-full h-full object-contain" alt="">
                     </span>
                     <span class="text-waz tracking-tight">Building digital solutions for business growth.</span>
                 </div>
@@ -363,9 +363,6 @@
                                     <figure class="feature-primary-visual absolute inset-0">
                                         <img src="assets/images/cms-showcase.jpg" class="h-full w-full object-cover" />
                                     </figure>
-                                    <!-- <figure class="feature-primary-visual absolute inset-0">
-                                        <img src="https://mir-s3-cdn-cf.behance.net/projects/max_808_webp/e85d2d246988107.Y3JvcCwyMDQ4LDE2MDEsMCwyMjM.png" class="h-full w-full object-cover" />
-                                    </figure> -->
                                     <figure class="feature-primary-visual absolute inset-0">
                                         <video class="h-full w-full object-cover" autoplay muted loop playsinline>
                                             <source src="assets/video/digital.mp4" type="video/mp4">
@@ -374,9 +371,6 @@
                                     <figure class="feature-primary-visual absolute inset-0">
                                         <img src="assets/images/software-showcase.jpg" class="h-full w-full object-cover" />
                                     </figure>
-                                    <!-- <figure class="feature-primary-visual absolute inset-0">
-                                        <img src="https://cdn.dribbble.com/userupload/9635229/file/original-68a19ff59dde74663140996742801395.png?resize=1024x768&vertical=center" />
-                                    </figure> -->
                                     <figure class="feature-primary-visual absolute inset-0">
                                         <video class="h-full w-full object-cover" autoplay muted loop playsinline>
                                             <source src="assets/video/branding.mp4" type="video/mp4">
