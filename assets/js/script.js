@@ -1785,7 +1785,7 @@ function initCareerPage() {
 
       function restartTimer() {
         clearInterval(autoPlayTimer);
-        autoPlayTimer = setInterval(() => goTo(activeIndex + 1), 4500);
+        autoPlayTimer = setInterval(() => goTo(activeIndex + 1), 4000);
       }
 
       if (prevButton)
@@ -1799,10 +1799,10 @@ function initCareerPage() {
           restartTimer();
         });
 
-      carouselRoot.addEventListener("mouseenter", () =>
-        clearInterval(autoPlayTimer),
-      );
-      carouselRoot.addEventListener("mouseleave", restartTimer);
+      // carouselRoot.addEventListener("mouseenter", () =>
+      //   clearInterval(autoPlayTimer),
+      // );
+      // carouselRoot.addEventListener("mouseleave", restartTimer);
 
       showSlide(0, true);
       restartTimer();
@@ -1885,7 +1885,7 @@ function initCareerPage() {
         if (testimonialTimer) clearInterval(testimonialTimer);
         testimonialTimer = setInterval(
           () => animateToTestimonial(currentSlide + 1, 1),
-          4500,
+          4000,
         );
       }
 

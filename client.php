@@ -108,6 +108,12 @@
                     <img src="assets/images/clients/warid-h.png" alt="Client 1" class="w-[85%] md:w-[90%] max-w-[130px] sm:max-w-[120px] md:max-w-[120px]] object-contain opacity-100"/>
                 </div>
 
+                <div class="logo-item opacity-0 flex justify-center items-center p-4 bg-white/[0.01] border border-zinc-100/[0.01] aspect-[4/3] border-[0.5px] hidden lg:block">
+                </div>
+
+                <div class="logo-item opacity-0 flex justify-center items-center p-4 bg-white/[0.01]   border border-zinc-100/[0.01] aspect-[4/3] border-[0.5px] hidden lg:block">
+                </div>
+
             </div>
         </div>
     </section>
