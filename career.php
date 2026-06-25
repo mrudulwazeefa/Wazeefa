@@ -40,7 +40,7 @@
                     <path d="M15.75,5l7,7-7,7" transform="translate(0 -4.36)" />
                   </svg>
                 </a>
-                <p class="max-w-xl text-base leading-5 text-black md:text-md py-4">
+                <p class="max-w-xl text-base leading-5 text-black md:text-md py-1">
                   <span class="text-xs">Say Hello at </span>
                   <a href="mailto:cvs@wazeefa.in"
                     class="block text-[1.1rem] text-black hover:underline">

@@ -391,7 +391,7 @@
                                         <span class="feature-service-copy-line">websites that strengthen your brand,</span>
                                     </div>
                                     <div class="overflow-hidden">
-                                        <span class="feature-service-copy-line"> engage visitors, and support business growth.</span>
+                                        <span class="feature-service-copy-line">engage visitors, and support business growth.</span>
                                     </div>
                                 </div>
                                 <div class="mt-4 overflow-hidden">
@@ -537,7 +537,7 @@
   id="bgVideo" 
   muted 
   playsinline 
-  class="absolute inset-0 -z-10 min-h-[105%] min-w-[105%] object-cover object-left-top">
+  class="absolute inset-0 -z-10 min-h-[105%] min-w-[105%] object-cover object-center">
   <source src="assets/video/moon.mp4" type="video/mp4">
 </video>
 

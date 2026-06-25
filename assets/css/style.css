@@ -411,7 +411,7 @@ body.dropdown-open::before {
     visibility 0.24s ease;
   z-index: 10002;
   padding: 1.75rem;
-  background: url("../images/menu-bg.jpg") center/cover no-repeat;
+  background: url("../images/banners/menu-bg.webp") center/cover no-repeat;
   box-sizing: border-box;
 }
 

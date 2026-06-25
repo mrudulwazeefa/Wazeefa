@@ -1219,14 +1219,14 @@ function initHomePage() {
         p: "Building responsive, high-performance websites that strengthen your brand, engage visitors, and support business growth.",
         href: "web-development.php",
         media:
-          '<video class="h-full w-full object-cover" autoplay muted loop playsinline><source src="assets/video/web.mp4" type="video/mp4"></video>',
+          '<video class="h-full w-full object-cover" autoplay muted loop playsinline><source src="assets/video/website.mp4" type="video/mp4"></video>',
       },
       {
         title: "Ecommerce Development",
-        p: "Creating conversion-focused eCommerce platforms that deliver seamless shopping experiences and support long-term growth.",
+        p: "Building Ecommerce platforms that enhance customer experiences and support business growth.",
         href: "ecommerce-website-development.php",
         media:
-          '<img src="https://mir-s3-cdn-cf.behance.net/projects/max_808_webp/d754be230511570.Y3JvcCwxOTIxLDE1MDMsNCww.jpg" class="h-full w-full object-cover" />',
+          '<img src="assets/images/ecommerce-showcase.webp" class="h-full w-full object-cover" />',
       },
       {
         title: "Mobile App Development",
@@ -1236,24 +1236,31 @@ function initHomePage() {
       },
       {
         title: "CMS Development",
-        p: "Driving visibility, engagement, and growth through SEO, social media, content marketing, and performance-driven digital strategies.",
+        p: "Developing flexible CMS solutions that make content management simple, efficient, and scalable.",
         href: "cms-development.php",
         media:
-          '<img src="https://mir-s3-cdn-cf.behance.net/projects/max_808_webp/f850ce239041909.Y3JvcCwxOTM5LDE1MTYsMjczLDI0NA.jpg" class="h-full w-full object-cover" />',
+          '<img src="assets/images/cms-showcase.webp" class="h-full w-full object-cover" />',
+      },
+      {
+        title: "Digital Marketing",
+        p: "Driving visibility, engagement, and growth through SEO, social media, content marketing, and performance-driven digital strategies.",
+        href: "digital-marketing.php",
+        media:
+          '<video class="h-full w-full object-cover" autoplay muted loop playsinline><source src="assets/video/digital.mp4" type="video/mp4"></video>',
       },
       {
         title: "Software Development",
         p: "Building custom software solutions that streamline operations, improve efficiency, and scale with your business.",
         href: "software-development.php",
         media:
-          '<img src="https://mir-s3-cdn-cf.behance.net/projects/max_808_webp/4aa307232271915.Y3JvcCwzMjMyLDI1MjgsOCww.jpg" class="h-full w-full object-cover" />',
+          '<img src="assets/images/software-showcase.webp" class="h-full w-full object-cover" />',
       },
       {
         title: "Branding",
         p: "Developing strategic brand identities that help businesses stand out, build trust, and connect with the right audience.",
         href: "branding.php",
         media:
-          '<img src="https://cdn.dribbble.com/userupload/16983506/file/original-16fe9f7d37205a29fa0a00cdc98e4fa0.png?resize=752x&vertical=center" class="h-full w-full object-cover" />',
+          '<video class="h-full w-full object-cover" autoplay muted loop playsinline><source src="assets/video/branding.mp4" type="video/mp4"></video>',
       },
     ];
 

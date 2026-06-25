@@ -12,7 +12,7 @@
       <div class="mx-auto max-w-full">
         <div class="relative grid h-full overflow-hidden">
           <div class="menu-panel-visual pointer-events-none absolute inset-0  saturate-[1.18]">
-            <div class="absolute inset-0 bg-[url('assets/images/menu-bg.jpg')] bg-cover bg-center opacity-100">
+            <div class="absolute inset-0 bg-[url('assets/images/banners/menu-bg.webp')] bg-cover bg-center opacity-100">
             </div>
           </div>
           <div
