@@ -15,7 +15,7 @@
         <?php include 'includes/menupanel.php'; ?>
         <!-- HERO -->
     <section id="webDevHeroParallax" class="relative h-[30vh] overflow-hidden">
-      <img id="webDevHeroParallaxImage" src="assets/images/branding.webp" alt="Branding"
+      <img id="webDevHeroParallaxImage" src="assets/images/banners/branding.webp" alt="Branding"
         class="h-[45vh] w-full object-cover object-center will-change-transform" />
     </section>
     <section
@@ -377,7 +377,7 @@
 
             <article class="relative min-w-[85%] md:min-w-[80%] flex-none overflow-hidden ">
 
-              <img src="assets/images/case-studies/beefrus-ads.avif"
+              <img src="assets/images/caseStudies/beefrus-ads.avif"
                 alt="" class="h-[320px] w-full object-cover" />
 
               <p
@@ -389,7 +389,7 @@
 
             <article class="relative min-w-[85%] md:min-w-[80%] flex-none overflow-hidden ">
 
-              <img src="assets/images/case-studies/beefrus-logo.avif"
+              <img src="assets/images/caseStudies/beefrus-logo.avif"
                 alt="" class="h-[320px] w-full object-cover" />
 
               <p
@@ -401,7 +401,7 @@
 
             <article class="relative min-w-[85%] md:min-w-[80%] flex-none overflow-hidden ">
 
-              <img src="assets/images/case-studies/tekhive.avif"
+              <img src="assets/images/caseStudies/tekhive.avif"
                 alt="" class="h-[320px] w-full object-cover" />
 
               <p

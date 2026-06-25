@@ -15,7 +15,7 @@
         <?php include 'includes/menupanel.php'; ?>
         <!-- HERO -->
     <section id="webDevHeroParallax" class="relative h-[30vh] overflow-hidden">
-      <img id="webDevHeroParallaxImage" src="assets/images/software-development.webp" alt="Web Development"
+      <img id="webDevHeroParallaxImage" src="assets/images/banners/software-development.webp" alt="Web Development"
         class="h-[45vh] w-full object-cover object-center will-change-transform" />
     </section>
     <section
@@ -372,7 +372,7 @@
 
             <article class="relative min-w-[85%] md:min-w-[80%] flex-none overflow-hidden ">
 
-              <img src="assets/images/case-studies/shop-aaa.avif"
+              <img src="assets/images/caseStudies/shop-aaa.avif"
                 alt="" class="h-[320px] w-full object-cover" />
 
               <p
@@ -384,7 +384,7 @@
 
             <article class="relative min-w-[85%] md:min-w-[80%] flex-none overflow-hidden ">
 
-              <img src="assets/images/case-studies/maktabi.avif"
+              <img src="assets/images/caseStudies/maktabi.avif"
                 alt="" class="h-[320px] w-full object-cover" />
 
               <p
@@ -396,7 +396,7 @@
 
             <article class="relative min-w-[85%] md:min-w-[80%] flex-none overflow-hidden ">
 
-              <img src="assets/images/case-studies/mmdj.avif"
+              <img src="assets/images/caseStudies/mmdj.avif"
                 alt="" class="h-[320px] w-full object-cover" />
 
               <p
