@@ -16,7 +16,7 @@
       <section id="heroSection" class="service-overview-hero sticky top-0 z-0 flex min-h-[46vh] items-center overflow-hidden bg-black px-5 py-36 text-white sm:px-8 md:px-12 lg:px-16">
       
         <div class="absolute inset-0 hero-visual-wrapper will-change-[opacity,filter]">
-          <img src="assets/images/service.webp" alt="" class="h-full w-full object-cover object-center opacity-95" />
+          <img src="assets/images/banners/service.webp" alt="" class="h-full w-full object-cover object-center opacity-95" />
           <div class="absolute inset-0 bg-black/20"></div>
           <div class="absolute inset-x-0 bottom-0 h-28 bg-gradient-to-t from-black/45 to-transparent"></div>
         </div>
