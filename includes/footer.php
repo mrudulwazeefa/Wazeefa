@@ -8,11 +8,11 @@
           <div class="flex flex-col gap-6 md:flex-row md:items-end md:justify-between">
             <h2
               class="max-w-2xl text-[1.7rem] sm:text-[2rem] font-light leading-[1.1] tracking-[-0.0em] md:text-[2.25rem] lg:text-[2.65rem]">
-              Let's Discuss Your Vision. With Us
+              Let's Build Your Next Digital Solution
             </h2>
-            <a href="contact.php"
+            <a href="contact-us.php"
               class="inline-flex items-center gap-3 py-2 text-sm text-white transition hover:translate-x-0 underline decoration-white/60 hover:decoration-white transition-all underline-offset-[6px] transition-colors duration-300 shrink-0">
-              <span>Talk to Our Team</span>
+              <span>Connect With Our Experts</span>
               <svg viewBox="0 0 24.02 15.27" class="h-4 w-4" fill="none" stroke="currentColor" stroke-width="1.8">
                 <path d="M0,12H21.75" transform="translate(0 -4.36)" />
                 <path d="M15.75,5l7,7-7,7" transform="translate(0 -4.36)" />
@@ -36,14 +36,16 @@
                   Development</a>
                 <a href="mobile-application-development.php" class="block transition font-light text-white/80 hover:text-white">Mobile App
                   Development</a>
+                <a href="software-development.php" class="block transition font-light text-white/80 hover:text-white">Software
+                  Development</a>
               </div>
               <div class="space-y-3">
                 <a href="cms-development.php" class="block transition font-light text-white/80 hover:text-white">CMS
                   Development</a>
                 <a href="digital-marketing.php" class="block transition font-light text-white/80 hover:text-white">Digital
                   Marketing</a>
-                <a href="software-development.php" class="block transition font-light text-white/80 hover:text-white">Software
-                  Development</a>
+                <a href="branding.php" class="block transition font-light text-white/80 hover:text-white">Branding</a>
+                
               </div>
             </div>
           </div>
@@ -53,9 +55,9 @@
               Company
             </p>
             <div class="mt-5 space-y-3 text-[15px] text-white/75">
-              <a href="about.php" class="block transition font-light text-white/80 hover:text-white">About</a>
+              <a href="about-us.php" class="block transition font-light text-white/80 hover:text-white">About Us</a>
               <a href="career.php" class="block transition font-light text-white/80 hover:text-white">Careers</a>
-              <a href="contact.php" class="block transition font-light text-white/80 hover:text-white">Contact</a>
+              <a href="contact-us.php" class="block transition font-light text-white/80 hover:text-white">Contact</a>
             </div>
           </div>
 
@@ -64,10 +66,10 @@
               Get in Touch
             </p>
             <div class="mt-5 space-y-3 text-[15px] text-white/75">
-              <p class="block text-white/80 text-md font-light">First Floor, Rajamalli Building
+              <a href="https://maps.app.goo.gl/uULrVFUpHjGgXVwc7" target="_blank" class="block text-white/80 text-md font-light">First Floor, Rajamalli Building
                 Infopark Thrissur
                 Koratty P.O, Thrissur – 680308
-                Kerala, India.</p>
+                Kerala, India.</a>
               <div
                 class="flex w-full text-sm justify-start gap-3 items-center flex-row [@media(min-width:1017px)_and_(max-width:1147px)]:flex-col [@media(min-width:1017px)_and_(max-width:1147px)]:items-start [@media(min-width:1017px)_and_(max-width:1147px)]:gap-1">
                 <a href="tel:+914872970765" class="block transition font-light text-white/80 hover:text-white">
@@ -77,8 +79,8 @@
                   +91 9188339903
                 </a>
               </div>
-              <a href="mailto:info@wazeefa.in" class="block transition font-light text-white/80 hover:text-white">Email :
-                info@wazeefa.in</a>
+              <A HREF="&#109;&#97;&#105;&#108;&#116;&#111;&#58;%69%6E%66%6F%40%77%61%7A%65%65%66%61%2C%69%6E" class="block transition font-light text-white/80 hover:text-white">Email :
+                info@wazeefa.in</A>
             </div>
           </div>
 

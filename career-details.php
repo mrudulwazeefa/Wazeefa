@@ -8,7 +8,7 @@
 ?>
 <?php include 'includes/google-tag-manager.php';
 ?>
-<?php include 'includes/meta/job-details.php';
+<?php include 'includes/meta/branding.php';
 ?>
 </head>
 
@@ -38,21 +38,21 @@ unset( $_SESSION[ 'flash' ] );
 <span>/</span>
 <a href = 'career.php' class = 'hover:text-black'>Careers</a>
 <span>/</span>
-<span id = 'dynamicBreadcrumb' class = 'text-black font-medium'>Loading...</span>
+<span id = 'dynamicBreadcrumb' class = 'text-black font-normal'>Loading...</span>
 </nav>
 
 <div class = 'bg-white py-4'>
-<h2 id = 'dynamicJobTitle'
+<h1 id = 'dynamicJobTitle'
 
 class = 'text-[2.2rem] leading-[1.05] tracking-[-0.0em] text-black sm:text-[3rem] md:text-[3.4rem]'>
 Loading...
-</h2>
+</h1>
 
 <div class = 'mt-2 lg:mt-7 grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-8'>
 <div class = 'flex flex-span gap-4 order-2 justify-start lg:order-1'>
 <a href = '#'
 
-class = 'apply-now-btn inline-flex items-center justify-center bg-black px-5 py-2.5 text-sm font-medium text-white transition hover:bg-green-800'>
+class = 'apply-now-btn inline-flex items-center justify-center bg-black px-5 py-2.5 text-sm font-normal text-white transition hover:bg-green-800'>
 Apply Now
 </a>
 <a href = 'https://wa.me/919188339903?text=Hello'
@@ -79,17 +79,17 @@ Loading...
 </div>
 
 <div class = 'mt-14'>
-<h3 class = 'text-[1.5rem] leading-[1.05] font-medium text-black'>Responsibilities</h3>
+<h3 class = 'text-[1.5rem] leading-[1.05] font-normal text-black'>Responsibilities</h3>
 <ul id = 'dynamicJobResponsibilities' class = 'mt-6 space-y-2 text-[15px] leading-7 text-black/80'></ul>
 </div>
 
 <div class = 'mt-14'>
-<h3 class = 'text-[1.5rem] leading-[1.05] font-medium text-black'>Requirements</h3>
+<h3 class = 'text-[1.5rem] leading-[1.05] font-normal text-black'>Requirements</h3>
 <ul id = 'dynamicJobRequirements' class = 'mt-6 space-y-2 text-[15px] leading-7 text-black/80'></ul>
 </div>
 
 <div class = 'mt-14'>
-<h3 class = 'text-[1.5rem] leading-[1.05] font-medium text-black'>
+<h3 class = 'text-[1.5rem] leading-[1.05] font-normal text-black'>
 Excited to Meet You
 </h3>
 
@@ -114,7 +114,7 @@ class = 'fixed top-[76px] md:top-auto md:bottom-0 left-0 right-0 z-[10000] bg-[#
 <div class = 'mx-auto max-w-5xl flex items-center justify-between gap-3'>
 
 <div class = 'flex-1 min-w-0'>
-<h3 class = 'text-[1.3rem] sm:text-[1.5rem] md:text-[1.5rem] font-medium truncate'>Ready to Join <span class = 'hidden sm:inline'>Our Team</span>?</h3>
+<h3 class = 'text-[1.3rem] sm:text-[1.5rem] md:text-[1.5rem] font-normal truncate'>Ready to Join <span class = 'hidden sm:inline'>Our Team</span>?</h3>
 <p class = 'text-[0.7rem] sm:text-[0.8rem] md:text-sm text-white/70 mt-0.5 truncate'>
 Apply for UI/UX Designer
 </p>
@@ -134,7 +134,7 @@ aria-hidden = 'true'>
 </a>
 <a href = '#'
 
-class = 'apply-now-btn inline-flex items-center justify-center px-4 py-2 md:px-5 md:py-2.5 text-xs md:text-sm font-medium text-white bg-white/10 backdrop-blur-md border border-white/20 hover:bg-white/20 transition whitespace-nowrap'>
+class = 'apply-now-btn inline-flex items-center justify-center px-4 py-2 md:px-5 md:py-2.5 text-xs md:text-sm font-normal text-white bg-white/10 backdrop-blur-md border border-white/20 hover:bg-white/20 transition whitespace-nowrap'>
 Apply Now
 </a>
 </div>
@@ -164,7 +164,7 @@ class = 'flex h-9 w-9 p-2 items-center justify-center rounded-full text-gray-400
 <form id = 'applicationForm' class = 'space-y-4' action = 'send-application.php' method = 'post' enctype = 'multipart/form-data'>
 <div class = 'grid gap-4 sm:grid-cols-2'>
 <div>
-<!-- <label class = 'block text-sm font-medium text-black/80 mb-1'
+<!-- <label class = 'block text-sm font-normal text-black/80 mb-1'
 >First Name</label
 > -->
 <input type = 'text' name = 'firstName' required placeholder = 'First name'
@@ -172,9 +172,6 @@ class = 'flex h-9 w-9 p-2 items-center justify-center rounded-full text-gray-400
 class = 'h-12 w-full border border-black/8 bg-white px-4 text-sm text-black outline-none transition placeholder:text-black/28 focus:border-black/18' />
 </div>
 <div>
-<!-- <label class = 'block text-sm font-medium text-black/80 mb-1'
->Last Name</label
-> -->
 <input type = 'text' name = 'lastName' required placeholder = 'Last name'
 
 class = 'h-12 w-full border border-black/8 bg-white px-4 text-sm text-black outline-none transition placeholder:text-black/28 focus:border-black/18' />
@@ -183,18 +180,11 @@ class = 'h-12 w-full border border-black/8 bg-white px-4 text-sm text-black outl
 
 <div class = 'grid gap-4 sm:grid-cols-2'>
 <div>
-<!-- <label class = 'block text-sm font-medium text-black/80 mb-1'
->Email</label
-> -->
 <input type = 'email' name = 'email' required placeholder = 'Your email'
 
 class = 'h-12 w-full border border-black/8 bg-white px-4 text-sm text-black outline-none transition placeholder:text-black/28 focus:border-black/18' />
 </div>
-
 <div>
-<!-- <label class = 'block text-sm font-medium text-black/80 mb-1'
->Phone Number</label
-> -->
 <input type = 'tel' name = 'phone_national' data-intl-tel-input = 'in' required placeholder = 'Phone number' pattern = '[0-9]*' inputmode = 'numeric'
 
 class = 'h-12 w-full border border-black/8 bg-white px-4 text-sm text-black outline-none transition placeholder:text-black/28 focus:border-black/18' />
@@ -202,31 +192,12 @@ class = 'h-12 w-full border border-black/8 bg-white px-4 text-sm text-black outl
 </div>
 
 <div class = 'grid gap-4 sm:grid-cols-2'>
-<!-- <div>
-<label class = 'block text-sm font-medium text-black/80 mb-1'
->Country</label
->
-<input
-type = 'text'
-name = 'country'
-required
-placeholder = 'Country'
-
-class = 'h-12 w-full border border-black/8 bg-white px-4 text-sm text-black outline-none transition placeholder:text-black/28 focus:border-black/18'
-/>
-</div> -->
 <div>
-<!-- <label class = 'block text-sm font-medium text-black/80 mb-1'
->State</label
-> -->
 <input type = 'text' name = 'state' required placeholder = 'State'
 
 class = 'h-12 w-full border border-black/8 bg-white px-4 text-sm text-black outline-none transition placeholder:text-black/28 focus:border-black/18' />
 </div>
 <div>
-<!-- <label class = 'block text-sm font-medium text-black/80 mb-1'
->Place</label
-> -->
 <input type = 'text' name = 'place' required placeholder = 'Place'
 
 class = 'h-12 w-full border border-black/8 bg-white px-4 text-sm text-black outline-none transition placeholder:text-black/28 focus:border-black/18' />
@@ -235,9 +206,6 @@ class = 'h-12 w-full border border-black/8 bg-white px-4 text-sm text-black outl
 
 <div class = 'grid gap-4 sm:grid-cols-2'>
 <div>
-<!-- <label class = 'block text-sm font-medium text-black/80 mb-1'
->Applying for</label
-> -->
 <div class = 'relative'>
 <select name = 'applyingFor' required
 
@@ -259,7 +227,7 @@ clip-rule = 'evenodd' />
 </div>
 
 <div>
-<!-- <label class = 'block text-sm font-medium text-black/80 mb-1'
+<!-- <label class = 'block text-sm font-normal text-black/80 mb-1'
 >Years of Experience</label
 > -->
 <div class = 'relative'>

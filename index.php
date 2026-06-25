@@ -25,24 +25,32 @@
                     <div class="grid items-end gap-12 lg:grid-cols-[minmax(0,1.2fr)_minmax(280px,0.2fr)] mb-[8vh] sm:mb-[auto]">
                         <div class="max-w-[700px]">
                             <div class="overflow-hidden">
-                                <p class="mb-4 text-xs font-light uppercase tracking-[0.2em] text-white/45">Stay ahead of trend</p>
+                                <p class="mb-4 text-xs font-light uppercase tracking-[0.2em] text-white/45">Digital Solutions For Growth</p>
                                 <h1 id="headline" class="slide-copy text-[2.2rem] font-light leading-[1.1em] tracking-[-0.00em] sm:text-[3rem] md:text-[3rem] lg:text-[4.1rem]">
                                     Empowering Your Business Through
                                     <span id="headlineRotator" class="headline-rotator font-light">Mobile App Development</span>
                                 </h1>
+                                <a href="services.php" class="job-view-link inline-flex items-center md:justify-center gap-3 border border-white/20 bg-transparent hover:bg-white/10 md:px-4 md:py-3 text-sm font-light text-white hover:text-text transition w-fit px-4 py-3 mt-6 hidden lg:inline-flex">
+                                    <span>Talk to Our Team</span>
+                                    <svg viewBox = "0 0 24.02 15.27" class = "h-4 w-4" fill = "none" stroke = "currentColor" stroke-width = "1.8">
+                                    <path d = "M0,12H21.75" transform = "translate(0 -4.36)" />
+                                    <path d = "M15.75,5l7,7-7,7" transform = "translate(0 -4.36)" />
+                                    </svg>
+                                </a>
                             </div>
-                            <div class="mt-[20vh] flex items-center gap-5 text-sm text-white/85 hidden lg:flex">
-                                <div class="relative h-px w-28 bg-white/10 overflow-hidden rounded-full sm:w-44">
+                            <div class="mt-[10vh] flex items-center gap-5 text-sm text-white/85 hidden lg:flex">
+                                <div class="relative h-px w-28 bg-white/5 overflow-hidden rounded-full sm:w-44">
                                     <div id="heroProgressLine" class="absolute inset-y-0 left-0 w-0 rounded-full bg-white/70"></div>
                                 </div>
                                 <span id="counter">01/05</span>
+                                
                             </div>
                         </div>
                         <div class="max-w-sm pb-2 lg:justify-self-end">
-                            <div class="slide-copy flex flex-col gap-3 text-sm text-white/80 lg:text-[1rem] uppercase font-normal tracking-[0em] leading-[1.1em] mb-[6vh]">
+                            <div class="slide-copy flex flex-col gap-3 text-sm text-white/80 lg:text-[1rem] uppercase font-light tracking-[0em] leading-[1.1em] mb-[6vh]">
                                 <div class="line-mask-wrap">
                                     <div class="line-mask-content flex items-center gap-3">
-                                        <div class="w-[40px] h-[40px]">
+                                        <div class="w-[35px] h-[35px]">
                                             <svg id="svg-stage" viewBox="0 0 248 248" class="w-full h-full">
                                                 <g class="group2">
                                                     <image href="assets/images/icon-1.png" mask="url(#g2_mask)" />
@@ -69,24 +77,31 @@
                                                 </mask>
                                             </svg>
                                         </div>
-                                        <span class="block">Decade of Expertise</span>
+                                        <span class="block">Decade Of Expertise</span>
                                     </div>
                                 </div>
                             </div>
                             <div class="overflow-hidden">
                                 <p id="description" class="slide-copy line-mask-content text-sm leading-5 text-white/80 sm:text-base font-light">
-                                    We provide IT solutions and services for your business that can help your business thrive.
+                                We deliver custom digital solutions that help businesses grow, engage customers, and achieve measurable results.
                                 </p>
                             </div>
                             <div class="mt-8 overflow-hidden">
-                                <a id="cta" href="contact.php" class="slide-copy line-mask-content inline-flex items-center gap-3 text-sm font-light text-white transition-colors duration-300 hover:text-accent">
-                                    <span>Connect with us</span>
+                                <a id="cta" href="about-us.php" class="slide-copy line-mask-content inline-flex items-center gap-3 text-sm font-light text-white transition-colors duration-300 hover:text-accent hidden lg:inline-flex">
+                                    <span>Explore Our Story</span>
                                     <span>
-                                        <svg class="h-5 w-5 transition-transform duration-300 group-hover:translate-x-1" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" style="opacity: 0.8;">
-                                            <path d="M5 12h14"></path>
-                                            <path d="M13 5l7 7-7 7"></path>
-                                        </svg>
+                                        <svg viewBox = "0 0 24.02 15.27" class = "h-4 w-4" fill = "none" stroke = "currentColor" stroke-width = "1.8">
+                                    <path d = "M0,12H21.75" transform = "translate(0 -4.36)" />
+                                    <path d = "M15.75,5l7,7-7,7" transform = "translate(0 -4.36)" />
+                                    </svg>
                                     </span>
+                                </a>
+                                <a href="services.php" class="job-view-link inline-flex items-center md:justify-center gap-3 border border-white/20 bg-transparent hover:bg-white/10 md:px-4 md:py-3 text-sm font-light text-white hover:text-text transition w-fit px-4 py-3 mt-6 inline-flex lg:hidden">
+                                    <span>Talk to Our Team</span>
+                                    <svg viewBox = "0 0 24.02 15.27" class = "h-4 w-4" fill = "none" stroke = "currentColor" stroke-width = "1.8">
+                                    <path d = "M0,12H21.75" transform = "translate(0 -4.36)" />
+                                    <path d = "M15.75,5l7,7-7,7" transform = "translate(0 -4.36)" />
+                                    </svg>
                                 </a>
                             </div>
                         </div>
@@ -99,26 +114,26 @@
             <div class="max-w-6xl mx-auto w-full relative z-20 text-center">
                 <div id="aboutContent">
                     <p id="aboutLabel" class="text-xs text-white/40 mb-4 sm:mb-6 uppercase tracking-[0.3em]">About Us</p>
-                    <h2 id="aboutHeading" class="text-3xl sm:text-3xl md:text-4xl lg:text-[3.2rem] font-light leading-[1.1] lg:leading-[1.1em] tracking-[-0.0em] max-w-2xl lg:max-w-[48rem] mx-auto text-white/90">
-                        We build sharp digital products with strategy, motion, and clean execution.
+                    <h2 id="aboutHeading" class="text-3xl sm:text-3xl md:text-4xl lg:text-[3.2rem] font-light leading-[1.1] lg:leading-[1.1em] tracking-[-0.0em] max-w-[30rem] sm:max-w-[30rem] md:max-w-[35rem] lg:max-w-[48rem] mx-auto text-white/90">
+                        We build sharp digital products with strategy and clean execution.
                     </h2>
                     <div id="aboutParagraph" class="mt-4 sm:mt-6 md:mt-8 text-white/60 text-sm sm:text-base md:text-lg font-light max-w-2xl md:max-w-3xl hidden md:block mx-auto">
                         <span class="about-line-wrap">
-                            <span class="about-line">Our team blends product thinking, visual design, and engineering to create websites,</span>
+                            <span class="about-line">We focus on performance, intuitive experiences, and purposeful design to create digital</span>
                         </span>
                         <span class="about-line-wrap">
-                            <span class="about-line">apps, and digital systems that feel premium from the first scroll to the final click.</span>
+                            <span class="about-line">products that look refined, engage users, and deliver results.</span>
                         </span>
                     </div>
 
                     <div class="md:hidden mt-4 sm:mt-6 text-white/60 text-sm sm:text-base font-light max-w-2xl mx-auto">
                         <span class="about-line-wrap">
-                            <span class="about-line">Our team blends product thinking, visual design, and engineering to create websites, apps, and digital systems that feel premium from the first scroll to the final click.</span>
+                            <span class="about-line">We combine strategy, design, and engineering to create websites, apps, and digital solutions that deliver seamless experiences and measurable business results.</span>
                         </span>
                     </div>
 
                     <div id="aboutCta" class="about-cta z-10 pt-4 sm:pt-6">
-                        <a href="about.php" class="discover-link inline-flex items-center gap-3 text-sm font-light text-white/60 transition-colors duration-300 hover:text-accent underline underline-offset-4">
+                        <a href="about-us.php" class="discover-link inline-flex items-center gap-3 text-sm font-light text-white/60 transition-colors duration-300 hover:text-accent underline underline-offset-4">
                             <span id="aboutCtaText">Discover more</span>
                         </a>
                     </div>
@@ -164,7 +179,7 @@
                                     <path class="top-3" d="m89.99,24.97l-3.68,3.35s2.09,2.4,4.82,5.38h6.14c-3.91-5.58-7.29-8.73-7.29-8.73Z"/>
                                 </svg>
                                 
-                                <svg id="iconCenter" viewBox="0 0 113 41.47" class="brand-logo-icon max-w-[75%] sm:max-w-[67%] md:max-w-[68%]">
+                                <svg id="iconCenter" viewBox="0 0 113 41.47" class="brand-logo-icon mt-[-0.026rem] max-w-[75%] sm:max-w-[67%] md:max-w-[68%]">
                                     <defs>
                                         <style>
                                             .center-1 { fill: url(#linear-gradient-center); }
@@ -185,7 +200,7 @@
                                     <path class="center-3" d="m23.05,0H4.54c-2.51,16.4,2.89,30.8,9.35,41.47h23.4C22.57,23.89,21.11,10.49,23.05,0Z"/>
                                 </svg>
                                 
-                                <svg id="iconBottom" viewBox="0 0 113 35.33" class="brand-logo-icon max-w-[75%] sm:max-w-[67%] md:max-w-[68%]">
+                                <svg id="iconBottom" viewBox="0 0 113 35.33" class="brand-logo-icon mt-[-0.026rem] max-w-[75%] sm:max-w-[67%] md:max-w-[68%]">
                                     <defs>
                                         <style>
                                             .bottom-1 { fill: url(#linear-gradient-bottom); }
@@ -214,17 +229,17 @@
                         <div id="leftRevealContent" class="relative md:absolute md:left-6 md:bottom-24 max-w-[20rem] sm:max-w-[24rem] md:max-w-[42rem] lg:max-w-[48rem] text-center md:text-left mt-2 sm:mt-14">
                             <div class="left-reveal-wrap mb-5 md:mb-9">
                                 <p class="left-reveal-line text-white/30 text-[10px] sm:text-xs font-light uppercase tracking-widest mb-1 sm:mb-3">
-                                    Empowering Your
+                                    Digital Solutions For Growth
                                 </p>
                             </div>
                             <div class="left-reveal-wrap mb-0">
                                 <h2 class="left-reveal-line lg:whitespace-nowrap text-[2.15rem] sm:text-3xl md:text-[2.2rem] lg:text-[3.2rem] font-light leading-[1.1] sm:leading-[1.1em] tracking-[0em]">
-                                    Business Through
+                                    Technology That
                                 </h2>
                             </div>
                             <div class="left-reveal-wrap">
                                 <h2 class="left-reveal-line lg:whitespace-nowrap text-[2.15rem] sm:text-3xl md:text-[2.2rem] lg:text-[3.2rem] font-light leading-[1.1] sm:leading-[1.1em] tracking-[0em] mb-0">
-                                    with us
+                                    Drives Growth
                                 </h2>
                             </div>
                         </div>
@@ -241,15 +256,15 @@
                             <div id="verticalText">
                                 <div id="verticalTextInner">
                                     <h4 class="stat-h4 active">
-                                        <span class="stat-number">11+</span>
+                                        <span class="stat-number">10+</span>
                                         <span class="stat-label max-w-full sm:max-w-full md:max-w-[118px] lg:max-w-[120px]">Years of Experience</span>
                                     </h4>
                                     <h4 class="stat-h4">
-                                        <span class="stat-number">900+</span>
+                                        <span class="stat-number">100+</span>
                                         <span class="stat-label max-w-full sm:max-w-full md:max-w-[118px] lg:max-w-[120px]">Successful Stories</span>
                                     </h4>
                                     <h4 class="stat-h4">
-                                        <span class="stat-number">600+</span>
+                                        <span class="stat-number">150+</span>
                                         <span class="stat-label max-w-full sm:max-w-full md:max-w-[118px] lg:max-w-[120px]">International Clients</span>
                                     </h4>
                                     <h4 class="stat-h4">
@@ -269,11 +284,11 @@
                     <span class="grid h-5 w-5 place-items-center">
                         <img id="rotatingIcon" src="assets/images/logo.png" class="w-full h-full object-contain" alt="">
                     </span>
-                    <span class="text-waz tracking-tight">Building smart IT solutions for business growth.</span>
+                    <span class="text-waz tracking-tight">Building digital solutions for business growth.</span>
                 </div>
                 <div class="about-subtext-actions flex items-center gap-3">
-                    <a href="contact.php" class="px-5 py-2 rounded-full bg-white text-black text-sm font-medium transition-all duration-300 hover:bg-black hover:text-white">Let’s Build</a>
-                    <a href="https://wa.me/919188339903?text=Hello" aria-label="WhatsApp" class="rounded-full text-white h-9 w-9 flex items-center justify-center transition-colors duration-300 hover:bg-white/20 border border-white/20">
+                    <a href="contact-us.php" class="px-5 py-2 rounded-full bg-white text-black text-sm font-medium transition-all duration-300 hover:bg-black hover:text-white">Let’s Build</a>
+                    <a href="https://wa.me/919188339903?text=Hello" aria-label="WhatsApp" class="rounded-full text-white border border-white/20 h-9 w-9 flex items-center justify-center transition-colors duration-300 hover:bg-white/20 ">
                         <svg class="" style="display:inline-block;vertical-align:middle" width="18" height="18" fill="currentColor" viewBox="0 0 1004 1024" xmlns="http://www.w3.org/2000/svg">
                             <path d="M169.592 91.056c33.181 0.769 63.036 14.398 84.898 36.076l-0.009-0.008 97.317 97.317c24.222 21.501 39.41 52.717 39.41 87.481 0 1.438-0.026 2.87-0.078 4.296l0.006-0.206c-2.903 31.857-18.963 59.471-42.63 77.69l-0.259 0.192-1.588 1.215c-15.963 8.928-26.577 25.726-26.577 45.004 0 4.29 0.526 8.458 1.516 12.441l-0.074-0.354 0.748 2.57c1.822 7.335 13.409 36.395 85.73 103.531 40.427 37.149 84.049 73.139 129.538 106.748l4.313 3.043c6.417 4.36 14.335 6.961 22.861 6.961 0.027 0 0.055-0 0.082-0l-0.004 0c19.28-1.512 36.381-9.79 49.156-22.432l-0.007 0.007 19.482-19.482c14.211-14.425 33.958-23.362 55.793-23.362 0.227 0 0.453 0.001 0.679 0.003l-0.035-0c35.789 2.747 67.406 18.673 90.392 42.875l0.057 0.060 97.083 97.457c22.126 20.895 35.9 50.431 35.9 83.184s-13.774 62.29-35.845 83.133l-0.055 0.052-58.399 58.399c-26.076 27.807-62.038 46.071-102.249 49.163l-0.534 0.033h-2.616l-2.616-0.374c-530.034-80.498-696.823-502.095-710.932-713.829v-2.336c-0.068-1.99-0.107-4.329-0.107-6.676 0-51.489 18.625-98.628 49.506-135.046l-0.25 0.303 38.917-38.917c20.475-21.833 49.311-35.613 81.371-36.206l0.108-0.002zM306.434 337.642c7.943-6.378 13.374-15.601 14.742-26.101l0.021-0.202c-0.735-15.121-7.935-28.425-18.873-37.301l-0.095-0.075-97.317-97.27c-9.166-8.984-21.504-14.763-35.181-15.505l-0.139-0.006c-12.772 0.627-24.064 6.483-31.863 15.456l-0.047 0.055-38.917 38.917c-17.959 23.533-28.775 53.357-28.775 85.707 0 1.766 0.032 3.525 0.096 5.276l-0.007-0.253c13.362 192.204 165.668 572.502 648.047 647.3 20.419-4.187 38.001-14.325 51.346-28.497l0.046-0.049 58.353-58.119c9.343-8.243 15.206-20.244 15.206-33.615s-5.863-25.371-15.158-33.573l-0.049-0.042-97.317-97.317c-10.592-11.333-24.618-19.337-40.414-22.351l-0.466-0.074c-0.14-0.008-0.304-0.013-0.47-0.013-2.572 0-4.876 1.142-6.436 2.945l-0.009 0.011-19.482 19.482c-25.37 25.409-60.011 41.555-98.415 42.928l-0.256 0.007c-0.051 0-0.111 0-0.172 0-23.204 0-44.74-7.144-62.528-19.352l0.376 0.244-1.168-0.794c-37.376-27.097-223.553-166.088-246.633-252.286-2.883-9.86-4.541-21.188-4.541-32.903 0-42.981 22.323-80.748 56.008-102.34l0.485-0.291z"></path>
                             <path d="M848.708 502.189h-70.079c-0.159-152.593-123.804-276.254-276.375-276.44l-0.018-0v-70.079c191.272 0.239 346.26 155.244 346.472 346.499l0 0.020z"></path>
@@ -284,7 +299,7 @@
             </div>
         </section>
 
-        <section id="serviceSection" class="relative z-30 px-5 py-16 text-black sm:px-8 md:px-12 md:pt-15 md:pb-10 lg:px-16 transition-colors duration-700 ease-out">
+        <section id="serviceSection" class="relative z-30 px-5 py-16 text-black sm:px-8 md:px-12 md:pt-15 md:pb-10 lg:px-16 bg-white transition-colors duration-700 ease-out">
             <svg style="position: absolute; width: 0; height: 0; pointer-events: none;" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
                 <filter id="waterFlow">
                     <feTurbulence type="fractalNoise" baseFrequency="0.02" numOctaves="3" result="noise" />
@@ -296,28 +311,29 @@
                 <p class="mb-4 text-xs font-semibold uppercase tracking-[0.2em] text-black/45">Services</p>
                 <div class="grid gap-5 md:gap-6">
                     <div class="flex flex-col gap-5 sm:flex-row md:flex-row sm:items-start md:items-start sm:justify-between md:justify-between md:gap-8">
-                        <h2 id="serviceHeading" class="max-w-[22rem] text-[33px] font-light leading-[1.2] tracking-[-0.035em] text-left text-black sm:max-w-[28rem] sm:text-4xl md:max-w-[31rem] md:text-5xl md:leading-[1.15] md:tracking-[-0.0em] lg:max-w-[37rem] lg:text-[3.5rem] lg:leading-[1.1]">
-                            Digital services designed for business growth.
+                        <h2 id="serviceHeading" class="max-w-[22rem] text-[33px] font-light leading-[1.2] tracking-[-0.035em] text-left text-black sm:max-w-[28rem] sm:text-4xl md:max-w-[31rem] md:text-4xl md:leading-[1.15] md:tracking-[-0.0em] lg:max-w-[39rem] lg:text-[3.2rem] lg:leading-[1.1]">
+                            Digital Services Designed for Business Growth
                         </h2>
-                        <a href="service.php" aria-label="Go to service showcase" class="group hidden h-12 w-12 items-center justify-center sm:inline-flex">
-                            <svg viewBox="0 0 24.02 15.27" class="h-4 w-4 text-black transition-colors duration-300 hover:text-gray-500" fill="none" stroke="currentColor" stroke-width="1.8">
-                                <path d="M0,12H21.75" transform="translate(0 -4.36)" />
-                                <path d="M15.75,5l7,7-7,7" transform="translate(0 -4.36)" />
-                            </svg>
-                        </a>
-                        
+                        <a href="services.php" aria-label="Go to service showcase"
+                        class="job-view-link inline-flex items-center md:justify-center gap-2 border border-black/20 bg-transparent hover:bg-black md:px-4 md:py-3 text-sm font-medium text-black hover:text-white transition w-fit px-4 py-3 hidden md:inline-flex">
+                        <span>View All Services</span>
+                        <svg viewBox="0 0 24.02 15.27" class="h-4 w-4" fill="none" stroke="currentColor" stroke-width="1.8">
+                            <path d="M0,12H21.75" transform="translate(0 -4.36)" />
+                            <path d="M15.75,5l7,7-7,7" transform="translate(0 -4.36)" />
+                        </svg>
+                        </a>    
                     </div>
 
                     <p class="max-w-lg text-sm leading-6 text-black/65 md:hidden">
-                        We offer web, eCommerce, app, CMS, digital marketing, and software solutions focused on delivering results that delight our clients.
+                        We deliver web development, Ecommerce, mobile app, CMS, software, and digital marketing solutions designed to help businesses grow and succeed online.
                     </p>
 
-                    <div id="serviceParagraph" class="hidden max-w-[36rem] text-black/65 md:block md:text-[17px] md:leading-7 lg:text-md lg:leading-7">
+                    <div id="serviceParagraph" class="hidden max-w-[45rem] text-black/65 md:block md:text-[17px] md:leading-7 lg:text-md lg:leading-7">
                         <div class="overflow-hidden">
-                            <span class="service-line block">We offer web, eCommerce, app, CMS, digital marketing, and</span>
+                            <span class="service-line block">We deliver web development, Ecommerce, mobile app, CMS, software, and digital marketing solutions designed to help businesses grow and succeed online.</span>
                         </div>
                         <div class="overflow-hidden">
-                            <span class="service-line block">software solutions focused on delivering results that delight our clients.</span>
+                            <span class="service-line block"></span>
                         </div>
                     </div>
 
@@ -333,11 +349,11 @@
                                 <div class="feature-visual-frame absolute inset-0 w-full h-full bg-black/5 overflow-hidden shadow-lg">
                                     <figure class="feature-primary-visual absolute inset-0">
                                         <video class="h-full w-full object-cover" autoplay muted loop playsinline>
-                                            <source src="assets/video/web.mp4" type="video/mp4">
+                                            <source src="assets/video/website.mp4" type="video/mp4">
                                         </video>
                                     </figure>
                                     <figure class="feature-primary-visual absolute inset-0">
-                                        <img src="https://mir-s3-cdn-cf.behance.net/projects/max_808_webp/d754be230511570.Y3JvcCwxOTIxLDE1MDMsNCww.jpg" class="h-full w-full object-cover" />
+                                        <img src="assets/images/ecommerce-showcase.jpg" class="h-full w-full object-cover" />
                                     </figure>
                                     <figure class="feature-primary-visual absolute inset-0">
                                         <video class="h-full w-full object-cover" autoplay muted loop playsinline>
@@ -345,13 +361,26 @@
                                         </video>
                                     </figure>
                                     <figure class="feature-primary-visual absolute inset-0">
-                                        <img src="https://mir-s3-cdn-cf.behance.net/projects/max_808_webp/f850ce239041909.Y3JvcCwxOTM5LDE1MTYsMjczLDI0NA.jpg" class="h-full w-full object-cover" />
+                                        <img src="assets/images/cms-showcase.jpg" class="h-full w-full object-cover" />
                                     </figure>
-                                    <figure class="feature-primary-visual absolute inset-0">
+                                    <!-- <figure class="feature-primary-visual absolute inset-0">
                                         <img src="https://mir-s3-cdn-cf.behance.net/projects/max_808_webp/e85d2d246988107.Y3JvcCwyMDQ4LDE2MDEsMCwyMjM.png" class="h-full w-full object-cover" />
+                                    </figure> -->
+                                    <figure class="feature-primary-visual absolute inset-0">
+                                        <video class="h-full w-full object-cover" autoplay muted loop playsinline>
+                                            <source src="assets/video/digital.mp4" type="video/mp4">
+                                        </video>
                                     </figure>
                                     <figure class="feature-primary-visual absolute inset-0">
-                                        <img src="https://mir-s3-cdn-cf.behance.net/projects/max_808_webp/4aa307232271915.Y3JvcCwzMjMyLDI1MjgsOCww.jpg" class="h-full w-full object-cover" />
+                                        <img src="assets/images/software-showcase.jpg" class="h-full w-full object-cover" />
+                                    </figure>
+                                    <!-- <figure class="feature-primary-visual absolute inset-0">
+                                        <img src="https://cdn.dribbble.com/userupload/9635229/file/original-68a19ff59dde74663140996742801395.png?resize=1024x768&vertical=center" />
+                                    </figure> -->
+                                    <figure class="feature-primary-visual absolute inset-0">
+                                        <video class="h-full w-full object-cover" autoplay muted loop playsinline>
+                                            <source src="assets/video/branding.mp4" type="video/mp4">
+                                        </video>
                                     </figure>
                                 </div>
                             </div>
@@ -362,13 +391,13 @@
                                 <h3 class="text-3xl font-normal leading-[1.1] tracking-[-0.0em] text-black mb-3">Website Development</h3>
                                 <div class="max-w-sm text-base leading-6 text-black/65">
                                     <div class="overflow-hidden">
-                                        <span class="feature-service-copy-line">Offering clients an unmatched web</span>
+                                        <span class="feature-service-copy-line">Building responsive, high-performance</span>
                                     </div>
                                     <div class="overflow-hidden">
-                                        <span class="feature-service-copy-line">experience using advanced tools and</span>
+                                        <span class="feature-service-copy-line">websites that strengthen your brand,</span>
                                     </div>
                                     <div class="overflow-hidden">
-                                        <span class="feature-service-copy-line">technologies.</span>
+                                        <span class="feature-service-copy-line"> engage visitors, and support business growth.</span>
                                     </div>
                                 </div>
                                 <div class="mt-4 overflow-hidden">
@@ -380,13 +409,15 @@
                                 <h3 class="text-3xl font-normal leading-[1.1] tracking-[-0.0em] text-black mb-3">Ecommerce Development</h3>
                                 <div class="max-w-sm text-base leading-6 text-black/65">
                                     <div class="overflow-hidden">
-                                        <span class="feature-service-copy-line">Build your online store to reach new</span>
+                                        <span class="feature-service-copy-line">
+                                        Building Ecommerce platforms that
+                                        </span>
                                     </div>
                                     <div class="overflow-hidden">
-                                        <span class="feature-service-copy-line">markets with a fast, conversion-ready</span>
+                                        <span class="feature-service-copy-line">enhance customer experiences and</span>
                                     </div>
                                     <div class="overflow-hidden">
-                                        <span class="feature-service-copy-line">commerce experience.</span>
+                                        <span class="feature-service-copy-line">support business growth.</span>
                                     </div>
                                 </div>
                                 <div class="mt-4 overflow-hidden">
@@ -398,13 +429,13 @@
                                 <h3 class="text-3xl font-normal leading-[1.1] tracking-[-0.0em] text-black mb-3">Mobile App Development</h3>
                                 <div class="max-w-sm text-base leading-6 text-black/65">
                                     <div class="overflow-hidden">
-                                        <span class="feature-service-copy-line">Design and build polished cross-platform</span>
+                                        <span class="feature-service-copy-line">Designing intuitive mobile applications</span>
                                     </div>
                                     <div class="overflow-hidden">
-                                        <span class="feature-service-copy-line">mobile apps that keep customers</span>
+                                        <span class="feature-service-copy-line">that enhance user experiences, increase</span>
                                     </div>
                                     <div class="overflow-hidden">
-                                        <span class="feature-service-copy-line">engaged everywhere.</span>
+                                        <span class="feature-service-copy-line">engagement, and drive business value.</span>
                                     </div>
                                 </div>
                                 <div class="mt-4 overflow-hidden">
@@ -412,35 +443,38 @@
                                 </div>
                             </article>
 
-                            <article class="feature-service-step min-h-[60vh] flex flex-col justify-center" data-feature-index="3">
-                                <h3 class="text-3xl font-normal leading-[1.1] tracking-[-0.0em] text-black mb-3">SEO & Digital Marketing</h3>
+                            <article class="feature-service-step min-h-[60vh] flex flex-col justify-center" data-feature-index="2">
+                                <h3 class="text-3xl font-normal leading-[1.1] tracking-[-0.0em] text-black mb-3">CMS Development</h3>
                                 <div class="max-w-sm text-base leading-6 text-black/65">
                                     <div class="overflow-hidden">
-                                        <span class="feature-service-copy-line">Grow reach and performance through</span>
+                                        <span class="feature-service-copy-line">Developing flexible CMS solutions that</span>
                                     </div>
                                     <div class="overflow-hidden">
-                                        <span class="feature-service-copy-line">data-driven SEO, SEM, and content</span>
+                                        <span class="feature-service-copy-line">make content management simple,</span>
                                     </div>
                                     <div class="overflow-hidden">
-                                        <span class="feature-service-copy-line">marketing that genuinely converts.</span>
+                                        <span class="feature-service-copy-line">efficient, and scalable.</span>
                                     </div>
                                 </div>
                                 <div class="mt-4 overflow-hidden">
-                                    <a href="digital-marketing.php" class="feature-service-link text-sm text-black transition-colors duration-300 hover:text-accent font-medium inline-block">Discover More</a>
+                                    <a href="cms-development.php" class="feature-service-link text-sm text-black transition-colors duration-300 hover:text-accent font-medium inline-block">Discover More</a>
                                 </div>
                             </article>
 
-                            <article class="feature-service-step min-h-[60vh] flex flex-col justify-center" data-feature-index="4">
-                                <h3 class="text-3xl font-normal leading-[1.1] tracking-[-0.0em] text-black mb-3">SMM & Social Growth</h3>
+                            <article class="feature-service-step min-h-[60vh] flex flex-col justify-center" data-feature-index="3">
+                                <h3 class="text-3xl font-normal leading-[1.1] tracking-[-0.0em] text-black mb-3">Digital Marketing</h3>
                                 <div class="max-w-sm text-base leading-6 text-black/65">
                                     <div class="overflow-hidden">
-                                        <span class="feature-service-copy-line">Humanizing your brand through</span>
+                                        <span class="feature-service-copy-line">Driving visibility, engagement, and growth</span>
                                     </div>
                                     <div class="overflow-hidden">
-                                        <span class="feature-service-copy-line">social storytelling and viral</span>
+                                        <span class="feature-service-copy-line">through SEO, social media, content</span>
                                     </div>
                                     <div class="overflow-hidden">
-                                        <span class="feature-service-copy-line">performance marketing loops.</span>
+                                        <span class="feature-service-copy-line">marketing, and performance-driven</span>
+                                    </div>
+                                    <div class="overflow-hidden">
+                                        <span class="feature-service-copy-line">digital strategies.</span>
                                     </div>
                                 </div>
                                 <div class="mt-4 overflow-hidden">
@@ -452,110 +486,251 @@
                                 <h3 class="text-3xl font-normal leading-[1.1] tracking-[-0.0em] text-black mb-3">Software Development</h3>
                                 <div class="max-w-sm text-base leading-6 text-black/65">
                                     <div class="overflow-hidden">
-                                        <span class="feature-service-copy-line">Create adaptable custom software</span>
+                                        <span class="feature-service-copy-line">Building custom software solutions that</span>
                                     </div>
                                     <div class="overflow-hidden">
-                                        <span class="feature-service-copy-line">solutions that scale with your processes,</span>
+                                        <span class="feature-service-copy-line">streamline operations, improve efficiency,</span>
                                     </div>
                                     <div class="overflow-hidden">
-                                        <span class="feature-service-copy-line">users, and business goals.</span>
+                                        <span class="feature-service-copy-line">and scale with your business.</span>
                                     </div>
                                 </div>
                                 <div class="mt-4 overflow-hidden">
                                     <a href="software-development.php" class="feature-service-link text-sm text-black transition-colors duration-300 hover:text-accent font-medium inline-block">Discover More</a>
                                 </div>
                             </article>
+
+                            <article class="feature-service-step min-h-[60vh] flex flex-col justify-center" data-feature-index="4">
+                                <h3 class="text-3xl font-normal leading-[1.1] tracking-[-0.0em] text-black mb-3">Branding</h3>
+                                <div class="max-w-sm text-base leading-6 text-black/65">
+                                    <div class="overflow-hidden">
+                                        <span class="feature-service-copy-line">Developing strategic brand identities that</span>
+                                    </div>
+                                    <div class="overflow-hidden">
+                                        <span class="feature-service-copy-line">help businesses stand out, build trust,</span>
+                                    </div>
+                                    <div class="overflow-hidden">
+                                        <span class="feature-service-copy-line">and connect with the right audience.</span>
+                                    </div>
+                                </div>
+                                <div class="mt-4 overflow-hidden">
+                                    <a href="branding.php" class="feature-service-link text-sm text-black transition-colors duration-300 hover:text-accent font-medium inline-block">Discover More</a>
+                                </div>
+                            </article>
+
+
                         </div>
                     </div>
 
                     <div id="mobileServiceContainer" class="lg:hidden mt-8 overflow-hidden">
                         <div id="mobileServiceTrack">
                         </div>
+                        <a href="services.php" aria-label="Go to service showcase"
+                        class="job-view-link inline-flex items-center md:justify-center gap-2 border border-black/20 bg-transparent hover:bg-black md:px-4 md:py-3 text-sm font-medium text-black hover:text-white transition w-fit px-4 py-3 inline-flex md:hidden mt-5">
+                        <span>View All Services</span>
+                        <svg viewBox="0 0 24.02 15.27" class="h-4 w-4" fill="none" stroke="currentColor" stroke-width="1.8">
+                            <path d="M0,12H21.75" transform="translate(0 -4.36)" />
+                            <path d="M15.75,5l7,7-7,7" transform="translate(0 -4.36)" />
+                        </svg>
+                        </a> 
                     </div>
                 </div>
             </div>
         </section>
+         <section id="clientsSection" class="parallax-bg relative z-10 px-5 py-16 text-black sm:px-8 md:px-12 md:py-24 lg:px-16 lg:pb-15 lg:pt-13 transition-colors duration-700 ease-out overflow-hidden">
+  
+ <video 
+  id="bgVideo" 
+  muted 
+  playsinline 
+  class="absolute inset-0 -z-10 min-h-[105%] min-w-[105%] object-cover object-left-top">
+  <source src="assets/video/moon.mp4" type="video/mp4">
+</video>
 
-        <section id="clientsSection" class="parallax-bg relative z-10 bg-white px-5 py-16 text-black sm:px-8 md:px-12 md:py-24 lg:px-16 lg:py-15 bg-[#fafafa]">
+<div class="absolute inset-0 -z-10 min-h-[105%] min-w-[105%] bg-green-600 mix-blend-soft-light pointer-events-none"   mix-blend-color-burn mix-blend-overlay></div>
             <div class="mx-auto max-w-6xl">
-                <div class="grid gap-12 lg:grid-cols-full lg:items-start lg:gap-16">
-                    <div>
-                        <p class="mb-4 text-xs font-semibold uppercase tracking-[0.2em] text-black/45">Clients</p>
-                        <h2 id="clientHeading" class="max-w-[25rem] text-[33px] font-light leading-[1.2] tracking-[-0.035em] text-left text-black sm:max-w-[33rem] sm:text-4xl md:max-w-[43rem] md:text-5xl md:leading-[1.15] md:tracking-[-0.0em] lg:max-w-[40rem] lg:text-[3.5rem] lg:leading-[1.1]">
-                            Brands that trust us to build sharp digital experiences.
-                        </h2>
-                        <p class="mt-5 md:mt-8 text-sm leading-6 max-w-lg text-black/60 md:hidden">
-                            We're nothing without our clients. We work closely with a wide range of clients from different sectors and regions.
-                        </p>
-                        <div id="clientParagraph" class="mt-8 hidden max-w-[36rem] text-black/65 md:block md:text-[17px] md:leading-7 lg:text-md lg:leading-7">
-                            <div class="overflow-hidden">
-                                <span class="client-line block">We're nothing without our clients. We work closely with a wide range</span>
-                            </div>
-                            <div class="overflow-hidden">
-                                <span class="client-line block">of clients from different sectors and regions.</span>
-                            </div>
+                <p class="mb-4 text-xs font-semibold uppercase tracking-[0.2em] text-white/45">Clients</p>
+                <div class="grid gap-5 md:gap-6">
+                    <div class="flex flex-col gap-5 sm:flex-row md:flex-row sm:items-start md:items-start sm:justify-between md:justify-between md:gap-8">
+                        <div>
+                            <h2 id="clientHeading" class="max-w-[22rem] text-[33px] font-light leading-[1.2] tracking-[-0.035em] text-left text-white sm:max-w-[28rem] sm:text-4xl md:max-w-[31rem] md:text-4xl md:leading-[1.15] md:tracking-[-0.0em] lg:max-w-[42rem] lg:text-[3.2rem] lg:leading-[1.1]">Trusted by Businesses Across Multiple Industries</h2>
+                        </div>
+                        <a href="client.php" aria-label="Go to client showcase" class="job-view-link inline-flex items-center md:justify-center gap-2 border border-white/20 bg-transparent hover:bg-white md:px-4 md:py-3 text-sm font-medium text-white hover:text-black transition w-fit px-4 py-3 hidden md:inline-flex">
+                            <span>View All Clients</span>
+                            <svg viewBox="0 0 24.02 15.27" class="h-4 w-4" fill="none" stroke="currentColor" stroke-width="1.8">
+                                <path d="M0,12H21.75" transform="translate(0 -4.36)" />
+                                <path d="M15.75,5l7,7-7,7" transform="translate(0 -4.36)" />
+                            </svg>
+                        </a>
+                    </div>
+
+                    <p class="max-w-lg text-sm leading-6 text-white/60 md:hidden">
+                        We collaborate with organizations across multiple industries and regions, delivering digital solutions that enhance customer experiences, strengthen brands, and drive measurable business outcomes.
+                    </p>
+
+                    <div id="clientParagraph" class="hidden max-w-[45rem] text-white/65 md:block md:text-[17px] md:leading-7 lg:text-md lg:leading-7">
+                        <div class="overflow-hidden">
+                            <span class="client-line block">We collaborate with organizations across multiple industries and regions, delivering digital</span>
+                        </div>
+                        <div class="overflow-hidden">
+                            <span class="client-line block">solutions that enhance customer experiences, strengthen brands, and drive measurable</span>
+                        </div>
+                        <div class="overflow-hidden">
+                            <span class="client-line block">business outcomes.</span>
                         </div>
                     </div>
 
-                    <div class="grid grid-cols-2 md:grid-cols-6 lg:grid-cols-6 text-black border border-gray-200 bg-gray-200 gap-[1px] rounded-lg overflow-hidden">
-                        <div class="client-mark flex items-center justify-center bg-white min-h-[120px] p-6">
-                            <img src="assets/images/clients/aaa.jpg" alt="Client 1" class="w-[80%] max-w-[140px] object-contain opacity-90 transition-opacity duration-300 hover:opacity-100" />
-                        </div>
-                        <div class="client-mark flex items-center justify-center bg-white min-h-[120px] p-6">
-                            <img src="assets/images/clients/loanitol.jpg" alt="Client 2" class="w-[80%] max-w-[140px] object-contain opacity-90 transition-opacity duration-300 hover:opacity-100" />
-                        </div>
-                        <div class="client-mark flex items-center justify-center bg-white min-h-[120px] p-6">
-                            <img src="assets/images/clients/advance.jpg" alt="Client 3" class="w-[80%] max-w-[140px] object-contain opacity-90 transition-opacity duration-300 hover:opacity-100" />
-                        </div>
-                        <div class="client-mark flex items-center justify-center bg-white min-h-[120px] p-6">
-                            <img src="assets/images/clients/poweron.jpg" alt="Client 4" class="w-[80%] max-w-[140px] object-contain opacity-90 transition-opacity duration-300 hover:opacity-100" />
-                        </div>
-                        <div class="client-mark flex items-center justify-center bg-white min-h-[120px] p-6">
-                            <img src="assets/images/clients/rasi.jpg" alt="Client 5" class="w-[80%] max-w-[140px] object-contain opacity-90 transition-opacity duration-300 hover:opacity-100" />
-                        </div>
-                        <div class="client-mark flex items-center justify-center bg-white min-h-[120px] p-6">
-                            <img src="assets/images/clients/policysouq.jpg" alt="Client 6" class="w-[80%] max-w-[140px] object-contain opacity-90 transition-opacity duration-300 hover:opacity-100" />
-                        </div>
-                        <div class="client-mark flex items-center justify-center bg-white min-h-[120px] p-6">
-                            <img src="assets/images/clients/u-storage.jpg" alt="Client 7" class="w-[80%] max-w-[140px] object-contain opacity-90 transition-opacity duration-300 hover:opacity-100" />
-                        </div>
-                        <div class="client-mark flex items-center justify-center bg-white min-h-[120px] p-6">
-                            <img src="assets/images/clients/warid.jpg" alt="Client 8" class="w-[80%] max-w-[140px] object-contain opacity-90 transition-opacity duration-300 hover:opacity-100" />
-                        </div>
-                        <div class="client-mark flex items-center justify-center bg-white min-h-[120px] p-6">
-                            <img src="assets/images/clients/lakewood.jpg" alt="" class="w-[80%] max-w-[140px] object-contain opacity-90 transition-opacity duration-300 hover:opacity-100" />
-                        </div>
-                        <div class="client-mark flex items-center justify-center bg-white min-h-[120px] p-6">
-                            <img src="assets/images/clients/royal.jpg" alt="" class="w-[80%] max-w-[140px] object-contain opacity-90 transition-opacity duration-300 hover:opacity-100" />
-                        </div>
-                        <!--  -->
-                        <div class="client-mark flex items-center justify-center bg-white min-h-[120px] p-6">
-                            <img src="assets/images/clients/osoul.jpg" alt="" class="w-[80%] max-w-[140px] object-contain opacity-90 transition-opacity duration-300 hover:opacity-100" />
-                        </div>
-                        <div class="client-mark flex items-center justify-center bg-white min-h-[120px] p-6">
-                            <img src="assets/images/clients/usfood.jpg" alt="" class="w-[80%] max-w-[140px] object-contain opacity-90 transition-opacity duration-300 hover:opacity-100" />
-                        </div>
-                        <div class="client-mark flex items-center justify-center bg-white min-h-[120px] p-6">
-                            <img src="assets/images/clients/beefrus.jpg" alt="" class="w-[80%] max-w-[140px] object-contain opacity-90 transition-opacity duration-300 hover:opacity-100" />
-                        </div>
-                        <div class="client-mark flex items-center justify-center bg-white min-h-[120px] p-6">
-                            <img src="assets/images/clients/tekhive.jpg" alt="" class="w-[80%] max-w-[140px] object-contain opacity-90 transition-opacity duration-300 hover:opacity-100" />
-                        </div>
+                    <a href="" aria-label="Go to client showcase"
+                        class="job-view-link inline-flex items-center md:justify-center gap-2 border border-white/20 bg-transparent hover:bg-white md:px-4 md:py-3 text-sm font-medium text-white hover:text-black transition w-fit px-4 py-3 inline-flex md:hidden mt-5">
+                        <span>View All Clients</span>
+                        <svg viewBox="0 0 24.02 15.27" class="h-4 w-4" fill="none" stroke="currentColor" stroke-width="1.8">
+                            <path d="M0,12H21.75" transform="translate(0 -4.36)" />
+                            <path d="M15.75,5l7,7-7,7" transform="translate(0 -4.36)" />
+                        </svg>
+                    </a>
+                </div>
+                <!-- new client logos -->
+                    <section class="w-full max-w-full md:max-w-full mx-auto px-4 overflow-hidden pt-10">
+                        <div class="mask-fade-edges flex flex-col gap-4 md:gap-6 relative w-full py-1">       
+                        <div class="marquee-track-left flex w-max whitespace-nowrap">
+                            <div class="flex gap-4 md:gap-6 shrink-0 items-center pr-4 md:pr-6">
+                                <div class="bg-white/5 backdrop-blur-md px-6 md:px-10 py-2 min-h-[80px] md:min-h-[110px] flex items-center justify-center min-w-[140px] md:min-w-[200px]">
+                                    <img
+                                        src="assets/images/clients/aaa.png"
+                                        alt="Client 1"
+                                        class="w-[85%] md:w-[90%] max-w-[100px] md:max-w-[140px] object-contain opacity-100"
+                                    />
+                                </div>
+                                <div class="bg-white/5 backdrop-blur-md px-6 md:px-10 py-2 min-h-[80px] md:min-h-[110px] flex items-center justify-center min-w-[140px] md:min-w-[200px]">
+                                <img src="assets/images/clients/loanitol.png" alt="Client 2" class="w-[85%] md:w-[90%] max-w-[100px] md:max-w-[140px] object-contain opacity-100" />
+                                </div>
+                                <div class="bg-white/5 backdrop-blur-md px-6 md:px-10 py-2 min-h-[80px] md:min-h-[110px] flex items-center justify-center min-w-[140px] md:min-w-[200px]">
+                                <img src="assets/images/clients/advance.png" alt="Client 3" class="w-[85%] md:w-[90%] max-w-[100px] md:max-w-[140px] object-contain opacity-100" />
+                                </div>
+                                <div class="bg-white/5 backdrop-blur-md px-6 md:px-10 py-2 min-h-[80px] md:min-h-[110px] flex items-center justify-center min-w-[140px] md:min-w-[200px]">
+                                <img src="assets/images/clients/poweron.png" alt="Client 4" class="w-[85%] md:w-[90%] max-w-[100px] md:max-w-[140px] object-contain opacity-100" />
+                                </div>
+                                <div class="bg-white/5 backdrop-blur-md px-6 md:px-10 py-2 min-h-[80px] md:min-h-[110px] flex items-center justify-center min-w-[140px] md:min-w-[200px]">
+                                <img src="assets/images/clients/lila.png" alt="Client 5" class="w-[85%] md:w-[90%] max-w-[100px] md:max-w-[140px] object-contain opacity-100" />
+                                </div>
+                                <div class="bg-white/5 backdrop-blur-md px-6 md:px-10 py-2 min-h-[80px] md:min-h-[110px] flex items-center justify-center min-w-[140px] md:min-w-[200px]">
+                                <img src="assets/images/clients/policysouq.png" alt="Client 6" class="w-[85%] md:w-[90%] max-w-[100px] md:max-w-[140px] object-contain opacity-100" />
+                                </div>
+                                <div class="bg-white/5 backdrop-blur-md px-6 md:px-10 py-2 min-h-[80px] md:min-h-[110px] flex items-center justify-center min-w-[140px] md:min-w-[200px]">
+                                <img src="assets/images/clients/ustorage.png" alt="Client 7" class="w-[85%] md:w-[90%] max-w-[100px] md:max-w-[140px] object-contain opacity-100" />
+                                </div>
+                                <div class="bg-white/5 backdrop-blur-md px-6 md:px-10 py-2 min-h-[80px] md:min-h-[110px] flex items-center justify-center min-w-[140px] md:min-w-[200px]">
+                                <img src="assets/images/clients/warid.png" alt="Client 8" class="w-[85%] md:w-[90%] max-w-[100px] md:max-w-[140px] object-contain opacity-100" />
+                                </div>
+                                <div class="bg-white/5 backdrop-blur-md px-6 md:px-10 py-2 min-h-[80px] md:min-h-[110px] flex items-center justify-center min-w-[140px] md:min-w-[200px]">
+                                <img src="assets/images/clients/lakewood.png" alt="Client 9" class="w-[85%] md:w-[90%] max-w-[100px] md:max-w-[140px] object-contain opacity-100" />
+                                </div>
+                            </div>
+                            
+                            <div class="flex gap-4 md:gap-6 shrink-0 items-center pr-4 md:pr-6" aria-hidden="true">
+                                <div class="bg-white/5 backdrop-blur-md px-6 md:px-10 py-2 min-h-[80px] md:min-h-[110px] flex items-center justify-center min-w-[140px] md:min-w-[200px]">
+                                <img src="assets/images/clients/aaa.png" alt="Client 1" class="w-[85%] md:w-[90%] max-w-[100px] md:max-w-[140px] object-contain opacity-100" />
+                                </div>
+                                <div class="bg-white/5 backdrop-blur-md px-6 md:px-10 py-2 min-h-[80px] md:min-h-[110px] flex items-center justify-center min-w-[140px] md:min-w-[200px]">
+                                <img src="assets/images/clients/loanitol.png" alt="Client 2" class="w-[85%] md:w-[90%] max-w-[100px] md:max-w-[140px] object-contain opacity-100" />
+                                </div>
+                                <div class="bg-white/5 backdrop-blur-md px-6 md:px-10 py-2 min-h-[80px] md:min-h-[110px] flex items-center justify-center min-w-[140px] md:min-w-[200px]">
+                                <img src="assets/images/clients/advance.png" alt="Client 3" class="w-[85%] md:w-[90%] max-w-[100px] md:max-w-[140px] object-contain opacity-100" />
+                                </div>
+                                <div class="bg-white/5 backdrop-blur-md px-6 md:px-10 py-2 min-h-[80px] md:min-h-[110px] flex items-center justify-center min-w-[140px] md:min-w-[200px]">
+                                <img src="assets/images/clients/poweron.png" alt="Client 4" class="w-[85%] md:w-[90%] max-w-[100px] md:max-w-[140px] object-contain opacity-100" />
+                                </div>
+                                <div class="bg-white/5 backdrop-blur-md px-6 md:px-10 py-2 min-h-[80px] md:min-h-[110px] flex items-center justify-center min-w-[140px] md:min-w-[200px]">
+                                <img src="assets/images/clients/lila.png" alt="Client 5" class="w-[85%] md:w-[90%] max-w-[100px] md:max-w-[140px] object-contain opacity-100" />
+                                </div>
+                                <div class="bg-white/5 backdrop-blur-md px-6 md:px-10 py-2 min-h-[80px] md:min-h-[110px] flex items-center justify-center min-w-[140px] md:min-w-[200px]">
+                                <img src="assets/images/clients/policysouq.png" alt="Client 6" class="w-[85%] md:w-[90%] max-w-[100px] md:max-w-[140px] object-contain opacity-100" />
+                                </div>
+                                <div class="bg-white/5 backdrop-blur-md px-6 md:px-10 py-2 min-h-[80px] md:min-h-[110px] flex items-center justify-center min-w-[140px] md:min-w-[200px]">
+                                <img src="assets/images/clients/ustorage.png" alt="Client 7" class="w-[85%] md:w-[90%] max-w-[100px] md:max-w-[140px] object-contain opacity-100" />
+                                </div>
+                                <div class="bg-white/5 backdrop-blur-md px-6 md:px-10 py-2 min-h-[80px] md:min-h-[110px] flex items-center justify-center min-w-[140px] md:min-w-[200px]">
+                                <img src="assets/images/clients/warid.png" alt="Client 8" class="w-[85%] md:w-[90%] max-w-[100px] md:max-w-[140px] object-contain opacity-100" />
+                                </div>
+                                <div class="bg-white/5 backdrop-blur-md px-6 md:px-10 py-2 min-h-[80px] md:min-h-[110px] flex items-center justify-center min-w-[140px] md:min-w-[200px]">
+                                <img src="assets/images/clients/lakewood.png" alt="Client 9" class="w-[85%] md:w-[90%] max-w-[100px] md:max-w-[140px] object-contain opacity-100" />
+                                </div>
+                            </div>
+                            </div>
 
-                        <!--  -->
-                        <div class="client-mark flex items-center justify-center bg-white min-h-[120px] p-6">
-                            <img src="assets/images/clients/rosehouse.jpg" alt="" class="w-[80%] max-w-[140px] object-contain opacity-90 transition-opacity duration-300 hover:opacity-100" />
+                            <div class="marquee-track-right flex w-max whitespace-nowrap">
+                            
+                            <div class="flex gap-4 md:gap-6 shrink-0 items-center pr-4 md:pr-6">
+                                <div class="bg-white/5 backdrop-blur-md px-6 md:px-10 py-2 min-h-[80px] md:min-h-[110px] flex items-center justify-center min-w-[140px] md:min-w-[200px]">
+                                <img src="assets/images/clients/royal.png" alt="Client 10" class="w-[85%] md:w-[90%] max-w-[100px] md:max-w-[140px] object-contain opacity-100" />
+                                </div>
+                                <div class="bg-white/5 backdrop-blur-md px-6 md:px-10 py-2 min-h-[80px] md:min-h-[110px] flex items-center justify-center min-w-[140px] md:min-w-[200px]">
+                                <img src="assets/images/clients/osoul.png" alt="Client 11" class="w-[85%] md:w-[90%] max-w-[100px] md:max-w-[140px] object-contain opacity-100" />
+                                </div>
+                                <div class="bg-white/5 backdrop-blur-md px-6 md:px-10 py-2 min-h-[80px] md:min-h-[110px] flex items-center justify-center min-w-[140px] md:min-w-[200px]">
+                                <img src="assets/images/clients/usfood.png" alt="Client 12" class="w-[85%] md:w-[90%] max-w-[100px] md:max-w-[140px] object-contain opacity-100" />
+                                </div>
+                                <div class="bg-white/5 backdrop-blur-md px-6 md:px-10 py-2 min-h-[80px] md:min-h-[110px] flex items-center justify-center min-w-[140px] md:min-w-[200px]">
+                                <img src="assets/images/clients/beefrus.png" alt="Client 13" class="w-[85%] md:w-[90%] max-w-[100px] md:max-w-[140px] object-contain opacity-100" />
+                                </div>
+                                <div class="bg-white/5 backdrop-blur-md px-6 md:px-10 py-2 min-h-[80px] md:min-h-[110px] flex items-center justify-center min-w-[140px] md:min-w-[200px]">
+                                <img src="assets/images/clients/tekhive.png" alt="Client 14" class="w-[85%] md:w-[90%] max-w-[100px] md:max-w-[140px] object-contain opacity-100" />
+                                </div>
+                                <div class="bg-white/5 backdrop-blur-md px-6 md:px-10 py-2 min-h-[80px] md:min-h-[110px] flex items-center justify-center min-w-[140px] md:min-w-[200px]">
+                                <img src="assets/images/clients/rosehouse.png" alt="Client 15" class="w-[85%] md:w-[90%] max-w-[100px] md:max-w-[140px] object-contain opacity-100" />
+                                </div>
+                                <div class="bg-white/5 backdrop-blur-md px-6 md:px-10 py-2 min-h-[80px] md:min-h-[110px] flex items-center justify-center min-w-[140px] md:min-w-[200px]">
+                                <img src="assets/images/clients/petrotrade.png" alt="Client 16" class="w-[85%] md:w-[90%] max-w-[100px] md:max-w-[140px] object-contain opacity-100" />
+                                </div>
+                                <div class="bg-white/5 backdrop-blur-md px-6 md:px-10 py-2 min-h-[80px] md:min-h-[110px] flex items-center justify-center min-w-[140px] md:min-w-[200px]">
+                                <img src="assets/images/clients/ezviz.png" alt="Client 17" class="w-[85%] md:w-[90%] max-w-[100px] md:max-w-[140px] object-contain opacity-100" />
+                                </div>
+                                <div class="bg-white/5 backdrop-blur-md px-6 md:px-10 py-2 min-h-[80px] md:min-h-[110px] flex items-center justify-center min-w-[140px] md:min-w-[200px]">
+                                <img src="assets/images/clients/liyana.png" alt="Client 18" class="w-[85%] md:w-[90%] max-w-[100px] md:max-w-[140px] object-contain opacity-100" />
+                                </div>
+                            </div>
+                            
+                            <div class="flex gap-4 md:gap-6 shrink-0 items-center pr-4 md:pr-6" aria-hidden="true">
+                                <div class="bg-white/5 backdrop-blur-md px-6 md:px-10 py-2 min-h-[80px] md:min-h-[110px] flex items-center justify-center min-w-[140px] md:min-w-[200px]">
+                                <img src="assets/images/clients/royal.png" alt="Client 10" class="w-[85%] md:w-[90%] max-w-[100px] md:max-w-[140px] object-contain opacity-100" />
+                                </div>
+                                <div class="bg-white/5 backdrop-blur-md px-6 md:px-10 py-2 min-h-[80px] md:min-h-[110px] flex items-center justify-center min-w-[140px] md:min-w-[200px]">
+                                <img src="assets/images/clients/osoul.png" alt="Client 11" class="w-[85%] md:w-[90%] max-w-[100px] md:max-w-[140px] object-contain opacity-100" />
+                                </div>
+                                <div class="bg-white/5 backdrop-blur-md px-6 md:px-10 py-2 min-h-[80px] md:min-h-[110px] flex items-center justify-center min-w-[140px] md:min-w-[200px]">
+                                <img src="assets/images/clients/usfood.png" alt="Client 12" class="w-[85%] md:w-[90%] max-w-[100px] md:max-w-[140px] object-contain opacity-100" />
+                                </div>
+                                <div class="bg-white/5 backdrop-blur-md px-6 md:px-10 py-2 min-h-[80px] md:min-h-[110px] flex items-center justify-center min-w-[140px] md:min-w-[200px]">
+                                <img src="assets/images/clients/beefrus.png" alt="Client 13" class="w-[85%] md:w-[90%] max-w-[100px] md:max-w-[140px] object-contain opacity-100" />
+                                </div>
+                                <div class="bg-white/5 backdrop-blur-md px-6 md:px-10 py-2 min-h-[80px] md:min-h-[110px] flex items-center justify-center min-w-[140px] md:min-w-[200px]">
+                                <img src="assets/images/clients/tekhive.png" alt="Client 14" class="w-[85%] md:w-[90%] max-w-[100px] md:max-w-[140px] object-contain opacity-100" />
+                                </div>
+                                <div class="bg-white/5 backdrop-blur-md px-6 md:px-10 py-2 min-h-[80px] md:min-h-[110px] flex items-center justify-center min-w-[140px] md:min-w-[200px]">
+                                <img src="assets/images/clients/rosehouse.png" alt="Client 15" class="w-[85%] md:w-[90%] max-w-[100px] md:max-w-[140px] object-contain opacity-100" />
+                                </div>
+                                <div class="bg-white/5 backdrop-blur-md px-6 md:px-10 py-2 min-h-[80px] md:min-h-[110px] flex items-center justify-center min-w-[140px] md:min-w-[200px]">
+                                <img src="assets/images/clients/petrotrade.png" alt="Client 16" class="w-[85%] md:w-[90%] max-w-[100px] md:max-w-[140px] object-contain opacity-100" />
+                                </div>
+                                <div class="bg-white/5 backdrop-blur-md px-6 md:px-10 py-2 min-h-[80px] md:min-h-[110px] flex items-center justify-center min-w-[140px] md:min-w-[200px]">
+                                <img src="assets/images/clients/ezviz.png" alt="Client 17" class="w-[85%] md:w-[90%] max-w-[100px] md:max-w-[140px] object-contain opacity-100" />
+                                </div>
+                                <div class="bg-white/5 backdrop-blur-md px-6 md:px-10 py-2 min-h-[80px] md:min-h-[110px] flex items-center justify-center min-w-[140px] md:min-w-[200px]">
+                                <img src="assets/images/clients/liyana.png" alt="Client 18" class="w-[85%] md:w-[90%] max-w-[100px] md:max-w-[140px] object-contain opacity-100" />
+                                </div>
+                            </div>
+                            </div>
+
                         </div>
-                        <div class="client-mark flex items-center justify-center bg-white min-h-[120px] p-6">
-                            <img src="assets/images/clients/apco.jpg" alt="" class="w-[80%] max-w-[140px] object-contain opacity-90 transition-opacity duration-300 hover:opacity-100" />
-                        </div>
-                        <div class="client-mark flex items-center justify-center bg-white min-h-[120px] p-6">
-                            <img src="assets/images/clients/ezviz.jpg" alt="" class="w-[80%] max-w-[140px] object-contain opacity-90 transition-opacity duration-300 hover:opacity-100" />
-                        </div>
-                        <div class="client-mark flex items-center justify-center bg-white min-h-[120px] p-6">
-                            <img src="assets/images/clients/liyana.jpg" alt="" class="w-[80%] max-w-[140px] object-contain opacity-90 transition-opacity duration-300 hover:opacity-100" />
-                        </div>
-                    </div>
+                    </section>
+                    <a href="" aria-label="Go to service showcase"
+                        class="job-view-link inline-flex items-center md:justify-center gap-2 border border-white/20 bg-transparent hover:bg-white md:px-4 md:py-3 text-sm font-medium text-white hover:text-black transition w-fit px-4 py-3 md:justify-self-end mt-6 md:hidden">
+                        <span>View All Clients</span>
+                        <svg viewBox="0 0 24.02 15.27" class="h-4 w-4" fill="none" stroke="currentColor" stroke-width="1.8">
+                            <path d="M0,12H21.75" transform="translate(0 -4.36)" />
+                            <path d="M15.75,5l7,7-7,7" transform="translate(0 -4.36)" />
+                        </svg>
+                    </a>  
                 </div>
             </div>
         </section>
@@ -568,18 +743,18 @@
                             <p class="mb-4 text-xs font-semibold uppercase tracking-[0.2em] text-black/45">
                                 Testimonials
                             </p>
-                            <h2 id="testimonialHeading" class="max-w-[19rem] text-[33px] font-normal leading-[1.2] tracking-[-0.035em] text-left text-black sm:max-w-[33rem] sm:text-4xl md:max-w-[28rem] md:text-5xl md:leading-[1.1] md:tracking-[-0.0em] lg:max-w-[28rem] lg:text-5xl">
-                                What Our Clients Are Saying
+                            <h2 id="testimonialHeading" class="max-w-[19rem] text-[33px] font-light leading-[1.2] tracking-[-0.035em] text-left text-black sm:max-w-[33rem] sm:text-4xl md:max-w-[28rem] md:text-5xl md:leading-[1.1] md:tracking-[-0.0em] lg:max-w-[23rem] lg:text-5xl">
+                                Real Experiences. Real Results.
                             </h2>
                             <p class="mt-6 max-w-lg text-sm leading-6 text-black/60 md:hidden">
-                                We take pride in delivering exceptional solutions that deliver great results. But don't just take our word for it.
+                                We take pride in delivering reliable digital solutions that help businesses grow, perform, and succeed in an increasingly competitive digital landscape.
                             </p>
-                            <p id="testimonialParagraph" class="mt-6 hidden max-w-xl text-black/60 md:block md:text-[17px] md:leading-7 lg:text-lg lg:leading-7">
-                                We take pride in delivering exceptional solutions that deliver great results. But don't just take our word for it.
+                            <p id="testimonialParagraph" class="mt-6 hidden max-w-xl text-black/60 md:block md:text-[16px] md:leading-7 lg:leading-7">
+                                We take pride in delivering reliable digital solutions that help businesses grow, perform, and succeed in an increasingly competitive digital landscape.
                             </p>
                         </div>
 
-                        <div class="mt-6 hidden items-center gap-4 sm:flex md:mt-8">
+                        <div class="mt-6 hidden items-center gap-4 sm:hidden md:mt-8">
                             <div class="mt-0 flex items-center justify-end gap-5">
                                 <button id="testimonialPrev" type="button" class="testimonial-arrow inline-flex items-center justify-center text-black transform rotate-180" aria-label="Previous testimonial">
                                     <svg viewBox="0 0 24.02 15.27" class="h-4 w-4 text-black transition-colors duration-300 hover:text-gray-500" fill="none" stroke="currentColor" stroke-width="1.8">
@@ -598,6 +773,7 @@
                     </div>
 
                     <div class="testimonial-stage relative">
+                        
                         <?php include 'includes/testimonial-items.php'; ?>
                         <div class="mt-8 flex items-center gap-4 sm:hidden">
                             <div class="mt-0 flex items-center justify-end gap-3">
@@ -625,6 +801,8 @@
                                 </button> -->
                             </div>
                         </div>
+
+                        
                     </div>
                 </div>
             </div>

@@ -3,7 +3,7 @@ require_once __DIR__ . '/includes/mail-config.php';
 session_start();
 
 if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
-    header('Location: contact.php');
+    header('Location: contact-us.php');
     exit;
 }
 
@@ -97,10 +97,10 @@ if (file_exists(__DIR__ . '/vendor/autoload.php')) {
 
 if ($sent) {
     $_SESSION['flash'] = ['type' => 'success', 'message' => 'Your message was sent. We will contact you shortly.'];
-    header('Location: contact.php');
+    header('Location: contact-us.php');
     exit;
 } else {
     $_SESSION['flash'] = ['type' => 'error', 'message' => 'Failed to send message. ' . ($errorMessage ?: '')];
-    header('Location: contact.php');
+    header('Location: contact-us.php');
     exit;
 }
