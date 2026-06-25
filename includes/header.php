@@ -59,7 +59,7 @@ From websites and mobile apps to custom software, we create scalable digital sol
 </div>
 
 <div class = 'w-[35%] flex flex-col pt-4 pb-4 pl-4 pr-6 border-l border-white/10 relative z-10'>
-<a href = 'web-development.php' data-hover-img = 'assets/images/webp/website.webp' <?php if ( $current_page == 'web-development.php' ) echo 'data-active="true"';
+<a href = 'web-development.php' data-hover-img = 'assets/images/headerService/website.webp' <?php if ( $current_page == 'web-development.php' ) echo 'data-active="true"';
 ?> class = 'flex items-center gap-4 transition group/link w-full transition-all duration-[800ms] ease-[cubic-bezier(0.16,1,0.3,1)] opacity-0 translate-y-4 group-hover:opacity-100 group-hover:translate-y-0 delay-[100ms]'>
 <div class = "w-12 flex justify-center shrink-0 transition-all duration-300 <?php echo ($current_page == 'web-development.php') ? 'text-white' : 'text-gray-500 group-hover/link:text-white group-hover/link:scale-110 group-hover/link:-translate-y-0.5'; ?>">
 <svg width = '20' height = '20' x = '0' y = '0' viewBox = '0 0 682.667 682.667'><g><defs><clipPath id = 'b' clipPathUnits = 'userSpaceOnUse'><path d = 'M0 512h512V0H0Z' fill = 'currentColor' opacity = '1' data-original = 'currentColor'></path></clipPath></defs><mask id = 'a'><rect width = '100%' height = '100%' fill = 'currentColor' opacity = '1' data-original = 'currentColor'></rect></mask><g mask = 'url(#a)'><g clip-path = 'url(#b)' transform = 'matrix(1.33333 0 0 -1.33333 0 682.667)'><path d = 'M0 0v0c-43.447 0-78.667 35.221-78.667 78.667v21.078c0 56.21-29.987 108.151-78.666 136.255 48.679 28.104 78.666 80.045 78.666 136.255v21.078C-78.667 436.779-43.447 472 0 472' style = 'stroke-width:40;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1' transform = 'translate(177.333 20)' fill = 'none' stroke = 'currentColor' stroke-width = '40' stroke-linecap = 'round' stroke-linejoin = 'round' stroke-miterlimit = '10' stroke-dasharray = 'none' stroke-opacity = '' data-original = 'currentColor' class = ''></path><path d = 'M0 0v0c43.446 0 78.666-35.221 78.666-78.667v-21.078c0-56.21 29.988-108.151 78.667-136.255-48.679-28.104-78.667-80.045-78.667-136.255v-21.078C78.666-436.779 43.446-472 0-472' style = 'stroke-width:40;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1' transform = 'translate(334.667 492)' fill = 'none' stroke = 'currentColor' stroke-width = '40' stroke-linecap = 'round' stroke-linejoin = 'round' stroke-miterlimit = '10' stroke-dasharray = 'none' stroke-opacity = '' data-original = 'currentColor' class = ''></path></g></g></g></svg>
@@ -71,7 +71,7 @@ From websites and mobile apps to custom software, we create scalable digital sol
 </div>
 </a>
 
-<a href = 'software-development.php' data-hover-img = 'assets/images/webp/software.webp' <?php if ( $current_page == 'software-development.php' ) echo 'data-active="true"';
+<a href = 'software-development.php' data-hover-img = 'assets/images/headerService/software.webp' <?php if ( $current_page == 'software-development.php' ) echo 'data-active="true"';
 ?> class = 'flex items-center gap-4 transition group/link w-full transition-all duration-[800ms] ease-[cubic-bezier(0.16,1,0.3,1)] opacity-0 translate-y-4 group-hover:opacity-100 group-hover:translate-y-0 delay-[150ms]'>
 <div class = "w-12 flex justify-center shrink-0 transition-all duration-300 <?php echo ($current_page == 'software-development.php') ? 'text-white' : 'text-gray-500 group-hover/link:text-white group-hover/link:scale-110 group-hover/link:-translate-y-0.5'; ?>">
 <svg width = '22' height = '22' x = '0' y = '0' viewBox = '0 0 682.667 682.667'><g><defs><clipPath id = 'a' clipPathUnits = 'userSpaceOnUse'><path d = 'M0 512h512V0H0Z' fill = 'currentColor' opacity = '1' data-original = 'currentColor'></path></clipPath></defs><g clip-path = 'url(#a)' transform = 'matrix(1.33333 0 0 -1.33333 0 682.667)'><path d = 'M0 0c.016.789.03 1.578.03 2.371 0 66.724-54.09 120.814-120.813 120.814-47.529 0-88.639-27.449-108.363-67.355-12.561 10.48-28.72 16.792-46.358 16.792-39.655 0-71.848-31.88-72.389-71.406-39.764-6.636-70.076-41.198-70.076-82.846v-.001c0-46.392 37.61-84.001 84.002-84.001h314.094c46.393 0 84.001 37.609 84.001 84.001v.001C64.128-42.085 36.8-8.928 0 0Z' style = 'stroke-width:30;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1' transform = 'translate(432.872 277.224)' fill = 'none' stroke = 'currentColor' stroke-width = '30' stroke-linecap = 'round' stroke-linejoin = 'round' stroke-miterlimit = '10' stroke-dasharray = 'none' stroke-opacity = '' data-original = 'currentColor' class = ''></path></g></g></svg>
@@ -83,7 +83,7 @@ From websites and mobile apps to custom software, we create scalable digital sol
 </div>
 </a>
 
-<a href = 'mobile-application-development.php' data-hover-img = 'assets/images/webp/mobile.webp' <?php if ( $current_page == 'mobile-application-development.php' ) echo 'data-active="true"';
+<a href = 'mobile-application-development.php' data-hover-img = 'assets/images/headerService/mobile.webp' <?php if ( $current_page == 'mobile-application-development.php' ) echo 'data-active="true"';
 ?> class = 'flex items-center gap-4 transition group/link w-full transition-all duration-[800ms] ease-[cubic-bezier(0.16,1,0.3,1)] opacity-0 translate-y-4 group-hover:opacity-100 group-hover:translate-y-0 delay-[200ms]'>
 <div class = "w-12 flex justify-center shrink-0 transition-all duration-300 <?php echo ($current_page == 'mobile-application-development.php') ? 'text-white' : 'text-gray-500 group-hover/link:text-white group-hover/link:scale-110 group-hover/link:-translate-y-0.5'; ?>">
 <svg width = '22' height = '22' x = '0' y = '0' viewBox = '0 0 512 512'><g><path d = 'M302.933 42.667h-51.2c-7.074 0-12.8 5.726-12.8 12.8s5.726 12.8 12.8 12.8h51.2c7.074 0 12.8-5.726 12.8-12.8s-5.726-12.8-12.8-12.8z' fill = 'currentColor' opacity = '1' data-original = 'currentColor' class = ''></path><path d = 'M358.4 0H153.6c-28.228 0-51.2 22.972-51.2 51.2v409.6c0 28.228 22.972 51.2 51.2 51.2h204.8c28.228 0 51.2-22.972 51.2-51.2V51.2c0-28.228-22.972-51.2-51.2-51.2zM384 460.8c0 14.14-11.46 25.6-25.6 25.6H153.6c-14.14 0-25.6-11.46-25.6-25.6V51.2c0-14.14 11.46-25.6 25.6-25.6h204.8c14.14 0 25.6 11.46 25.6 25.6v409.6z' fill = 'currentColor' opacity = '1' data-original = 'currentColor' class = ''></path><circle cx = '256' cy = '443.733' r = '25.6' fill = 'currentColor' opacity = '1' data-original = 'currentColor' class = ''></circle><circle cx = '209.067' cy = '55.467' r = '12.8' fill = 'currentColor' opacity = '1' data-original = 'currentColor' class = ''></circle></g></svg>
@@ -100,9 +100,9 @@ From websites and mobile apps to custom software, we create scalable digital sol
 <div class = 'w-[30%] relative z-0'>
 <div class = 'absolute inset-0 w-[450px] overflow-hidden'>
 <img src = "<?php 
-                        if ($current_page == 'software-development.php') echo 'assets/images/webp/software.webp';
-                        elseif ($current_page == 'mobile-application-development.php') echo 'assets/images/webp/mobile.webp';
-                        else echo 'assets/images/webp/website.webp';
+                        if ($current_page == 'software-development.php') echo 'assets/images/headerService/software.webp';
+                        elseif ($current_page == 'mobile-application-development.php') echo 'assets/images/headerService/mobile.webp';
+                        else echo 'assets/images/headerService/website.webp';
                        ?>" alt = 'Development' class = 'js-nav-base-img absolute inset-0 h-full w-full min-h-full min-w-full object-cover object-center transition-opacity duration-500 ease-out'>
 <img src = 'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7' alt = '' class = 'js-nav-hover-img absolute inset-0 h-full w-full min-h-full min-w-full object-cover object-center opacity-0 transition-opacity duration-500 ease-out pointer-events-none'>
 </div>
@@ -143,7 +143,7 @@ We build ecommerce platforms and CMS solutions that simplify management, enhance
 </div>
 
 <div class = 'w-[35%] flex flex-col pt-4 pb-4 pl-4 pr-6 border-l border-white/10 relative z-10'>
-<a href = 'ecommerce-website-development.php' data-hover-img = 'assets/images/webp/ecommerce.webp' <?php if ( $current_page == 'ecommerce-website-development.php' ) echo 'data-active="true"';
+<a href = 'ecommerce-website-development.php' data-hover-img = 'assets/images/headerService/ecommerce.webp' <?php if ( $current_page == 'ecommerce-website-development.php' ) echo 'data-active="true"';
 ?> class = 'flex items-center gap-4 transition group/link w-full transition-all duration-[800ms] ease-[cubic-bezier(0.16,1,0.3,1)] opacity-0 translate-y-4 group-hover:opacity-100 group-hover:translate-y-0 delay-[100ms]'>
 <div class = "w-12 flex justify-center shrink-0 transition-all duration-300 <?php echo ($current_page == 'ecommerce-website-development.php') ? 'text-white' : 'text-gray-500 group-hover/link:text-white group-hover/link:scale-110 group-hover/link:-translate-y-0.5'; ?>">
 <svg width = '22' height = '22' x = '0' y = '0' viewBox = '0 0 32 32'><g><path d = 'M10 28c0 1.654 1.346 3 3 3s3-1.346 3-3-1.346-3-3-3-3 1.346-3 3zm3-1c.551 0 1 .449 1 1s-.449 1-1 1-1-.449-1-1 .449-1 1-1zM23 28c0 1.654 1.346 3 3 3s3-1.346 3-3-1.346-3-3-3-3 1.346-3 3zm3-1c.551 0 1 .449 1 1s-.449 1-1 1-1-.449-1-1 .449-1 1-1zM30 23H11c-.551 0-1-.449-1-1v-1h15c1.56 0 3.077-1.185 3.455-2.698l2.515-10.06A1 1 0 0 0 30 7H7.136L6.41 3.735C6.069 2.201 4.791 1 3.5 1H2a1 1 0 0 0 0 2h1.5c.246 0 .797.444.958 1.169l.881 3.966c.008.057.02.111.037.165L8 20.109V22c0 1.654 1.346 3 3 3h19a1 1 0 0 0 0-2zM28.719 9l-2.205 8.817C26.36 18.436 25.638 19 25 19H9.802L7.58 9z' fill = 'currentColor' opacity = '1' data-original = 'currentColor' class = ''></path></g></svg>
@@ -155,7 +155,7 @@ We build ecommerce platforms and CMS solutions that simplify management, enhance
 </div>
 </a>
 
-<a href = 'cms-development.php' data-hover-img = 'assets/images/webp/cms.webp' <?php if ( $current_page == 'cms-development.php' ) echo 'data-active="true"';
+<a href = 'cms-development.php' data-hover-img = 'assets/images/headerService/cms.webp' <?php if ( $current_page == 'cms-development.php' ) echo 'data-active="true"';
 ?> class = 'flex items-center gap-4 transition group/link w-full transition-all duration-[800ms] ease-[cubic-bezier(0.16,1,0.3,1)] opacity-0 translate-y-4 group-hover:opacity-100 group-hover:translate-y-0 delay-[150ms]'>
 <div class = "w-12 flex justify-center shrink-0 transition-all duration-300 <?php echo ($current_page == 'cms-development.php') ? 'text-white' : 'text-gray-500 group-hover/link:text-white group-hover/link:scale-110 group-hover/link:-translate-y-0.5'; ?>">
 <svg width = '22' height = '22' x = '0' y = '0' viewBox = '0 0 24 24' ><g><path d = 'M22.75 11V4c0-.729-.29-1.429-.805-1.945A2.755 2.755 0 0 0 20 1.25H4c-.729 0-1.429.29-1.945.805A2.755 2.755 0 0 0 1.25 4v16c0 .729.29 1.429.805 1.945A2.755 2.755 0 0 0 4 22.75h7a.75.75 0 0 0 0-1.5H4A1.252 1.252 0 0 1 2.75 20V4A1.252 1.252 0 0 1 4 2.75h16A1.252 1.252 0 0 1 21.25 4v7a.75.75 0 0 0 1.5 0z' fill = 'currentColor' opacity = '1' data-original = 'currentColor' class = ''></path><path d = 'M2 7.75h20a.75.75 0 0 0 0-1.5H2a.75.75 0 0 0 0 1.5zM4.5 5.25h1a.75.75 0 0 0 0-1.5h-1a.75.75 0 0 0 0 1.5zM8 5.25h1a.75.75 0 0 0 0-1.5H8a.75.75 0 0 0 0 1.5zM11.5 5.25h1a.75.75 0 0 0 0-1.5h-1a.75.75 0 0 0 0 1.5zM17 13.25c-2.07 0-3.75 1.68-3.75 3.75s1.68 3.75 3.75 3.75 3.75-1.68 3.75-3.75-1.68-3.75-3.75-3.75zm0 1.5a2.25 2.25 0 1 1-.002 4.502A2.25 2.25 0 0 1 17 14.75z' fill = 'currentColor' opacity = '1' data-original = 'currentColor' class = ''></path><path d = 'M20 17.75h2a.75.75 0 0 0 0-1.5h-2a.75.75 0 0 0 0 1.5zM19.652 15.409l1.414-1.414a.75.75 0 1 0-1.061-1.061l-1.414 1.414a.75.75 0 1 0 1.061 1.061zM17.75 14v-2a.75.75 0 0 0-1.5 0v2a.75.75 0 0 0 1.5 0zM15.409 14.348l-1.414-1.414a.75.75 0 1 0-1.061 1.061l1.414 1.414a.75.75 0 1 0 1.061-1.061zM14 16.25h-2a.75.75 0 0 0 0 1.5h2a.75.75 0 0 0 0-1.5zM14.348 18.591l-1.414 1.414a.75.75 0 1 0 1.061 1.061l1.414-1.414a.75.75 0 1 0-1.061-1.061zM16.25 20v2a.75.75 0 0 0 1.5 0v-2a.75.75 0 0 0-1.5 0zM18.591 19.652l1.414 1.414a.75.75 0 1 0 1.061-1.061l-1.414-1.414a.75.75 0 1 0-1.061 1.061z' fill = 'currentColor' opacity = '1' data-original = 'currentColor' class = ''></path></g></svg>
@@ -172,8 +172,8 @@ We build ecommerce platforms and CMS solutions that simplify management, enhance
 <div class = 'w-[30%] relative z-0'>
 <div class = 'absolute inset-0 w-[450px] overflow-hidden'>
 <img src = "<?php 
-                        if ($current_page == 'cms-development.php') echo 'assets/images/webp/cms.webp';
-                        else echo 'assets/images/webp/ecommerce.webp';
+                        if ($current_page == 'cms-development.php') echo 'assets/images/headerService/cms.webp';
+                        else echo 'assets/images/headerService/ecommerce.webp';
                        ?>" alt = 'E-Commerce & CMS' class = 'js-nav-base-img absolute inset-0 h-full w-full min-h-full min-w-full object-cover object-center transition-opacity duration-500 ease-out'>
 <img src = 'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7' alt = '' class = 'js-nav-hover-img absolute inset-0 h-full w-full min-h-full min-w-full object-cover object-center opacity-0 transition-opacity duration-500 ease-out pointer-events-none'>
 </div>
@@ -214,7 +214,7 @@ From digital marketing to branding, we help businesses increase visibility, stre
 </div>
 
 <div class = 'w-[35%] flex flex-col pt-4 pb-4 pl-4 pr-6 border-l border-white/10 relative z-10'>
-<a href = 'digital-marketing.php' data-hover-img = 'assets/images/webp/digital.webp' <?php if ( $current_page == 'digital-marketing.php' ) echo 'data-active="true"';
+<a href = 'digital-marketing.php' data-hover-img = 'assets/images/headerService/digital.webp' <?php if ( $current_page == 'digital-marketing.php' ) echo 'data-active="true"';
 ?> class = 'flex items-center gap-4 transition group/link w-full transition-all duration-[800ms] ease-[cubic-bezier(0.16,1,0.3,1)] opacity-0 translate-y-4 group-hover:opacity-100 group-hover:translate-y-0 delay-[100ms]'>
 <div class = "w-12 flex justify-center shrink-0 transition-all duration-300 <?php echo ($current_page == 'digital-marketing.php') ? 'text-white' : 'text-gray-500 group-hover/link:text-white group-hover/link:scale-110 group-hover/link:-translate-y-0.5'; ?>">
 <svg width = '21' height = '21' x = '0' y = '0' viewBox = '0 0 24 24'><g><clipPath id = 'a'><path d = 'M0 0h24v24H0z' fill = 'currentColor' opacity = '1' data-original = 'currentColor' class = ''></path></clipPath><g fill = '#000' fill-rule = 'evenodd' clip-path = 'url(#a)' clip-rule = 'evenodd'><path d = 'M23.707 5.293a1 1 0 0 1 0 1.414l-9.5 9.5a1 1 0 0 1-1.414 0L8.5 11.914l-6.793 6.793a1 1 0 0 1-1.414-1.414l7.5-7.5a1 1 0 0 1 1.414 0l4.293 4.293 8.793-8.793a1 1 0 0 1 1.414 0z' fill = 'currentColor' opacity = '1' data-original = 'currentColor' class = ''></path><path d = 'M16 6a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v6a1 1 0 1 1-2 0V7h-5a1 1 0 0 1-1-1z' fill = 'currentColor' opacity = '1' data-original = 'currentColor' class = ''></path></g></g></svg>
@@ -226,7 +226,7 @@ From digital marketing to branding, we help businesses increase visibility, stre
 </div>
 </a>
 
-<a href = 'branding.php' data-hover-img = 'assets/images/webp/branding.webp' <?php if ( $current_page == 'branding.php' ) echo 'data-active="true"';
+<a href = 'branding.php' data-hover-img = 'assets/images/headerService/branding.webp' <?php if ( $current_page == 'branding.php' ) echo 'data-active="true"';
 ?> class = 'flex items-center gap-4 transition group/link w-full transition-all duration-[800ms] ease-[cubic-bezier(0.16,1,0.3,1)] opacity-0 translate-y-4 group-hover:opacity-100 group-hover:translate-y-0 delay-[150ms]'>
 <div class = "w-12 flex justify-center shrink-0 transition-all duration-300 <?php echo ($current_page == 'branding.php') ? 'text-white' : 'text-gray-500 group-hover/link:text-white group-hover/link:scale-110 group-hover/link:-translate-y-0.5'; ?>">
 <svg width = '26' height = '26' x = '0' y = '0' viewBox = '0 0 24 24'><g><path d = 'M13.5 24h-3c-.7 0-1.5-.6-1.5-1.8v-2.1c0-1-.5-1.9-1.3-2.6C5.9 16.1 5 14.1 5 11.9c.1-3.8 3.2-6.8 6.9-6.9 1.9 0 3.7.7 5 2s2.1 3.1 2.1 5c0 2.1-.9 4.1-2.6 5.4-.9.7-1.4 1.8-1.4 2.8v2.3c0 .8-.7 1.5-1.5 1.5zM12 6c-3.2 0-5.9 2.7-6 5.9 0 1.9.8 3.7 2.3 4.8 1.1.9 1.7 2.1 1.7 3.4v2.1c0 .2 0 .8.5.8h3c.3 0 .5-.2.5-.5v-2.3c0-1.3.7-2.7 1.8-3.6 1.4-1.1 2.2-2.8 2.2-4.6 0-1.6-.6-3.1-1.8-4.3C15.1 6.6 13.6 6 12 6z' fill = 'currentColor' opacity = '1' data-original = 'currentColor'></path><path d = 'M14.5 21h-5c-.3 0-.5-.2-.5-.5s.2-.5.5-.5h5c.3 0 .5.2.5.5s-.2.5-.5.5zM12 3c-.3 0-.5-.2-.5-.5v-2c0-.3.2-.5.5-.5s.5.2.5.5v2c0 .3-.2.5-.5.5zM18.7 5.8c-.1 0-.3 0-.4-.1-.2-.2-.2-.5 0-.7l1.4-1.4c.2-.2.5-.2.7 0s.2.5 0 .7L19 5.7s-.2.1-.3.1zM23.5 12.5h-2c-.3 0-.5-.2-.5-.5s.2-.5.5-.5h2c.3 0 .5.2.5.5s-.2.5-.5.5zM20.1 20.6c-.1 0-.3 0-.4-.1l-1.4-1.4c-.2-.2-.2-.5 0-.7s.5-.2.7 0l1.4 1.4c.2.2.2.5 0 .7 0 .1-.1.1-.3.1zM3.9 20.6c-.1 0-.3 0-.4-.1-.2-.2-.2-.5 0-.7l1.4-1.4c.2-.2.5-.2.7 0s.2.5 0 .7l-1.4 1.4c-.1.1-.2.1-.3.1zM2.5 12.5h-2c-.3 0-.5-.2-.5-.5s.2-.5.5-.5h2c.3 0 .5.2.5.5s-.2.5-.5.5zM5.3 5.8c-.1 0-.3 0-.4-.1L3.5 4.2c-.2-.2-.2-.5 0-.7s.5-.2.7 0l1.4 1.4c.2.2.2.5 0 .7-.1.1-.2.2-.3.2zM16 12.5c-.3 0-.5-.2-.5-.5 0-1.9-1.6-3.5-3.5-3.5-.3 0-.5-.2-.5-.5s.2-.5.5-.5c2.5 0 4.5 2 4.5 4.5 0 .3-.2.5-.5.5z' fill = 'currentColor' opacity = '1' data-original = 'currentColor'></path></g></svg>
@@ -244,8 +244,8 @@ From digital marketing to branding, we help businesses increase visibility, stre
 <div class = 'w-[30%] relative z-0'>
 <div class = 'absolute inset-0 w-[450px] overflow-hidden'>
 <img src = "<?php 
-                        if ($current_page == 'branding.php') echo 'assets/images/webp/branding.webp';
-                        else echo 'assets/images/webp/digital.webp';
+                        if ($current_page == 'branding.php') echo 'assets/images/headerService/branding.webp';
+                        else echo 'assets/images/headerService/digital.webp';
                        ?>" alt = 'Business Growth' class = 'js-nav-base-img absolute top-0 left-0 h-full w-full object-cover transition-opacity duration-500 ease-out'>
 <img src = 'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7' alt = '' class = 'js-nav-hover-img absolute top-0 left-0 h-full w-full object-cover opacity-0 transition-opacity duration-500 ease-out pointer-events-none'>
 </div>
