@@ -1352,9 +1352,9 @@ function initHomePage() {
 
   // Home Page Specific SVG Animations
   const icons = [
-    "assets/images/logo.png",
-    "assets/images/icon-4.png",
-    "assets/images/icon-5.png",
+    "assets/images/icons/logo.png",
+    "assets/images/icons/icon-4.png",
+    "assets/images/icons/icon-5.png",
   ];
   let currentIcon = 0;
   if (document.getElementById("rotatingIcon")) {

@@ -30,7 +30,7 @@
                                     Empowering Your Business Through
                                     <span id="headlineRotator" class="headline-rotator font-light">Mobile App Development</span>
                                 </h1>
-                                <a href="services.php" class="job-view-link inline-flex items-center md:justify-center gap-3 border border-white/20 bg-transparent hover:bg-white/10 md:px-4 md:py-3 text-sm font-light text-white hover:text-text transition w-fit px-4 py-3 mt-6 hidden lg:inline-flex">
+                                <a href="contact-us.php" class="job-view-link inline-flex items-center md:justify-center gap-3 border border-white/20 bg-transparent hover:bg-white/10 md:px-4 md:py-3 text-sm font-light text-white hover:text-text transition w-fit px-4 py-3 mt-6 hidden lg:inline-flex">
                                     <span>Talk to Our Team</span>
                                     <svg viewBox = "0 0 24.02 15.27" class = "h-4 w-4" fill = "none" stroke = "currentColor" stroke-width = "1.8">
                                     <path d = "M0,12H21.75" transform = "translate(0 -4.36)" />
@@ -96,7 +96,7 @@
                                     </svg>
                                     </span>
                                 </a>
-                                <a href="services.php" class="job-view-link inline-flex items-center md:justify-center gap-3 border border-white/20 bg-transparent hover:bg-white/10 md:px-4 md:py-3 text-sm font-light text-white hover:text-text transition w-fit px-4 py-3 mt-6 inline-flex lg:hidden">
+                                <a href="client.php" class="job-view-link inline-flex items-center md:justify-center gap-3 border border-white/20 bg-transparent hover:bg-white/10 md:px-4 md:py-3 text-sm font-light text-white hover:text-text transition w-fit px-4 py-3 mt-6 inline-flex lg:hidden">
                                     <span>Talk to Our Team</span>
                                     <svg viewBox = "0 0 24.02 15.27" class = "h-4 w-4" fill = "none" stroke = "currentColor" stroke-width = "1.8">
                                     <path d = "M0,12H21.75" transform = "translate(0 -4.36)" />
@@ -573,15 +573,6 @@
                             <span class="client-line block">business outcomes.</span>
                         </div>
                     </div>
-
-                    <a href="" aria-label="Go to client showcase"
-                        class="job-view-link inline-flex items-center md:justify-center gap-2 border border-white/20 bg-transparent hover:bg-white md:px-4 md:py-3 text-sm font-medium text-white hover:text-black transition w-fit px-4 py-3 inline-flex md:hidden mt-5">
-                        <span>View All Clients</span>
-                        <svg viewBox="0 0 24.02 15.27" class="h-4 w-4" fill="none" stroke="currentColor" stroke-width="1.8">
-                            <path d="M0,12H21.75" transform="translate(0 -4.36)" />
-                            <path d="M15.75,5l7,7-7,7" transform="translate(0 -4.36)" />
-                        </svg>
-                    </a>
                 </div>
                 <!-- new client logos -->
                     <section class="w-full max-w-full md:max-w-full mx-auto px-4 overflow-hidden pt-10">
@@ -717,7 +708,7 @@
 
                         </div>
                     </section>
-                    <a href="" aria-label="Go to service showcase"
+                    <a href="client.php" aria-label="Go to service showcase"
                         class="job-view-link inline-flex items-center md:justify-center gap-2 border border-white/20 bg-transparent hover:bg-white md:px-4 md:py-3 text-sm font-medium text-white hover:text-black transition w-fit px-4 py-3 md:justify-self-end mt-6 md:hidden">
                         <span>View All Clients</span>
                         <svg viewBox="0 0 24.02 15.27" class="h-4 w-4" fill="none" stroke="currentColor" stroke-width="1.8">
