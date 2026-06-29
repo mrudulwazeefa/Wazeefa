@@ -353,7 +353,7 @@
                                         </video>
                                     </figure>
                                     <figure class="feature-primary-visual absolute inset-0">
-                                        <img src="assets/images/ecommerce-showcase.jpg" class="h-full w-full object-cover" />
+                                        <img src="assets/images/ecommerce-showcase.webp" class="h-full w-full object-cover" />
                                     </figure>
                                     <figure class="feature-primary-visual absolute inset-0">
                                         <video class="h-full w-full object-cover" autoplay muted loop playsinline>
@@ -361,7 +361,7 @@
                                         </video>
                                     </figure>
                                     <figure class="feature-primary-visual absolute inset-0">
-                                        <img src="assets/images/cms-showcase.jpg" class="h-full w-full object-cover" />
+                                        <img src="assets/images/cms-showcase.webp" class="h-full w-full object-cover" />
                                     </figure>
                                     <figure class="feature-primary-visual absolute inset-0">
                                         <video class="h-full w-full object-cover" autoplay muted loop playsinline>
@@ -369,7 +369,7 @@
                                         </video>
                                     </figure>
                                     <figure class="feature-primary-visual absolute inset-0">
-                                        <img src="assets/images/software-showcase.jpg" class="h-full w-full object-cover" />
+                                        <img src="assets/images/software-showcase.webp" class="h-full w-full object-cover" />
                                     </figure>
                                     <figure class="feature-primary-visual absolute inset-0">
                                         <video class="h-full w-full object-cover" autoplay muted loop playsinline>
@@ -547,7 +547,7 @@
                 <div class="grid gap-5 md:gap-6">
                     <div class="flex flex-col gap-5 sm:flex-row md:flex-row sm:items-start md:items-start sm:justify-between md:justify-between md:gap-8">
                         <div>
-                            <h2 id="clientHeading" class="max-w-[22rem] text-[33px] font-light leading-[1.2] tracking-[-0.035em] text-left text-white sm:max-w-[28rem] sm:text-4xl md:max-w-[31rem] md:text-4xl md:leading-[1.15] md:tracking-[-0.0em] lg:max-w-[42rem] lg:text-[3.2rem] lg:leading-[1.1]">Trusted by Businesses Across Multiple Industries</h2>
+                            <h2 id="clientHeading" class="max-w-[22rem] text-[33px] font-light leading-[1.2] tracking-[-0.035em] text-left text-white sm:max-w-[28rem] sm:text-4xl md:max-w-[31rem] md:text-4xl md:leading-[1.15] md:tracking-[-0.0em] lg:max-w-[41rem] lg:text-[3.2rem] lg:leading-[1.1]">Trusted by Businesses Across Multiple Industries</h2>
                         </div>
                         <a href="client.php" aria-label="Go to client showcase" class="job-view-link inline-flex items-center md:justify-center gap-2 border border-white/20 bg-transparent hover:bg-white md:px-4 md:py-3 text-sm font-medium text-white hover:text-black transition w-fit px-4 py-3 hidden md:inline-flex">
                             <span>View All Clients</span>

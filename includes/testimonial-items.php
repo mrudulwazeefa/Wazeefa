@@ -138,7 +138,7 @@
         </div>
         <div class="flex flex-col">
           <p class="text-base font-medium text-black leading-tight">Ganji M.A</p>
-          <p class="mt-1 text-sm text-black/50 leading-tight">Entrepreneur - Rose Home</p>
+          <p class="mt-1 text-sm text-black/50 leading-tight">Entrepreneur - Rose House</p>
         </div>
       </div>
       <div class="testimonial-quote-mark flex-shrink-0" aria-hidden="true">

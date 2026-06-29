@@ -2379,7 +2379,7 @@ function initWebDevPage() {
       let mm = gsap.matchMedia();
 
       // DESKTOP & TABLET: Apply horizontal scroll and active states
-      mm.add("(min-width: 601px)", () => {
+      mm.add("(min-width: 641px)", () => {
         let currentActiveIndex = -1;
 
         function activateCard(activeIndex) {
@@ -2433,7 +2433,7 @@ function initWebDevPage() {
       });
 
       // MOBILE: Disable GSAP scroll and ensure SVGs are visible statically
-      mm.add("(max-width: 600px)", () => {
+      mm.add("(max-width: 640px)", () => {
         cards.forEach((card) => card.classList.remove("is-active"));
         const allSvgs = document.querySelectorAll(".card-svg g path");
         gsap.killTweensOf(allSvgs);

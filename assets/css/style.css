@@ -1538,7 +1538,7 @@ gradient-bg::before {
   width: 100%;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 640px) {
   .services-horizontal-card {
     opacity: 1 !important;
     width: 100% !important;
