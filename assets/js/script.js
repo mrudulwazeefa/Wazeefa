@@ -1226,7 +1226,7 @@ function initHomePage() {
         p: "Building Ecommerce platforms that enhance customer experiences and support business growth.",
         href: "ecommerce-website-development.php",
         media:
-          '<img src="assets/images/ecommerce-showcase.webp" class="h-full w-full object-cover" />',
+          '<video class="h-full w-full object-cover" autoplay muted loop playsinline><source src="assets/video/ecommerce.mp4" type="video/mp4"></video>',
       },
       {
         title: "Mobile App Development",
@@ -1253,7 +1253,7 @@ function initHomePage() {
         p: "Building custom software solutions that streamline operations, improve efficiency, and scale with your business.",
         href: "software-development.php",
         media:
-          '<img src="assets/images/software-showcase.webp" class="h-full w-full object-cover" />',
+          '<video class="h-full w-full object-cover" autoplay muted loop playsinline><source src="assets/video/software.mp4" type="video/mp4"></video>',
       },
       {
         title: "Branding",
@@ -1378,59 +1378,68 @@ function initHomePage() {
       });
   }
 
-  if (document.getElementById("svg-stage")) {
-    gsap.set("#svg-stage", { opacity: 1 });
-    const svgTl = gsap.timeline({ repeat: -1, repeatDelay: 0.5 });
-    svgTl
-      .to(
-        "#g2_mask circle",
-        { duration: 0.4, attr: { r: "124" }, ease: "circ" },
-        0,
-      )
-      .fromTo(
-        ".group2",
-        { scale: 1, transformOrigin: "124 124" },
-        { duration: 1.5, scale: 0.9, ease: "none" },
-        0,
-      )
-      .to(
-        "#g2_mask circle",
-        {
-          duration: 0.3,
-          attr: { cx: (i) => ["+=248", "-=248"][i] },
-          ease: "sine.in",
-        },
-        1.15,
-      )
-      .fromTo(
-        ".group3",
-        { transformOrigin: "124 124", rotate: -90 },
-        { duration: 0.9, rotate: 0, ease: "expo" },
-        1.3,
-      )
-      .fromTo(
-        "#g3_mask rect",
-        {
-          transformOrigin: (i) => ["0 124", "124 0", "124 124", "248 124"][i],
-          scale: 0,
-        },
-        { duration: 0.4, scale: 1, ease: "expo", stagger: -0.03 },
-        1.3,
-      )
-      .to(".group3", { duration: 0.01, scale: 0 }, 2.4)
-      .fromTo(
-        "#g5_mask path",
-        { transformOrigin: "124 124", scale: 0 },
-        { duration: 0.8, scale: 1, ease: "expo" },
-        2.4,
-      )
-      .fromTo(
-        "#g5_mask circle",
-        { transformOrigin: "83 0", scale: 0 },
-        { scale: 1, ease: "expo" },
-        2.4,
-      );
-  }
+  // if (document.getElementById("svg-stage")) {
+  //   gsap.set("#svg-stage", { opacity: 1 });
+  //   const svgTl = gsap.timeline({ repeat: -1, repeatDelay: 0.5 });
+  //   svgTl
+  //     .to(
+  //       "#g2_mask circle",
+  //       { duration: 0.4, attr: { r: "124" }, ease: "circ" },
+  //       0,
+  //     )
+  //     .fromTo(
+  //       ".group2",
+  //       { scale: 1, transformOrigin: "124 124" },
+  //       { duration: 1.5, scale: 0.9, ease: "none" },
+  //       0,
+  //     )
+  //     .to(
+  //       "#g2_mask circle",
+  //       {
+  //         duration: 0.3,
+  //         attr: { cx: (i) => ["+=248", "-=248"][i] },
+  //         ease: "sine.in",
+  //       },
+  //       1.15,
+  //     )
+  //     .fromTo(
+  //       ".group3",
+  //       { transformOrigin: "124 124", rotate: -90 },
+  //       { duration: 0.9, rotate: 0, ease: "expo" },
+  //       1.3,
+  //     )
+  //     .fromTo(
+  //       "#g3_mask rect",
+  //       {
+  //         transformOrigin: (i) => ["0 124", "124 0", "124 124", "248 124"][i],
+  //         scale: 0,
+  //       },
+  //       { duration: 0.4, scale: 1, ease: "expo", stagger: -0.03 },
+  //       1.3,
+  //     )
+  //     .to(".group3", { duration: 0.01, scale: 0 }, 2.4)
+  //     .fromTo(
+  //       "#g5_mask path",
+  //       { transformOrigin: "124 124", scale: 0 },
+  //       { duration: 0.8, scale: 1, ease: "expo" },
+  //       2.4,
+  //     )
+  //     .fromTo(
+  //       "#g5_mask circle",
+  //       { transformOrigin: "83 0", scale: 0 },
+  //       { scale: 1, ease: "expo" },
+  //       2.4,
+  //     );
+  // }
+
+// --- Reusable SVG Animation ---
+
+// --- SVG Animation Module ---
+
+
+
+
+
 }
 
 // ==========================================
@@ -2330,7 +2339,7 @@ function initWebDevPage() {
         "#g2_mask circle",
         {
           duration: 0.3,
-          attr: { cx: (i) => ["+=248", "-=248"][i] },
+          attr: { cx: (i) => ["+=250", "-=250"][i] },
           ease: "sine.in",
         },
         2.45,
@@ -3400,3 +3409,97 @@ document.addEventListener("DOMContentLoaded", () => {
   
   observer.observe(section);
 });
+
+
+// update carousel icon animation
+
+// function initSvgAnimation() {
+//     const stage = document.querySelector("#svg-stage");
+//     if (!stage) return; 
+//     gsap.set("#svg-stage", { opacity: 1 });
+//     const svgTl = gsap.timeline({ repeat: -1, repeatDelay: 0.5 });
+//     svgTl
+//         .to("#g2_mask circle", { duration: 0.4, attr: { r: "124" }, ease: "circ" }, 0)
+//         .fromTo(".group2", { scale: 1, transformOrigin: "124 124" }, { duration: 1.5, scale: 0.9, ease: "none" }, 0)
+//         .to("#g2_mask circle", { duration: 0.3, attr: { cx: (i) => ["+=248", "-=248"][i] }, ease: "sine.in" }, 1.15)
+//         .fromTo(".group3", { transformOrigin: "124 124", rotate: -90 }, { duration: 0.9, rotate: 0, ease: "expo" }, 1.3)
+//         .to("#g3_rect", { 
+//             duration: 0.6, 
+//             attr: { x: 0, y: 0, width: 248, height: 248 }, 
+//             ease: "expo.out" 
+//         }, 1.3)
+//         .to(".group3", { duration: 0.01, scale: 0 }, 2.4)
+//         .fromTo("#g5_mask path", { transformOrigin: "124 124", scale: 0 }, { duration: 0.8, scale: 1, ease: "expo" }, 2.4)
+//         .fromTo("#g5_mask circle", { transformOrigin: "83 0", scale: 0 }, { scale: 1, ease: "expo" }, 2.4);
+// }
+
+// document.addEventListener("DOMContentLoaded", () => {
+//     initSvgAnimation();
+// });
+
+// function initSvgAnimation() {
+//     const stage = document.querySelector("#svg-stage");
+//     if (!stage) return; 
+    
+//     gsap.set("#svg-stage", { opacity: 1 });
+    
+//     const svgTl = gsap.timeline({ repeat: -1, repeatDelay: 0.5 });
+    
+//     svgTl
+//         .to("#g2_mask circle", { duration: 0.4, attr: { r: "124" }, ease: "circ" }, 0)
+//         .fromTo(".group2", { scale: 1, transformOrigin: "124 124" }, { duration: 1.5, scale: 0.9, ease: "none" }, 0)
+        
+//         // --- Fix: Shrink radius to 0 to clear edges ---
+//         .to("#g2_mask circle", { 
+//             duration: 0.3, 
+//             attr: { 
+//                 cx: (i) => ["+=248", "-=248"][i],
+//                 r: 0 
+//             }, 
+//             ease: "sine.in" 
+//         }, 1.15)
+        
+//         // --- Fix: Remove group2 from render flow ---
+//         .set(".group2", { display: "none" }, ">")
+        
+//         .fromTo(".group3", { transformOrigin: "124 124", rotate: -90 }, { duration: 0.9, rotate: 0, ease: "expo" }, 1.3)
+//         .to("#g3_rect", { 
+//             duration: 0.6, 
+//             attr: { x: 0, y: 0, width: 248, height: 248 }, 
+//             ease: "expo.out" 
+//         }, 1.3)
+//         .to(".group3", { duration: 0.01, scale: 0 }, 2.4)
+//         .fromTo("#g5_mask path", { transformOrigin: "124 124", scale: 0 }, { duration: 0.8, scale: 1, ease: "expo" }, 2.4)
+//         .fromTo("#g5_mask circle", { transformOrigin: "83 0", scale: 0 }, { scale: 1, ease: "expo" }, 2.4);
+// }
+
+// document.addEventListener("DOMContentLoaded", () => {
+//     initSvgAnimation();
+// });
+
+// // inspect mood hide
+
+
+// // Disable right-click context menu
+// document.addEventListener('contextmenu', (e) => {
+//   e.preventDefault();
+// });
+
+// // Disable common developer tools keyboard shortcuts
+// document.addEventListener('keydown', (e) => {
+//   // Prevent F12
+//   if (e.key === 'F12' || e.keyCode === 123) {
+//     e.preventDefault();
+//   }
+  
+//   // Prevent Ctrl+Shift+I, Ctrl+Shift+C, Ctrl+Shift+J (Windows/Linux)
+//   // and Cmd+Option+I, Cmd+Option+C, Cmd+Option+J (Mac)
+//   if ((e.ctrlKey || e.metaKey) && e.shiftKey && ['I', 'i', 'C', 'c', 'J', 'j'].includes(e.key)) {
+//     e.preventDefault();
+//   }
+  
+//   // Prevent Ctrl+U / Cmd+U (View Page Source)
+//   if ((e.ctrlKey || e.metaKey) && ['U', 'u'].includes(e.key)) {
+//     e.preventDefault();
+//   }
+// });

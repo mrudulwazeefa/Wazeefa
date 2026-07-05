@@ -51,7 +51,7 @@
                                 <div class="line-mask-wrap">
                                     <div class="line-mask-content flex items-center gap-3">
                                         <div class="w-[35px] h-[35px]">
-                                            <svg id="svg-stage" viewBox="0 0 248 248" class="w-full h-full">
+                                            <!-- <svg id="svg-stage" viewBox="0 0 248 248" class="w-full h-full">
                                                 <g class="group2">
                                                     <image href="assets/images/icons/icon-1.png" mask="url(#g2_mask)" />
                                                 </g>
@@ -70,6 +70,33 @@
                                                 </mask>
                                                 <g class="group5">
                                                     <image href="assets/images/icons/icon-3.png" mask="url(#g5_mask)" />
+                                                </g>
+                                                <mask id="g5_mask" fill="#fff">
+                                                    <path d="M0 248h248L124 0 0 247z" />
+                                                    <circle cx="124" cy="83" r="83" />
+                                                </mask>
+                                            </svg> -->
+                                            <svg id="svg-stage" viewBox="0 0 248 248">
+                                                <defs>
+                                                    <clipPath id="g3_clip">
+                                                    <rect id="g3_rect" x="124" y="124" width="0" height="0" />
+                                                    </clipPath>
+                                                </defs>
+
+                                                <g class="group2">
+                                                    <image href="assets/images/icons/icon-1.png" width="248" height="248" mask="url(#g2_mask)" />
+                                                </g>
+                                                <mask id="g2_mask" fill="#fff">
+                                                    <circle cx="124" cy="0" r="0" />
+                                                    <circle cx="124" cy="248" r="0" />
+                                                </mask>
+
+                                                <g class="group3" clip-path="url(#g3_clip)">
+                                                    <image href="assets/images/icons/icon-2.png" width="248" height="248" />
+                                                </g>
+
+                                                <g class="group5">
+                                                    <image href="assets/images/icons/icon-3.png" width="248" height="248" mask="url(#g5_mask)" />
                                                 </g>
                                                 <mask id="g5_mask" fill="#fff">
                                                     <path d="M0 248h248L124 0 0 247z" />
@@ -353,7 +380,10 @@
                                         </video>
                                     </figure>
                                     <figure class="feature-primary-visual absolute inset-0">
-                                        <img src="assets/images/ecommerce-showcase.webp" class="h-full w-full object-cover" />
+                                        <!-- <img src="assets/images/ecommerce-showcase.webp" class="h-full w-full object-cover" /> -->
+                                        <video class="h-full w-full object-cover" autoplay muted loop playsinline>
+                                            <source src="assets/video/ecommerce.mp4" type="video/mp4">
+                                        </video>
                                     </figure>
                                     <figure class="feature-primary-visual absolute inset-0">
                                         <video class="h-full w-full object-cover" autoplay muted loop playsinline>
@@ -369,7 +399,10 @@
                                         </video>
                                     </figure>
                                     <figure class="feature-primary-visual absolute inset-0">
-                                        <img src="assets/images/software-showcase.webp" class="h-full w-full object-cover" />
+                                        <!-- <img src="assets/images/software-showcase.webp" class="h-full w-full object-cover" /> -->
+                                         <video class="h-full w-full object-cover" autoplay muted loop playsinline>
+                                            <source src="assets/video/software.mp4" type="video/mp4">
+                                        </video>
                                     </figure>
                                     <figure class="feature-primary-visual absolute inset-0">
                                         <video class="h-full w-full object-cover" autoplay muted loop playsinline>

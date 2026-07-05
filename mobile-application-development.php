@@ -20,7 +20,7 @@
         class="h-[45vh] w-full object-cover object-center will-change-transform" />
     </section>
     <section
-      class="relative overflow-hidden bg-white px-5 pt-[2.5rem] pb-14 text-black sm:px-8 md:px-12 md:pt-[2.5rem] lg:px-16 lg:pt-[2.5rem] lg:pb-[2rem]"
+      class="relative overflow-hidden  px-5 pt-[2.5rem] pb-14 text-black sm:px-8 md:px-12 md:pt-[2.5rem] lg:px-16 lg:pt-[2.5rem] lg:pb-[2rem] bg-white"
       lg:pt-10>
       <div class="mx-auto max-w-6xl">
         <div class="max-w-full">
@@ -45,10 +45,9 @@
             <div class="w-full lg:w-[100%]">
 
               <div
-                class="grid grid-cols-1 md:grid-cols-[0.3fr_2fr] gap-6 md:gap-10 text-[15px] leading-7 text-black/75">
-
-                <div>
-                  <div class="relative w-[42px] h-[42px] flex items-center justify-center">
+                class="grid grid-cols-1 md:grid-cols-[0.3fr_2fr] gap-6 md:gap-8 text-[15px] leading-7 text-black/75">
+                <!-- <div>
+                  <div class="absolute w-[42px] h-[42px] flex items-center justify-center">
                     <img id="shape-1" src="assets/images/icons/mobile.png" alt="Icon 4" 
                         class="absolute inset-0 w-full h-full object-contain will-change-transform" />  
                     <img id="shape-2" src="assets/images/icons/mobile2.png" alt="Icon 5" 
@@ -56,9 +55,40 @@
                     <img id="shape-3" src="assets/images/icons/mobile3.png" alt="Logo" 
                         class="absolute inset-0 w-full h-full object-contain opacity-0 will-change-transform" />
                   </div>
-                </div>
+                  <img src="assets/images/icons/tab.png" alt="tablet" class="inset-0">
+                </div> -->
 
-                <div class="space-y-5 mb-5 sm:mb-6 md:mb-5 lg:mb-12">
+                <!-- <div class="relative inline-block align-top">
+                  <img src="assets/images/icons/tab.png" alt="tablet" class="block w-[5.8rem] h-auto" />
+                  <div class="absolute inset-0 flex items-start py-7 px-[1.15rem] justify-start">
+                    <div class="relative w-[42px] h-[42px]">
+                      <img id="shape-1" src="assets/images/icons/mobile.png" alt="Icon 1" 
+                          class="absolute inset-0 w-full h-full object-contain opacity-0 will-change-transform" /> 
+                      <img id="shape-2" src="assets/images/icons/mobile2.png" alt="Icon 2" 
+                          class="absolute inset-0 w-full h-full object-contain opacity-0 will-change-transform" />                      
+                      <img id="shape-3" src="assets/images/icons/mobile3.png" alt="Icon 3" 
+                          class="absolute inset-0 w-full h-full object-contain opacity-0 will-change-transform" />     
+                    </div>
+                  </div>
+                </div> -->
+                <div class="flex flex-col item-left md:items-center justify-start gap-6">
+                  <div class="relative w-[42px] h-[42px]">
+                    <img id="shape-1" src="assets/images/icons/mobile.png" alt="Icon 1" 
+                        class="absolute inset-0 w-full h-full object-contain opacity-0 will-change-transform" /> 
+                    <img id="shape-2" src="assets/images/icons/mobile2.png" alt="Icon 2" 
+                        class="absolute inset-0 w-full h-full object-contain opacity-0 will-change-transform" />                      
+                    <img id="shape-3" src="assets/images/icons/mobile3.png" alt="Icon 3" 
+                        class="absolute inset-0 w-full h-full object-contain opacity-0 will-change-transform" />     
+                  </div>
+                  <div>
+                    <img 
+                      src="assets/images/icons/tab1.png" 
+                      alt="tablet" 
+                      class="block w-[4.8rem] h-auto animate-[slideUpFromBottom_0.7s_cubic-bezier(0.16,1,0.3,1)_forwards]" 
+                    />
+                  </div>
+                </div>
+              <div class="space-y-5 mb-5 sm:mb-6 md:mb-5 lg:mb-12">
                   <h2 class="text-[1.5rem] lg:text-[1.5rem] font-light tracking-[-0.03rem] leading-[1.2] text-black">
                     Scalable Apps, Seamless Digital Experiences
                   </h2>
@@ -86,6 +116,12 @@
         </div>
       </div>
     </section>
+
+
+
+
+
+
     <section id="servicesSection"
       class="services-shot-gradient relative z-0 overflow-hidden bg-[#0a0f0d] text-white py-20 sm:pt-24 sm:pb-24 min-h-screen flex flex-col justify-center">
       <div class="mx-auto w-full max-w-6xl flex-shrink-0 text-center">

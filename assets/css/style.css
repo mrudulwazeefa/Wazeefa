@@ -1204,7 +1204,8 @@ body.dropdown-open::before {
 
 @media (max-width: 767px) {
   .mobile-visual-frame {
-    height: clamp(90dvw, 58vw, 360px);
+    height: clamp(62dvw, 58vw, 360px);
+    /* 90dvw */
   }
 
   .site-header {
@@ -1826,3 +1827,16 @@ body:has(.service-overview-hero)::-webkit-scrollbar-thumb:hover {
     min-height: 100% !important;
     position: absolute;
 }
+
+/* service left tablet animate */
+
+@keyframes slideUpFromBottom {
+    0% {
+      opacity: 0;
+      transform: translateY(40px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }

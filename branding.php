@@ -19,7 +19,7 @@
         class="h-[45vh] w-full object-cover object-center will-change-transform" />
     </section>
     <section
-      class="relative overflow-hidden bg-white px-5 pt-[2.5rem] pb-14 text-black sm:px-8 md:px-12 md:pt-[2.5rem] lg:px-16 lg:pt-[2.5rem] lg:pb-[2rem]"
+      class="relative overflow-hidden bg-white md:bg-[url('assets/images/bg.jpg')] md:bg-cover px-5 pt-[2.5rem] pb-14 text-black sm:px-8 md:px-12 md:pt-[2.5rem] lg:px-16 lg:pt-[2.5rem] lg:pb-[2rem]"
       lg:pt-10>
       <div class="mx-auto max-w-6xl">
         <div class="max-w-full">

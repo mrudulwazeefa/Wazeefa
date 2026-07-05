@@ -44,9 +44,9 @@
             <div class="w-full lg:w-[100%]">
 
               <div
-                class="grid grid-cols-1 md:grid-cols-[0.3fr_2fr] gap-6 md:gap-10 text-[15px] leading-7 text-black/75">
+                class="grid grid-cols-1 md:grid-cols-[0.3fr_2fr] gap-6 md:gap-8 text-[15px] leading-7 text-black/75">
 
-                <div>
+                <!-- <div>
                   <div class="relative w-[42px] h-[42px] flex items-center justify-center">
                     <img id="shape-2" src="assets/images/icons/web.png" alt="Icon 4" 
                         class="absolute inset-0 w-full h-full object-contain will-change-transform" />  
@@ -54,6 +54,23 @@
                         class="absolute inset-0 w-full h-full object-contain opacity-0 will-change-transform" />                      
                     <img id="shape-1" src="assets/images/icons/web2.png" alt="Logo" 
                         class="absolute inset-0 w-full h-full object-contain opacity-0 will-change-transform" />
+                  </div>
+                </div> -->
+                <div class="flex flex-col item-left md:items-center justify-start gap-6">
+                  <div class="relative w-[42px] h-[42px]">
+                    <img id="shape-2" src="assets/images/icons/web.png" alt="Icon 1" 
+                        class="absolute inset-0 w-full h-full object-contain opacity-0 will-change-transform" /> 
+                    <img id="shape-3" src="assets/images/icons/web2.png" alt="Icon 2" 
+                        class="absolute inset-0 w-full h-full object-contain opacity-0 will-change-transform" />                      
+                    <img id="shape-1" src="assets/images/icons/web3.png" alt="Icon 3" 
+                        class="absolute inset-0 w-full h-full object-contain opacity-0 will-change-transform" />     
+                  </div>
+                  <div>
+                    <img 
+                      src="assets/images/icons/tab1.png" 
+                      alt="tablet" 
+                      class="block w-[4.8rem] h-auto animate-[slideUpFromBottom_0.7s_cubic-bezier(0.16,1,0.3,1)_forwards]" 
+                    />
                   </div>
                 </div>
                 
