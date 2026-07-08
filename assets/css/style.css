@@ -1840,3 +1840,15 @@ body:has(.service-overview-hero)::-webkit-scrollbar-thumb:hover {
       transform: translateY(0);
     }
   }
+
+  /* service tabandphone style */
+  .cls-1 { 
+    fill: none; 
+    stroke: url(#device-corner-gradient); 
+    stroke-miterlimit: 10; 
+    stroke-width: 13px; 
+  } 
+  .draw-el { 
+    stroke-linecap: round; 
+    stroke-linejoin: round; 
+  }

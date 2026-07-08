@@ -19,7 +19,7 @@
         class="h-[45vh] w-full object-cover object-center will-change-transform" />
     </section>
     <section
-      class="relative overflow-hidden bg-white md:bg-[url('assets/images/bg.jpg')] md:bg-cover px-5 pt-[2.5rem] pb-14 text-black sm:px-8 md:px-12 md:pt-[2.5rem] lg:px-16 lg:pt-[2.5rem] lg:pb-[2rem]"
+      class="relative overflow-hidden bg-white px-5 pt-[2.5rem] pb-14 text-black sm:px-8 md:px-12 md:pt-[2.5rem] lg:px-16 lg:pt-[2.5rem] lg:pb-[2rem]"
       lg:pt-10>
       <div class="mx-auto max-w-6xl">
         <div class="max-w-full">
@@ -40,22 +40,38 @@
             </p>
           </div>
 
-          <div class="flex flex-col lg:flex-col items-center gap-12 pt-5 sm:pt-10 pb-0">
+          <div class="flex flex-col lg:flex-col items-center gap-12 pt-0 sm:pt-10 pb-0">
             <div class="w-full lg:w-[100%]">
 
               <div
                 class="grid grid-cols-1 md:grid-cols-[0.3fr_2fr] gap-6 md:gap-10 text-[15px] leading-7 text-black/75">
-
-                <div>
-                  <div class="relative w-[42px] h-[42px] flex items-center justify-center">
-                    <img id="shape-1" src="assets/images/icons/branding.png" alt="Icon 4" 
-                        class="absolute inset-0 w-full h-full object-contain will-change-transform" />  
-                    <img id="shape-2" src="assets/images/icons/branding2.png" alt="Icon 5" 
-                        class="absolute inset-0 w-full h-full object-contain opacity-0 will-change-transform" />                      
-                    <img id="shape-3" src="assets/images/icons/branding3.png" alt="Logo" 
-                        class="absolute inset-0 w-full h-full object-contain opacity-0 will-change-transform" />
+                <div class="flex w-full justify-start md:justify-center md:pt-[3.5rem] ps-[3.5rem] md:ps-0">
+                <div class="relative w-[6.8rem] h-[6.8rem] flex items-center justify-center">
+                  <svg id="device-icon" class="w-full h-full overflow-visible" viewBox="0 0 673.8 453.2" xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                      <linearGradient id="device-corner-gradient" x1="0%" y1="0%" x2="100%" y2="100%" gradientUnits="userSpaceOnUse">
+                        <stop offset="0%" stop-color="#e2a445" />
+                        <stop offset="50%" stop-color="#f4bc7b" />
+                        <stop offset="100%" stop-color="#f1a63c" />
+                      </linearGradient>
+                    </defs>
+                    <path class="cls-1 draw-el" d="m568,446.7H52.3c-25.3,0-45.8-20.5-45.8-45.8V52.3c0-25.3,20.5-45.8,45.8-45.8h514.5c25.3,0,45.8,20.5,45.8,45.8v18.2"/>
+                    <path class="cls-1 draw-el" d="m636,420.7h-105.8c-17.3,0-31.4-14.1-31.4-31.4v-244.7c0-17.3,14.1-31.4,31.4-31.4h105.7c17.3,0,31.4,14.1,31.4,31.4v244.8c0,17.3-14,31.3-31.3,31.3Z"/>
+                    <line class="cls-1 draw-el" x1="283.7" y1="397.7" x2="362.9" y2="397.7"/>
+                    <line class="cls-1 draw-el" x1="543.5" y1="142.8" x2="622.7" y2="142.8"/>
+                  </svg>
+                  <div class="absolute inset-0 flex items-center justify-center pointer-events-none">
+                    <div class="relative w-[42px] h-[42px]">
+                      <img id="shape-2" src="assets/images/icons/branding.png" alt="Icon 1" 
+                          class="absolute inset-0 w-full h-full object-contain opacity-0 will-change-transform" /> 
+                      <img id="shape-3" src="assets/images/icons/branding2.png" alt="Icon 2" 
+                          class="absolute inset-0 w-full h-full object-contain opacity-0 will-change-transform" />                      
+                      <img id="shape-1" src="assets/images/icons/branding3.png" alt="Icon 3" 
+                          class="absolute inset-0 w-full h-full object-contain opacity-0 will-change-transform" />     
+                    </div>
                   </div>
                 </div>
+              </div>
 
                 <div class="space-y-5 mb-5 sm:mb-6 md:mb-5 lg:mb-12">
                   <h2 class="text-[1.5rem] lg:text-[1.5rem] font-light tracking-[-0.03rem] leading-[1.2] text-black">
